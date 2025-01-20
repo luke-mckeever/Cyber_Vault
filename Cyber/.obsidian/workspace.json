@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "18d1e24ea84fd580",
+    "id": "e9501a7f851b940f",
     "type": "split",
     "children": [
       {
-        "id": "1bb1b51fede2cbc9",
+        "id": "256c014aa952c826",
         "type": "tabs",
         "children": [
           {
-            "id": "9fb626cc5edf778f",
+            "id": "4a5c2de83faa6f44",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8824b310091b8517",
+    "id": "0702fe8caee14721",
     "type": "split",
     "children": [
       {
-        "id": "c513b8f1022e5155",
+        "id": "b06892dfcbd631a4",
         "type": "tabs",
         "children": [
           {
-            "id": "f3c870f9db10e65b",
+            "id": "80b21313dcd25807",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "70a9e5cdd8ddb9dd",
+            "id": "755db5426886d0db",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +60,7 @@
             }
           },
           {
-            "id": "a8873fdc59742117",
+            "id": "1b9d4b4c6b2f00fa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,15 +76,15 @@
     "width": 300
   },
   "right": {
-    "id": "90180b8804783b4d",
+    "id": "6d95e00493e3c754",
     "type": "split",
     "children": [
       {
-        "id": "ef4463522e8099c2",
+        "id": "81903d0c1b11788f",
         "type": "tabs",
         "children": [
           {
-            "id": "729dc039594c56e9",
+            "id": "a3a8ecb429c46d63",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -102,7 +102,7 @@
             }
           },
           {
-            "id": "7a1f04b24c744a66",
+            "id": "d8a33655a3446613",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -115,7 +115,7 @@
             }
           },
           {
-            "id": "a28da51ac5a03713",
+            "id": "818e49395c0ce6a0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,23 +128,13 @@
             }
           },
           {
-            "id": "e42bb258af641dc5",
+            "id": "dcbab7f42870beb8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {},
               "icon": "lucide-list",
               "title": "Outline"
-            }
-          },
-          {
-            "id": "d579c03c73ca6724",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
             }
           }
         ]
@@ -156,52 +146,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "9fb626cc5edf778f",
-  "lastOpenFiles": [
-    "Welcome.md",
-    "Cyber/Tooling/TCP Dump.md",
-    "Cyber/Tooling/Searchsploit.md",
-    "Cyber/Tooling/Responder.md",
-    "Cyber/Tooling/NMAP.md",
-    "Cyber/Tooling/Nikto.md",
-    "Cyber/Tooling/Net Cat.md",
-    "Cyber/Tooling/LDAP Domain Dump.md",
-    "Cyber/Tooling/FFUF.md",
-    "Cyber/Tooling/Fcrackzip.md",
-    "Cyber/Tooling/DNS Recon.md",
-    "Cyber/Tooling/Curl.md",
-    "Cyber/Tooling/Burp Suite.md",
-    "Cyber/Knowledge Articles/The Cyber Kill Chain.md",
-    "Cyber/Knowledge Articles/SOC Fundamentals.md",
-    "Cyber/Knowledge Articles/Pyramid Of Pain.md",
-    "Cyber/Knowledge Articles/Malware Types.md",
-    "Cyber/Knowledge Articles/Email Headers.md",
-    "Cyber/Knowledge Articles/Email Attachment Analysis.md",
-    "Cyber/Knowledge Articles/EDR Analysis.md",
-    "Cyber/Knowledge Articles/Diamond Model of Intrusion Analysis.md",
-    "Cyber/Knowledge Articles/Common Attack Types.md",
-    "Cyber/Knowledge Articles/Anatomy of a URL.md",
-    "Cyber/Cheat Sheets/Windows Event Codes.md",
-    "Cyber/Cheat Sheets/Windows Commands.md",
-    "Cyber/Cheat Sheets/Sysmon Event ID's.md",
-    "Cyber/Tooling",
-    "Cyber/Knowledge Articles",
-    "Cyber/Cheat Sheets",
-    "Cyber",
-    "test.txt",
-    "New Text Document.txt",
-    "My_Valut"
-  ]
+  "active": "4a5c2de83faa6f44",
+  "lastOpenFiles": []
 }
