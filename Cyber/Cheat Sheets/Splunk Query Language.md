@@ -1,3 +1,4 @@
+#splunk #logs 
 # 🔍 Splunk Query Language (SPL) Cheatsheet
 
 Welcome to the ultimate guide to Splunk's Search Processing Language (SPL)! Use these queries to extract insights from your data with ease. 🎉

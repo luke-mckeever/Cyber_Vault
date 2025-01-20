@@ -13,32 +13,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber/Cheat Sheets/Ports & Protocols.md",
+                "file": "Cyber/Knowledge Articles/Malware Types.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Ports & Protocols"
+              "title": "Malware Types"
             }
-          }
-        ]
-      },
-      {
-        "id": "6a65a042a2b39e97",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "ea743c854ec0e84e",
+            "id": "3f9f007039a82137",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber/Cheat Sheets/Ports & Protocols.md",
+                "file": "Cyber/Knowledge Articles/Common Attack Types.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Common Attack Types"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "59ea23533b120ce1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50a668166278c428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber/Knowledge Articles/Common Attack Types.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ports & Protocols"
+              "title": "Common Attack Types"
             }
           }
         ]
@@ -150,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber/Cheat Sheets/Ports & Protocols.md",
+                "file": "Cyber/Knowledge Articles/Common Attack Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Ports & Protocols"
+              "title": "Backlinks for Common Attack Types"
             }
           },
           {
@@ -169,10 +184,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber/Cheat Sheets/Ports & Protocols.md"
+                "file": "Cyber/Knowledge Articles/Common Attack Types.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Ports & Protocols"
+              "title": "Outline of Common Attack Types"
             }
           }
         ],
@@ -196,22 +211,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ea743c854ec0e84e",
+  "active": "3f9f007039a82137",
   "lastOpenFiles": [
-    "Cyber/Cheat Sheets/Keyboard Shortcuts Windows.md",
-    "Cyber/Cheat Sheets/Ports & Protocols.md",
+    "Cyber/Knowledge Articles/Malware Types.md",
+    "Cyber/Knowledge Articles/Common Attack Types.md",
+    "Cyber/Cheat Sheets/Windows Commands.md",
     "Cyber/Cheat Sheets/Keyboard Shortcuts Linux.md",
-    "Cyber/Cheat Sheets/HTTP Response Codes.md",
     "Cyber/Cheat Sheets/Windows Event Codes.md",
     "Cyber/Cheat Sheets/Regex Cheat sheet.md",
     "Cyber/Cheat Sheets/Markdown Cheat Sheet.md",
-    "Welcome.md",
-    "Cyber/Cheat Sheets/Sysmon Event ID's.md",
-    "Cyber/Cheat Sheets/Windows Commands.md",
     "Cyber/Cheat Sheets/Splunk Query Language.md",
-    "Cyber/Cheat Sheets/Linux Commands.md",
+    "Cyber/Cheat Sheets/Sysmon Event ID's.md",
     "Cyber/Cheat Sheets/DNS Query Types.md",
-    "Cyber/Knowledge Articles/Malware Types.md",
+    "Cyber/Cheat Sheets/Linux Commands.md",
+    "Cyber/Cheat Sheets/HTTP Response Codes.md",
+    "Cyber/Cheat Sheets/Ports & Protocols.md",
+    "Cyber/Cheat Sheets/Keyboard Shortcuts Windows.md",
+    "Welcome.md",
     "Cyber/Tooling/Burp Suite.md",
     "Cyber/Knowledge Articles/Pyramid Of Pain.md",
     "Cyber/Knowledge Articles/The Cyber Kill Chain.md",
@@ -223,7 +239,6 @@
     "Cyber/Knowledge Articles/Anatomy of a URL.md",
     "Cyber/Tooling/Curl.md",
     "Cyber/Tooling/LDAP Domain Dump.md",
-    "Cyber/Tooling/Responder.md",
     "Cyber/sfsdfsf",
     "Cyber/Tooling",
     "Cyber/Cheat Sheets/Untitled",
