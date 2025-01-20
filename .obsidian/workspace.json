@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber/Cheat Sheets/Markdown Cheat Sheet.md",
+                "file": "Cyber/Cheat Sheets/Regex Cheat sheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markdown Cheat Sheet"
+              "title": "Regex Cheat sheet"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber/Cheat Sheets/Markdown Cheat Sheet.md",
+                "file": "Cyber/Cheat Sheets/Regex Cheat sheet.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markdown Cheat Sheet"
+              "title": "Regex Cheat sheet"
             }
           }
         ]
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber/Cheat Sheets/Markdown Cheat Sheet.md",
+                "file": "Cyber/Cheat Sheets/Regex Cheat sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Markdown Cheat Sheet"
+              "title": "Backlinks for Regex Cheat sheet"
             }
           },
           {
@@ -169,10 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber/Cheat Sheets/Markdown Cheat Sheet.md"
+                "file": "Cyber/Cheat Sheets/Regex Cheat sheet.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Markdown Cheat Sheet"
+              "title": "Outline of Regex Cheat sheet"
             }
           }
         ],
@@ -196,10 +196,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "74d2ac55f1c25f3c",
+  "active": "ea743c854ec0e84e",
   "lastOpenFiles": [
-    "Welcome.md",
     "Cyber/Cheat Sheets/Markdown Cheat Sheet.md",
+    "Cyber/Cheat Sheets/Regex Cheat sheet.md",
+    "Welcome.md",
     "Cyber/Cheat Sheets/Sysmon Event ID's.md",
     "Cyber/Cheat Sheets/Windows Commands.md",
     "Cyber/Cheat Sheets/Splunk Query Language.md",
@@ -209,7 +210,6 @@
     "Cyber/Knowledge Articles/Malware Types.md",
     "Cyber/Tooling/Burp Suite.md",
     "Cyber/Cheat Sheets/Windows Event Codes.md",
-    "Cyber/Cheat Sheets/Regex Cheat sheet.md",
     "Cyber/Knowledge Articles/Pyramid Of Pain.md",
     "Cyber/Cheat Sheets/Keyboard Shortcuts Windows.md",
     "Cyber/Cheat Sheets/Ports & Protocols.md",
