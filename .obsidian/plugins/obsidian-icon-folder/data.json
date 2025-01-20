@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiCyberdefenders",
+      "LiSwords",
       "FasShieldVirus",
       "SiWindows",
-      "SiWindowsterminal",
-      "LiLogs",
-      "SiSplunk"
+      "SiWindowsterminal"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,5 +47,7 @@
   "Cyber/Cheat Sheets/Sysmon Event ID's.md": "LiLogs",
   "Cyber/Cheat Sheets/Windows Commands.md": "SiWindowsterminal",
   "Cyber/Cheat Sheets/Windows Event Codes.md": "SiWindows",
-  "Cyber/Knowledge Articles/Malware Types.md": "FasShieldVirus"
+  "Cyber/Knowledge Articles/Malware Types.md": "FasShieldVirus",
+  "Cyber/Knowledge Articles/Common Attack Types.md": "LiSwords",
+  "Cyber/Knowledge Articles/SOC Fundamentals.md": "SiCyberdefenders"
 }

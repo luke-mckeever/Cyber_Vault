@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber/Knowledge Articles/Common Attack Types.md",
+                "file": "Cyber/Knowledge Articles/Anatomy of a URL.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Common Attack Types"
+              "title": "Anatomy of a URL"
             }
           }
         ],
@@ -48,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber/Knowledge Articles/Common Attack Types.md",
+                "file": "Cyber/Knowledge Articles/Anatomy of a URL.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Common Attack Types"
+              "title": "Anatomy of a URL"
             }
           }
         ]
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber/Knowledge Articles/Common Attack Types.md",
+                "file": "Cyber/Knowledge Articles/Anatomy of a URL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Common Attack Types"
+              "title": "Backlinks for Anatomy of a URL"
             }
           },
           {
@@ -184,10 +184,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber/Knowledge Articles/Common Attack Types.md"
+                "file": "Cyber/Knowledge Articles/Anatomy of a URL.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Common Attack Types"
+              "title": "Outline of Anatomy of a URL"
             }
           }
         ],
@@ -213,8 +213,10 @@
   },
   "active": "3f9f007039a82137",
   "lastOpenFiles": [
-    "Cyber/Knowledge Articles/Malware Types.md",
+    "Cyber/Knowledge Articles/SOC Fundamentals.md",
+    "Cyber/Knowledge Articles/Anatomy of a URL.md",
     "Cyber/Knowledge Articles/Common Attack Types.md",
+    "Cyber/Knowledge Articles/Malware Types.md",
     "Cyber/Cheat Sheets/Windows Commands.md",
     "Cyber/Cheat Sheets/Keyboard Shortcuts Linux.md",
     "Cyber/Cheat Sheets/Windows Event Codes.md",
@@ -236,9 +238,7 @@
     "Cyber/Tooling/TCP Dump.md",
     "Cyber/Knowledge Articles/Email Attachment Analysis.md",
     "Cyber/Knowledge Articles/Email Headers.md",
-    "Cyber/Knowledge Articles/Anatomy of a URL.md",
     "Cyber/Tooling/Curl.md",
-    "Cyber/Tooling/LDAP Domain Dump.md",
     "Cyber/sfsdfsf",
     "Cyber/Tooling",
     "Cyber/Cheat Sheets/Untitled",
