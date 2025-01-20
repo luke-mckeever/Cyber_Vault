@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber/Cheat Sheets/Splunk Query Language.md",
+                "file": "Cyber/Cheat Sheets/Windows Commands.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Splunk Query Language"
+              "title": "Windows Commands"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber/Cheat Sheets/Splunk Query Language.md",
+                "file": "Cyber/Cheat Sheets/Windows Commands.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Splunk Query Language"
+              "title": "Windows Commands"
             }
           }
         ]
@@ -140,8 +140,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber/Cheat Sheets/Linux Commands.md",
+                "file": "Cyber/Cheat Sheets/Windows Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linux Commands"
+              "title": "Backlinks for Windows Commands"
             }
           },
           {
@@ -169,24 +169,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber/Cheat Sheets/Linux Commands.md"
+                "file": "Cyber/Cheat Sheets/Windows Commands.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux Commands"
-            }
-          },
-          {
-            "id": "f1e8f988145d27d9",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Windows Commands"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -206,16 +196,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "74d2ac55f1c25f3c",
+  "active": "6d5d4f5b508e0296",
   "lastOpenFiles": [
-    "Cyber/Cheat Sheets/DNS Query Types.md",
     "Cyber/Cheat Sheets/Splunk Query Language.md",
+    "Cyber/Cheat Sheets/Windows Commands.md",
     "Cyber/Cheat Sheets/Linux Commands.md",
+    "Cyber/Cheat Sheets/DNS Query Types.md",
     "Cyber/Cheat Sheets/HTTP Response Codes.md",
     "Cyber/Knowledge Articles/Malware Types.md",
     "Cyber/Tooling/Burp Suite.md",
     "Cyber/Cheat Sheets/Windows Event Codes.md",
-    "Cyber/Cheat Sheets/Windows Commands.md",
     "Cyber/Cheat Sheets/Sysmon Event ID's.md",
     "Cyber/Cheat Sheets/Regex Cheat sheet.md",
     "Cyber/Cheat Sheets/Markdown Cheat Sheet.md",
