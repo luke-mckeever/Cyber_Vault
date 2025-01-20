@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMousePointer",
       "SiCyberdefenders",
       "LiSwords",
       "FasShieldVirus",
-      "SiWindows",
-      "SiWindowsterminal"
+      "SiWindows"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -49,5 +49,6 @@
   "Cyber/Cheat Sheets/Windows Event Codes.md": "SiWindows",
   "Cyber/Knowledge Articles/Malware Types.md": "FasShieldVirus",
   "Cyber/Knowledge Articles/Common Attack Types.md": "LiSwords",
-  "Cyber/Knowledge Articles/SOC Fundamentals.md": "SiCyberdefenders"
+  "Cyber/Knowledge Articles/SOC Fundamentals.md": "SiCyberdefenders",
+  "Cyber/Knowledge Articles/Anatomy of a URL.md": "LiMousePointer"
 }
