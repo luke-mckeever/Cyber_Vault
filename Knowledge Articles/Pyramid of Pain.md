@@ -1,4 +1,3 @@
-#KA #CTI 
 # The Pyramid of Pain
 
 ## 🛡️ Understanding the Pyramid of Pain Framework
@@ -32,23 +31,6 @@ The Pyramid of Pain is designed to:
 
 ---
 
-### 🔥 **Interactive Features**
-
-#### 📌 Hover Over the Layers
-
-Add hover interactions to your diagram or use code:
-
-```html
-<div>
-  <img src="pyramid-of-pain-interactive.png" alt="Pyramid of Pain" usemap="#pyramid-map">
-  <map name="pyramid-map">
-    <area shape="rect" coords="34,44,270,350" alt="TTPs" title="Tactics, Techniques, and Procedures">
-    <area shape="rect" coords="290,172,333,250" alt="Tools" title="Tools used by attackers">
-    <!-- Add areas for other layers -->
-  </map>
-</div>
-```
-
 #### 🖼️ Embedded Diagrams
 
 Use tools like Mermaid for diagram creation directly within GitHub Pages:
@@ -80,7 +62,5 @@ graph TB
 ---
 
 ## 🚀 Let’s Make Defenders Stronger Together!
-
-![Defense Emoji](https://example.com/defense-emoji.png)
 
 ---
