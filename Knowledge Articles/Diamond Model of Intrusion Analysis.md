@@ -1,3 +1,4 @@
+#KA #CTI
 # The Diamond Model of Intrusion Analysis 💎
 
 The **Diamond Model of Intrusion Analysis** provides a comprehensive framework for analyzing cyber threats and understanding their behaviors. Developed by Caltagirone, Pendergast, and Betz, this model connects four core components: **Adversary**, **Capability**, **Infrastructure**, and **Victim**. Let’s delve into its intricacies! 🌐

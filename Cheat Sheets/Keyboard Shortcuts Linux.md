@@ -1,4 +1,4 @@
-#linux #shortcuts
+#CS #linux #shortcuts
 # ⌨️ Linux Keyboard Shortcuts Cheat Sheet
 
 Boost your productivity on Linux with this handy guide to essential keyboard shortcuts! 🚀 These shortcuts will help you navigate, manage files, and perform tasks efficiently. 🛠️

@@ -1,3 +1,4 @@
+#KA #email
 # 📬 **Email Headers: Understanding SPF, DKIM, and DMARC**
 
 Email headers are an essential part of understanding email authentication and security. Let's dive into the key headers related to **SPF**, **DKIM**, and **DMARC** that play a vital role in ensuring email integrity and trustworthiness. ✉️

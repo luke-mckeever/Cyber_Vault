@@ -1,3 +1,4 @@
+#KA #BLUE
 # SOC Fundamentals 🚀
 
 Welcome to the **Security Operations Center (SOC) Fundamentals** guide! 🌐 This document covers the key principles and core foundations of a SOC, helping you understand its structure, processes, and objectives.

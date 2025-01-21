@@ -1,4 +1,4 @@
-#Win #logs 
+#CS #Win #logs 
 # 🖥️ Windows Event Codes Cheat Sheet
 
 A quick-reference guide to the most common Windows Event Codes encountered in cybersecurity. 🛡️ Use this cheat sheet to identify and investigate key events efficiently. 🔍
