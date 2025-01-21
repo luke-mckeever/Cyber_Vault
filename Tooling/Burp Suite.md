@@ -1,4 +1,4 @@
-#Tool
+#Tool #RED
 # Burp Suite Cheatsheet 🛡️
 
 Welcome to the ultimate **Burp Suite Cheatsheet**! 🎉 This page is your one-stop guide to mastering Burp Suite for your web application security testing needs. Whether you're a beginner or an advanced user, this cheatsheet has you covered. 

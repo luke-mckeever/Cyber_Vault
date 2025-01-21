@@ -1,4 +1,4 @@
-#Tool
+#Tool #RED
 # LDAP Domain Dump Cheatsheet 🛡️📜
 
 Welcome to the **LDAP Domain Dump Cheatsheet**! This tool is essential for extracting data from LDAP directories, commonly used in Active Directory environments. Use this guide to navigate LDAP recon like a pro! 🚀

@@ -1,4 +1,4 @@
-#Tool
+#Tool #RED
 # DNS Recon Cheatsheet 🌐🔍
 
 Welcome to the **DNS Recon Cheatsheet**! DNS Recon is an essential tool for performing DNS enumeration and reconnaissance. It's widely used for ethical hacking, penetration testing, and domain investigations. This guide will help you master DNS Recon like a pro. 🚀

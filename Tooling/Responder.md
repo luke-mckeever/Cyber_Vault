@@ -1,4 +1,4 @@
-#Tool
+#Tool #RED 
 # Responder Cheatsheet 🕵️‍♂️🔗
 
 Welcome to the **Responder Cheatsheet**! Responder is a powerful tool used for capturing network credentials and performing Man-in-the-Middle (MITM) attacks in internal networks. This guide will help you unleash Responder’s full potential! 🚀

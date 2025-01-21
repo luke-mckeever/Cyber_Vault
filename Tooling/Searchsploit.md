@@ -1,4 +1,4 @@
-#Tool
+#Tool #RED 
 # Searchsploit Cheatsheet 🔎💣
 
 Welcome to the **Searchsploit Cheatsheet**! Searchsploit is a command-line utility that lets you search and utilize the Exploit-DB repository for public exploits and Proof-of-Concept (PoC) codes. This guide will help you maximize its potential. 🚀

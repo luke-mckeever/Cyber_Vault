@@ -1,4 +1,4 @@
-#Tool
+#Tool #RED
 # Fcrackzip Cheatsheet 🔓📂
 
 Welcome to the **Fcrackzip Cheatsheet**! Fcrackzip is a fast and efficient tool for cracking password-protected ZIP files. This guide will help you master Fcrackzip with ease. 🚀
