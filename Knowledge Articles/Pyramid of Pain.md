@@ -1,3 +1,4 @@
+#KA #CTI 
 # The Pyramid of Pain
 
 ## 🛡️ Understanding the Pyramid of Pain Framework
