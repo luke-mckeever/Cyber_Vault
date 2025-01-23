@@ -1,4 +1,4 @@
-#Tool #RED #BLUE
+#Tool #RED #BLUE #TTgen
 # Curl Cheatsheet 🌀
 
 Welcome to the ultimate Curl cheatsheet! Curl is a versatile command-line tool for transferring data with URLs. Whether you're downloading files, testing APIs, or troubleshooting network issues, this guide has you covered. 🎉

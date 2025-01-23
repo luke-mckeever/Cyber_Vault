@@ -1,4 +1,4 @@
-#KA #web #HowTo
+#KA #web
 # 🌟 Useful Domains 
 
 Welcome to the **Useful Domains** Repository! This repository serves as a curated collection of **valuable and informational domains & sites**. Whether you're diving into cybersecurity, exploring web tools, or managing projects, you'll find some essential resources here.

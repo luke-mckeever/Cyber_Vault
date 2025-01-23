@@ -1,4 +1,4 @@
-#Tool #RED 
+#Tool #RED #TTweb
 # FFUF Cheatsheet ⚡🛠️
 
 Welcome to the **FFUF (Fuzz Faster U Fool) Cheatsheet**! FFUF is a fast web fuzzer designed for penetration testers and bug bounty hunters. Use this guide to supercharge your fuzzing efforts. 🚀

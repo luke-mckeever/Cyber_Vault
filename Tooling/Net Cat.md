@@ -1,4 +1,4 @@
-#Tool #RED 
+#Tool #RED #TTNet 
 # Netcat Cheatsheet 🐾📡
 
 Welcome to the **Netcat Cheatsheet**! Netcat (often called the “Swiss Army knife” of networking) is a versatile tool for network debugging, testing, and exploration. This guide will help you master Netcat like a networking wizard. 🧙‍♂️✨

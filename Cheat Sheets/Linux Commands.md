@@ -1,4 +1,4 @@
-#CS #linux #commands
+#CS #linux 
 # 🐧 Linux Command Line Cheatsheet
 
 A comprehensive table of common Linux commands for quick reference.

@@ -1,4 +1,4 @@
-#Tool #RED 
+#Tool #RED #TTweb 
 # Nikto Cheatsheet 🛡️🔎
 
 Welcome to the **Nikto Cheatsheet**! Nikto is a powerful and simple web server scanner that identifies vulnerabilities, misconfigurations, and outdated software on web servers. This guide will help you master Nikto's capabilities with ease. 🚀
