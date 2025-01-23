@@ -1,9 +1,10 @@
 # MITRE ATT&CK Framework 🎯
 
+#KA #CTI 
 Welcome to the **MITRE ATT&CK Framework** documentation! This page provides a comprehensive breakdown of the framework, its features, and a deep dive into every component. 
 
 ---
-![MITRE ATT&CK Framework ][https://www.trellix.com/en-us/img/security-awareness/mitre-attack-enterprise.png]
+![MITRE ATT&CK Framework ](https://www.trellix.com/en-us/img/security-awareness/mitre-attack-enterprise.png)
 
 ---
 ## What is the MITRE ATT&CK Framework? 🌐
