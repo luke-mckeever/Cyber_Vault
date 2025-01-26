@@ -286,3 +286,126 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **intrace**                   | Traces the path of packets through a network while revealing information about the hops.      | Network Tools            |     |
 | **invideflood**               | Tests VoIP systems with INVITE message floods.                                                | VoIP Security            |     |
 | **jadx-gui**                  | A graphical tool for decompiling and analyzing Android application packages (APKs).           | Mobile Security          |     |
+| **javasnoop**             | A tool for intercepting and modifying Java method calls.                                                  | Exploitation Tools    |
+| **jboss-linux**           | A tool for managing JBoss Application Servers on Linux.                                                   | Server Management     |
+| **jboss-win**             | A tool for managing JBoss Application Servers on Windows.                                                 | Server Management     |
+| **jd-gui**                | A graphical utility for decompiling Java class files.                                                     | Development Tools     |
+| **johnny**                | A GUI for John the Ripper password cracking tool.                                                         | Password Cracking     |
+| **joomscan**              | A vulnerability scanner for Joomla websites.                                                              | Web Security          |
+| **Joplin**                | An open-source note-taking and to-do application.                                                        | Productivity Tools    |
+| **jsql**                  | A tool for detecting and exploiting SQL injection vulnerabilities.                                        | Web Security          |
+| **Kali Autopilot**        | Automates common penetration testing tasks in Kali Linux.                                                 | Automation Tools      |
+| **lynis**                 | A security auditing and compliance tool for Unix-based systems.                                           | System Security       |
+| **mac-robber**            | Collects metadata from files on a filesystem for forensic analysis.                                       | Forensic Tools        |
+| **maltego**               | A data visualization and link analysis tool for reconnaissance.                                           | Reconnaissance        |
+| **maryam**                | A modular OSINT framework for gathering and analyzing information.                                        | Reconnaissance        |
+| **maskgen**               | Creates image masks for steganography and digital watermarking.                                           | Steganography         |
+| **mdb-sql**               | A tool for interacting with Microsoft Access databases via SQL.                                           | Database Tools        |
+| **mdk3**                  | A tool for testing and exploiting wireless network vulnerabilities.                                       | Wireless Security     |
+| **merge-router-config.pl**| Merges and analyzes multiple router configuration files.                                                  | Network Tools         |
+| **metagoofil**            | Extracts metadata from public documents for information gathering.                                        | Reconnaissance        |
+| **mfcuk**                 | A tool for performing cryptanalysis on MIFARE Classic encryption.                                         | Wireless Security     |
+| **mfoc**                  | A tool for cracking MIFARE Classic security to access card data.                                          | Wireless Security     |
+| **mfterm**                | A terminal for interacting with MIFARE and RFID devices.                                                  | Communication Tools   |
+| **Midnight-Comander**     | A text-based file manager for Unix systems.                                                              | File Management       |
+| **Midnight-Comander-Editor**| A text editor integrated into Midnight Commander.                                                       | Text Editing          |
+| **mifare-classic-format** | Formats MIFARE Classic cards to their default state.                                                     | Wireless Security     |
+| **missidentify**          | Identifies incorrect file types based on their magic numbers.                                             | Forensic Tools        |
+| **myrescue**              | Recovers data from damaged hard drives by copying sectors.                                                | Data Recovery         |
+| **ncat**                  | A networking utility for reading and writing data across networks.                                        | Network Tools         |
+| **nfc-list**              | Lists detected NFC devices and their capabilities.                                                       | Wireless Security     |
+| **nfc-mfclassic**         | Reads and writes MIFARE Classic tags.                                                                    | Wireless Security     |
+| **nipper**                | Analyzes network device configurations for security issues.                                               | Network Security      |
+| **nishang**               | A collection of PowerShell scripts for penetration testing and red teaming.                              | Post-Exploitation     |
+| **NmapSI4 User mode**     | A graphical front-end for Nmap security scanner.                                                         | Network Tools         |
+| **ohrwurm**               | A network audio monitoring tool.                                                                         | Communication Tools   |
+| **ollydbg**               | A 32-bit assembler-level debugger for Windows applications.                                              | Debugging Tools       |
+| **oscanner**              | Detects Oracle vulnerabilities and misconfigurations.                                                    | Database Security     |
+| **osrframework-cli**      | A command-line OSINT framework for gathering intelligence.                                                | Reconnaissance        |
+| **owasp-mantra-ff**       | A Firefox-based browser for penetration testing and web application security.                            | Web Security          |
+| **p0f**                   | A passive OS fingerprinting tool for identifying remote systems.                                          | Network Security      |
+| **padbuster**             | Automated padding oracle attack tool for exploiting cryptographic vulnerabilities.                        | Exploitation Tools    |
+| **paros**                 | A web application security scanner and proxy.                                                            | Web Security          |
+| **parsero**               | Detects and analyzes robots.txt files for sensitive information.                                          | Reconnaissance        |
+| **pasco**                 | Analyzes web browser cache files for forensic investigations.                                             | Forensic Tools        |
+| **peass**                 | A collection of scripts for privilege escalation enumeration.                                             | Post-Exploitation     |
+| **policygen**             | Generates policies for secure configurations.                                                            | System Security       |
+| **protos-sip**            | Tests SIP protocol implementations for vulnerabilities.                                                  | VoIP Security         |
+| **rcrack**                | A tool for performing brute-force attacks using rainbow tables.                                           | Password Cracking     |
+| **rcracki_mt**            | A multi-threaded version of rcrack for improved performance.                                               | Password Cracking     |
+| **readpe**                | Displays information about Portable Executable (PE) files.                                                 | Binary Analysis       |
+| **readpst**               | Converts Outlook PST files to other formats.                                                              | File Conversion       |
+| **recoverdm**             | Recovers data from damaged CDs, DVDs, and Blu-ray discs.                                                  | Data Recovery         |
+| **recoverjpeg**           | Recovers JPEG files from damaged filesystems or media.                                                    | File Recovery         |
+| **reglookup**             | Examines Windows registry files for forensic analysis.                                                    | Forensic Tools        |
+| **regripper**             | A registry data extraction and analysis tool.                                                             | Forensic Tools        |
+| **rfcat**                 | A Python library and tools for interacting with radio frequency (RF) devices.                            | Communication Tools   |
+| **RFDump**                | Analyzes and manipulates RFID tag data.                                                                   | RFID Tools            |
+| **rifiuti**               | Analyzes the Windows Recycle Bin for forensic purposes.                                                   | Forensic Tools        |
+| **rifiuti2**              | An enhanced version of rifiuti with additional features for analyzing the Recycle Bin.                   | Forensic Tools        |
+| **rkhunter**              | Scans Unix-based systems for rootkits and vulnerabilities.                                                | System Security       |
+| **RouterKegyen**          | A router penetration testing and configuration tool.                                                      | Network Security      |
+| **rtpbreak**              | Analyzes RTP streams and extracts audio payloads.                                                         | Network Tools         |
+| **rtpflood**              | Generates floods of RTP packets to test VoIP systems.                                                    | VoIP Security         |
+| **rtpinsertsoud**         | Injects sound into RTP streams for testing purposes.                                                      | VoIP Security         |
+| **rtpmixsound**           | Mixes audio into RTP streams for testing or manipulation.                                                 | VoIP Security         |
+| **safecopy**              | Recovers data from defective storage media by skipping bad sectors.                                       | Data Recovery         |
+| **sctpscan**              | Scans networks for SCTP-enabled devices and services.                                                    | Network Tools         |
+| **sentrypeer**            | A peer-to-peer network security and monitoring tool.                                                      | Network Security      |
+| **sfuzz**                 | A network protocol fuzzing tool for vulnerability discovery.                                              | Fuzzing Tools         |
+| **shellnoob**             | Automates shellcode writing and analysis tasks.                                                          | Exploitation Tools    |
+| **shellter**              | A dynamic shellcode injection tool for Windows applications.                                              | Exploitation Tools    |
+| **sidguess**              | A tool for guessing valid SIDs in Windows environments.                                                  | Exploitation Tools    |
+| **siege**                 | A tool for stress testing web servers and applications.                                                  | Web Security          |
+| **siparmyknife**          | A SIP protocol testing and debugging tool.                                                              | VoIP Security         |
+| **sipcrack**              | A tool for sniffing and cracking SIP authentication credentials.                                         | VoIP Security         |
+| **sipp**                  | A performance testing tool for SIP-based VoIP systems.                                                  | VoIP Security         |
+| **sipsak**                | A command-line SIP testing tool for analyzing and manipulating SIP messages.                            | VoIP Security         |
+| **slowhttptest**          | A tool for testing web servers against low-bandwidth denial-of-service attacks.                         | Web Security          |
+| **sniffjoke**             | A tool for evading network traffic analysis and fingerprinting.                                          | Network Security      |
+| **snort**                 | An open-source network intrusion detection and prevention system.                                        | Network Security      |
+| **sparrow-wifi**          | A WiFi analyzer and monitor tool for wireless security testing.                                          | Wireless Security     |
+| **sqldict**               | A dictionary attack tool for brute-forcing SQL authentication.                                           | Password Cracking     |
+| **sqlninja**              | Automates SQL injection attacks on Microsoft SQL Server databases.                                       | Web Security          |
+| **sqlsus**                | A MySQL injection and exploitation tool.                                                                | Web Security          |
+| **ssdeep**                | A tool for computing and comparing context-triggered piecewise hashes.                                  | Hash Analysis         |
+| **sslsniff**              | A tool for intercepting and modifying SSL/TLS traffic.                                                  | Network Tools         |
+| **statsgen**              | Generates statistics for network traffic and protocol usage.                                             | Network Monitoring    |
+| **sucrack**               | A command-line tool for brute-forcing Unix/Linux su authentication.                                     | Password Cracking     |
+| **svcrack**               | A tool for performing brute-force attacks on VNC servers.                                               | Password Cracking     |
+| **svcrash**               | A tool for crashing VNC servers through malformed inputs.                                               | Exploitation Tools    |
+| **svmap**                 | A VNC server scanner for discovering open VNC instances.                                                | Network Tools         |
+| **svreport**              | Generates detailed reports from svmap and svcrack results.                                              | Reporting Tools       |
+| **svwar**                 | A tool for identifying VoIP extensions on SIP-based servers.                                            | VoIP Security         |
+| **t50**                   | A network stress testing and protocol fuzzing tool.                                                    | Fuzzing Tools         |
+| **tcpflow**               | Captures and reconstructs TCP traffic for analysis.                                                    | Network Tools         |
+| **termineter**            | A smart meter testing framework for evaluating AMI (Advanced Metering Infrastructure) security.         | Exploitation Tools    |
+| **thc-ssl-dos**           | A tool for launching DoS attacks against SSL servers.                                                    | Exploitation Tools    |
+| **tiger**                 | A security auditing tool for Unix-based systems.                                                        | System Security       |
+| **tlssled**               | A tool for testing SSL/TLS security configurations.                                                     | Network Security      |
+| **tnscmd10g**             | Exploits misconfigurations in Oracle TNS Listener.                                                      | Database Security     |
+| **truecrack**             | A password cracker for TrueCrypt volumes.                                                               | Password Cracking     |
+| **twofi**                 | A tool for creating wordlists by analyzing Twitter data.                                                | Reconnaissance        |
+| **ubertooth-util**        | A utility for analyzing Bluetooth communications with Ubertooth devices.                                | Bluetooth Security    |
+| **undbx**                 | Recovers emails from corrupted Outlook Express DBX files.                                               | File Recovery         |
+| **unhide**                | Detects hidden processes and ports on Unix-based systems.                                               | System Security       |
+| **uniscan-gui**           | A graphical web vulnerability scanner.                                                                  | Web Security          |
+| **urlcrazy**              | Detects typo-squatting domains and their potential risks.                                               | Reconnaissance        |
+| **veil**                  | A framework for generating payloads to bypass antivirus detection.                                      | Exploitation Tools    |
+| **villain**               | A command-and-control (C2) framework for managing compromised systems.                                  | Post-Exploitation     |
+| **vinetto**               | Analyzes thumbnails in Windows Thumbs.db files for forensic investigations.                             | Forensic Tools        |
+| **watobo**                | A web application vulnerability scanner and testing tool.                                               | Web Security          |
+| **webacoo**               | A stealth web shell generator for remote command execution.                                             | Web Security          |
+| **webscarab**             | A web security analysis tool for inspecting and manipulating HTTP traffic.                              | Web Security          |
+| **wifi-honey**            | Creates fake WiFi access points to detect and monitor attacks.                                          | Wireless Security     |
+| **witnessme**             | Captures screenshots of websites and their responses for analysis.                                      | Reconnaissance        |
+| **xgps**                  | A graphical interface for monitoring GPS data.                                                         | Communication Tools   |
+| **xgpsspeed**             | Displays real-time GPS speed data.                                                                     | Communication Tools   |
+| **xplico-webbui**         | A web-based interface for the Xplico network forensic analysis tool.                                   | Forensic Tools        |
+| **xsser**                 | A tool for detecting and exploiting cross-site scripting (XSS) vulnerabilities.                        | Web Security          |
+| **yara**                  | A malware identification and classification tool.                                                      | Malware Analysis      |
+| **yersinia**              | A network attack tool for testing and exploiting Layer 2 protocols.                                     | Network Security      |
+| **zaproxy**               | An open-source web application security scanner.                                                       | Web Security          |
+| **Zenmap**                | The official GUI for the Nmap Security Scanner.                                                        | Network Tools         |
+| **Zim Desktop**           | A graphical text editor for managing notes and tasks.                                                  | Productivity Tools    |
+| **Cherrytree**            | A hierarchical note-taking application with rich text and syntax highlighting.                         | Productivity Tools    |
