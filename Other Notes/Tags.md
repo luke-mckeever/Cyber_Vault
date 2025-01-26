@@ -17,6 +17,7 @@
 - \#cti -> Threat Intelligence notes
 - \#edr -> Endpoint Detection and Response related Notes 
 - \#email -> Email related notes 
+- \#compliance -> compliance/audit related content
 
 ###Tool Types (TT)
 - \#TTweb -> Web bases tooling
@@ -26,3 +27,4 @@
 - \#TTNet -> Network based tooling
 - \#TTosint -> Open Source Intelligence based tooling
 - \#TTemail -> email related tooling
+- \#TTintel -> intelligence related tooling
