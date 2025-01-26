@@ -10,3 +10,5 @@ Locard's Exchange Principle, conceptualized by Dr. Edmond Locard, underpins digi
 ![locard's exchange principle](http://www.c-jump.com/bcc/t155t/Week03a/const_images/002_Locard.png)
 
 ---
+
+# Order of Volatility
