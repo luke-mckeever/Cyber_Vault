@@ -1,7 +1,7 @@
 # Digital Forensics Notes
 
 ---
-# 🔍 Locard's Exchange Principle 🌟
+## 🔍 Locard's Exchange Principle 🌟
 
 > "Every contact leaves a trace." 🕵️‍♂️
 
@@ -11,7 +11,7 @@ Locard's Exchange Principle, conceptualized by Dr. Edmond Locard, underpins digi
 
 ---
 
-# ⬇Order of Volatility
+## ⬇Order of Volatility
 
 ```mermaid
 graph TD
@@ -47,6 +47,6 @@ graph TD
 - Backups 
 - Security Controls (C.I.A.)
 ---
-# Chain of Custody
+## Chain of Custody
 Tracks evidence through the entirety of an investigation. 
 Provides integrity of evidence 
