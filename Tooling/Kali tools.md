@@ -39,7 +39,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **dnschef**                   | A customizable DNS proxy for penetration testing.                                             | DNS Tools                |     |
 | **dnsenum**                   | A DNS enumeration tool for discovering information about domains and subdomains.              | Reconnaissance           |     |
 | **dnsmap**                    | A DNS mapping tool for identifying subdomains.                                                | Reconnaissance           |     |
-| **dnsrecon**                  | A DNS reconnaissance tool for performing advanced queries and zone transfers.                 | Reconnaissance           |     |
+| **[[DNS Recon]]**                  | A DNS reconnaissance tool for performing advanced queries and zone transfers.                 | Reconnaissance           |     |
 | **dsniff**                    | A collection of tools for network traffic analysis and password sniffing.                     | Network Tools            |     |
 | **angry IP Scanner**          | A fast and friendly network scanner.                                                          | Network Tools            |     |
 | **0trace.sh**                 | A tool for IP-level route tracing while staying undetected.                                   | Network Tools            |     |
@@ -49,7 +49,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **Faraday**                   | A collaborative pen-testing and vulnerability management platform.                            | Collaboration Tools      |     |
 | **fern-wifi-cracker**         | A tool for auditing and attacking WiFi networks.                                              | Wireless Security        |     |
 | **ffind**                     | Finds files matching specified criteria within a forensic image.                              | Digital Forensics        |     |
-| **ffuf**                      | A fast web fuzzer for discovering hidden resources.                                           | Web Security             |     |
+| **[[FFUF]]**                      | A fast web fuzzer for discovering hidden resources.                                           | Web Security             |     |
 | **fierce**                    | A DNS enumeration and discovery tool for penetration testing.                                 | Reconnaissance           |     |
 | **fls**                       | Lists file and directory names in a forensic image.                                           | Digital Forensics        |     |
 | **fping**                     | A fast ping utility for multiple hosts.                                                       | Network Tools            |     |
@@ -100,13 +100,13 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **msfpc**                     | A script for generating payloads for Metasploit and other frameworks.                         | Exploitation Tools       |     |
 | **nbtscan**                   | Scans networks for NetBIOS name information.                                                  | Network Tools            |     |
 | **ncrack**                    | A high-speed network authentication cracking tool.                                            | Password Cracking        |     |
-| **netcat**                    | A versatile networking tool for debugging and investigating the network.                      | Network Tools            |     |
+| **[[Net Cat]]**                    | A versatile networking tool for debugging and investigating the network.                      | Network Tools            |     |
 | **netdiscover**               | A passive network discovery tool for detecting live hosts on a network.                       | Reconnaissance           |     |
 | **netexec**                   | A tool for executing commands over the network.                                               | Remote Access            |     |
 | **netmask**                   | A tool for managing and understanding IP address subnetting.                                  | Networking Tools         |     |
 | **netsniff-ng**               | A high-performance network packet sniffer and analyzer.                                       | Network Tools            |     |
-| **nikto**                     | A web server scanner for identifying security vulnerabilities.                                | Web Security             |     |
-| **nmap**                      | A powerful network scanning tool for discovering hosts and services.                          | Network Tools            |     |
+| **[[Nikto]]**                     | A web server scanner for identifying security vulnerabilities.                                | Web Security             |     |
+| **[[NMAP]]**                      | A powerful network scanning tool for discovering hosts and services.                          | Network Tools            |     |
 | **onesixtyone**               | A SNMP protocol scanner for detecting SNMP-enabled devices.                                   | Network Tools            |     |
 | **ophcrack**                  | A Windows password cracker using rainbow tables.                                              | Password Cracking        |     |
 | **ophcrack-cli**              | Command-line interface for Ophcrack.                                                          | Password Cracking        |     |
@@ -125,16 +125,16 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **radare2**                   | An advanced binary analysis framework.                                                        | Binary Analysis          |     |
 | **reaver**                    | A WPS brute-forcing tool for retrieving WiFi passwords.                                       | Wireless Security        |     |
 | **recon-ng**                  | A reconnaissance framework for gathering information.                                         | Reconnaissance           |     |
-| **responder**                 | A tool for poisoning LLMNR, NBT-NS, and MDNS to capture credentials.                          | Network Security         |     |
+| **[[responder]]**                 | A tool for poisoning LLMNR, NBT-NS, and MDNS to capture credentials.                          | Network Security         |     |
 | **rsmangler**                 | Generates wordlists for password cracking.                                                    | Password Cracking        |     |
 | **samdump2**                  | Dumps password hashes from Windows SAM files.                                                 | Password Recovery        |     |
 | **sbd**                       | A secure backdoor for maintaining access to compromised systems.                              | Remote Access            |     |
 | **scalpel**                   | A file carving tool for recovering deleted files.                                             | Digital Forensics        |     |
 | **scapy**                     | A Python-based interactive packet manipulation tool.                                          | Network Tools            |     |
 | **scrounge-ntfs**             | Recovers deleted data from NTFS partitions.                                                   | File Recovery            |     |
-| **searchsploit**              | Searches for exploits in the Exploit Database archive.                                        | Exploit Resources        |     |
-| **setoolkit**                 | The Social-Engineer Toolkit for performing social engineering attacks.                        | Social Engineering       |     |
-| **sherlock**                  | A tool for finding usernames across social media platforms.                                   | Reconnaissance           |     |
+| **[[Searchsploit]]**              | Searches for exploits in the Exploit Database archive.                                        | Exploit Resources        |     |
+| **[[SET (Social Engineering Toolkit)]]**                 | The Social-Engineer Toolkit for performing social engineering attacks.                        | Social Engineering       |     |
+| **[[Sherlock]]**                  | A tool for finding usernames across social media platforms.                                   | Reconnaissance           |     |
 | **sigfind**                   | Locates potential signatures within memory dumps.                                             | Memory Analysis          |     |
 | **skipfish**                  | A web application security scanner.                                                           | Web Security             |     |
 | **smbmap**                    | Enumerates Samba shares and their access levels.                                              | Network Tools            |     |
@@ -182,7 +182,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **xfreerdp**                  | A free implementation of the Remote Desktop Protocol.                                         | Remote Access            |     |
 | **xhydra**                    | A graphical frontend for the Hydra password cracking tool.                                    | Password Cracking        |     |
 | **wireshark**                 | A network protocol analyzer for real-time traffic capture and analysis.                       | Network Tools            |     |
-| **burpsuite**                 | A comprehensive platform for web application security testing.                                | Web Security             |     |
+| **[[Burp Suite]]**                 | A comprehensive platform for web application security testing.                                | Web Security             |     |
 | **affcat**                    | Extracts data from AFF disk images.                                                           | Digital Forensics        |     |
 | **aflfuzz**                   | A security-oriented fuzzer for identifying vulnerabilities in applications.                   | Fuzzing Tools            |     |
 | **airgeddon**                 | A multi-purpose tool for auditing and attacking wireless networks.                            | Wireless Security        |     |
@@ -245,7 +245,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **extundelete**               | A tool for recovering files from ext3/ext4 file systems.                                      | File Recovery            |     |
 | **eyewitness**                | Captures screenshots and gathers information on web applications.                             | Reconnaissance           |     |
 | **fang**                      | Finds assets like domains, subdomains, and URLs.                                              | Reconnaissance           |     |
-| **fcrackzip**                 | A fast password cracker for zip files.                                                        | Password Cracking        |     |
+| **[[Fcrackzip]]**                 | A fast password cracker for zip files.                                                        | Password Cracking        |     |
 | **ferret-sidejack**           | A session hijacking tool for analyzing HTTP traffic.                                          | Web Security             |     |
 | **fiked**                     | A fake DHCP server for testing network clients.                                               | Network Tools            |     |
 | **firewalk**                  | Analyzes firewall configurations by sending crafted packets.                                  | Network Security         |     |
@@ -363,7 +363,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **sipsak**                | A command-line SIP testing tool for analyzing and manipulating SIP messages.                            | VoIP Security         |
 | **slowhttptest**          | A tool for testing web servers against low-bandwidth denial-of-service attacks.                         | Web Security          |
 | **sniffjoke**             | A tool for evading network traffic analysis and fingerprinting.                                          | Network Security      |
-| **snort**                 | An open-source network intrusion detection and prevention system.                                        | Network Security      |
+| **[[SNORT]]**                 | An open-source network intrusion detection and prevention system.                                        | Network Security      |
 | **sparrow-wifi**          | A WiFi analyzer and monitor tool for wireless security testing.                                          | Wireless Security     |
 | **sqldict**               | A dictionary attack tool for brute-forcing SQL authentication.                                           | Password Cracking     |
 | **sqlninja**              | Automates SQL injection attacks on Microsoft SQL Server databases.                                       | Web Security          |
