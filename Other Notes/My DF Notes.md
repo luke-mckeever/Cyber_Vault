@@ -11,4 +11,42 @@ Locard's Exchange Principle, conceptualized by Dr. Edmond Locard, underpins digi
 
 ---
 
-# Order of Volatility
+# ⬇Order of Volatility
+
+```mermaid
+graph TD
+	A[CPU Registers & Cache] --> B[RAM & Active Netowork Connections]
+	B --> C[Temp Files & System Logs]
+	C --> D[Disk Storage Data]
+	D --> E[Remote Logging]
+	E --> F[d]
+```
+
+#### 1. CPU Registers & Cache
+- Process Registers
+- Cache Memory
+- Running Processes
+#### 2. RAM & Active Network Connections
+- Random Access Memory (Session data)
+- Network Connections (Ports/Connections)
+- Routing Table
+- ARP Cache (Maps IP addresses to MAC addresses)
+#### 3. Temp Files & System Logs
+- Temporary Files (Temp Directories)
+- Swap Files 
+- System and Application Logs
+#### 4. Disk Storage Data
+- Hard Disk Drives
+- Solid State Drives
+- System Configurations
+#### 5. Remote Logging
+- Endpoint Telemetry
+- Centralized Log Collection
+#### 6. Archive Media
+- Long-term Storage Media
+- Backups 
+- Security Controls (C.I.A.)
+---
+# Chain of Custody
+Tracks evidence through the entirety of an investigation. 
+Provides integrity of evidence 
