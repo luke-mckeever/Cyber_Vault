@@ -69,3 +69,5 @@ Whether you're investigating a cyber incident, analyzing deleted files, or simpl
 > 📝 **Note:** Capturing a memory dump is critical for analyzing volatile data, including running processes, network connections, and more.
 
 ---
+
+
