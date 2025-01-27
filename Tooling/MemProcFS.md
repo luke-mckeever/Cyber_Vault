@@ -95,22 +95,4 @@ grep -a "keyword" /mnt/memprocfs/memory.raw
    sudo apt-get install mono-complete
    ```
 
-### Need Help? 💬
-- Check the [GitHub Issues](https://github.com/ufrisk/MemProcFS/issues).
-- Join the community forums.
 
----
-
-## ❤️ Contributing
-
-Found something cool? 🕵️‍♂️ Want to add new features? 🚀 Contribute to **MemProcFS** by submitting a [pull request](https://github.com/ufrisk/MemProcFS/pulls) or reporting bugs.
-
----
-
-## 📜 License
-
-**MemProcFS** is licensed under the MIT License. See the [LICENSE](https://github.com/ufrisk/MemProcFS/blob/master/LICENSE) file for details.
-
----
-
-### ✨ Happy Analyzing! 🧠✨
