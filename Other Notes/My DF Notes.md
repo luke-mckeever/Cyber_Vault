@@ -50,3 +50,38 @@ graph TD
 ## Chain of Custody
 Tracks evidence through the entirety of an investigation. 
 Provides integrity of evidence 
+
+## Important Forensic Artefacts 🎁
+
+#### config Files 🗃️
+**Folder location**: "*C:Windows/System32/config*"
+
+##### **BBI (Boot Boot Integrity)**:  
+Stores boot configuration settings. It helps forensic investigators analyze changes to the boot process or identify tampering aimed at compromising system integrity.
+
+##### **BCD-Template (Boot Configuration Data Template)**:  
+Contains a template for creating the Boot Configuration Data (BCD). Forensic analysis can reveal attempts to manipulate boot options or introduce malicious entries.
+
+##### **COMPONENTS**:  
+Part of the Windows Component-Based Servicing (CBS) store. This file tracks installed system components and updates. Investigators can use it to identify tampered or unauthorized updates.
+ 
+##### **DEFAULT**:  
+A registry hive that stores default user profile settings. Useful for determining the system's initial configuration and default behavior before user-specific modifications.
+  
+##### **DRIVERS**:  
+Contains information about device drivers loaded during boot. Forensic investigators can use it to detect malicious or unauthorized drivers that could be used for persistence or privilege escalation.
+  
+##### **ELAM (Early Launch Anti-Malware)**:  
+Stores configurations for anti-malware solutions that start early in the boot process. Investigators can check for tampering that disables or weakens security measures.
+  
+##### **SAM (Security Account Manager)**:  
+Stores user account and credential information, such as hashed passwords. It is critical for analyzing user accounts, unauthorized access, or privilege escalation attempts.
+  
+##### **SECURITY**:  
+Contains system security policies and local security authority settings. Forensic investigators use it to analyze access controls, audit policies, and potential tampering with security configurations.
+  
+##### **SOFTWARE**:  
+A registry hive containing information about installed software, settings, and system policies. It helps identify installed programs, user preferences, and potentially malicious software.
+
+##### **SYSTEM**:  
+Stores system-wide configuration data, including services, drivers, and hardware profiles. Forensic investigators analyze it to detect changes to system configurations, malicious drivers, or service persistence mechanisms.
