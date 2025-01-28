@@ -46,42 +46,29 @@ graph TD
 - Long-term Storage Media
 - Backups 
 - Security Controls (C.I.A.)
+
 ---
 ## Chain of Custody
 Tracks evidence through the entirety of an investigation. 
 Provides integrity of evidence 
 
-## Important Forensic Artefacts 🎁
+## Important Forensic Artifacts 🎁
 
 #### config Files 🗃️
 **Folder location**: "*C:Windows/System32/config*"
 
-##### **BBI (Boot Boot Integrity)**:  
-Stores boot configuration settings. It helps forensic investigators analyze changes to the boot process or identify tampering aimed at compromising system integrity.
+#### %SYSTEMROOT%\System32\Config
+|  **File Name** |    **Registry Key**     |  **Description**  |
+|----------------|-------------------------|-------------------|
+| DEFAULT | HKEY_USERS\.DEFAULT | A registry hive that stores default user profile settings. Useful for determining the system's initial configuration and default behavior before user-specific modifications. |
+| SAM (Security Account Manager) | HKEY_LOCAL_MACHINE\SAM | Stores user account and credential information, such as hashed passwords. It is critical for analyzing user accounts, unauthorized access, or privilege escalation attempts. |
+| SECURITY | HKEY_LOCAL_MACHINE\SECURITY | Contains system security policies and local security authority settings. Forensic investigators use it to analyze access controls, audit policies, and potential tampering with security configurations. |
+| SOFTWARE | HKEY_LOCAL_MACHINE\SOFTWARE | A registry hive containing information about installed software, settings, and system policies. It helps identify installed programs, user preferences, and potentially malicious software. |
+| SYSTEM | HKEY_LOCAL_MACHINE\SYSTEM | Stores system-wide configuration data, including services, drivers, and hardware profiles. Forensic investigators analyze it to detect changes to system configurations, malicious drivers, or service persistence mechanisms. |
 
-##### **BCD-Template (Boot Configuration Data Template)**:  
-Contains a template for creating the Boot Configuration Data (BCD). Forensic analysis can reveal attempts to manipulate boot options or introduce malicious entries.
 
-##### **COMPONENTS**:  
-Part of the Windows Component-Based Servicing (CBS) store. This file tracks installed system components and updates. Investigators can use it to identify tampered or unauthorized updates.
- 
-##### **DEFAULT**:  
-A registry hive that stores default user profile settings. Useful for determining the system's initial configuration and default behavior before user-specific modifications.
-  
-##### **DRIVERS**:  
-Contains information about device drivers loaded during boot. Forensic investigators can use it to detect malicious or unauthorized drivers that could be used for persistence or privilege escalation.
-  
-##### **ELAM (Early Launch Anti-Malware)**:  
-Stores configurations for anti-malware solutions that start early in the boot process. Investigators can check for tampering that disables or weakens security measures.
-  
-##### **SAM (Security Account Manager)**:  
-Stores user account and credential information, such as hashed passwords. It is critical for analyzing user accounts, unauthorized access, or privilege escalation attempts.
-  
-##### **SECURITY**:  
-Contains system security policies and local security authority settings. Forensic investigators use it to analyze access controls, audit policies, and potential tampering with security configurations.
-  
-##### **SOFTWARE**:  
-A registry hive containing information about installed software, settings, and system policies. It helps identify installed programs, user preferences, and potentially malicious software.
-
-##### **SYSTEM**:  
-Stores system-wide configuration data, including services, drivers, and hardware profiles. Forensic investigators analyze it to detect changes to system configurations, malicious drivers, or service persistence mechanisms.
+#### %USERPROFILE%
+|  **File Name** |    **Registry Key**     |  **Description**  |
+|----------------|-------------------------|-------------------|
+| NTUSER.DAT | HKEY_CURRENT_USER | user-specific Windows Registry file that contains configuration settings such as desktop setup and application preferences. It is important in digital forensics for analyzing a user's activities on a computer. |
+| USRCLASS.DAT | HKEY_CURRENT_USER\Software\Classes | user-specific Windows Registry file containing settings for software and COM objects associated with a user profile. It is useful in digital forensics for analyzing user behavior and software usage. |
