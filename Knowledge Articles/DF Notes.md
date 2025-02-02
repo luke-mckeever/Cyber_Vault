@@ -72,3 +72,52 @@ Provides integrity of evidence
 |----------------|-------------------------|-------------------|
 | NTUSER.DAT | HKEY_CURRENT_USER | user-specific Windows Registry file that contains configuration settings such as desktop setup and application preferences. It is important in digital forensics for analyzing a user's activities on a computer. |
 | USRCLASS.DAT | HKEY_CURRENT_USER\Software\Classes | user-specific Windows Registry file containing settings for software and COM objects associated with a user profile. It is useful in digital forensics for analyzing user behavior and software usage. |
+
+---
+## 🔍 Windows Registry Keys - The Hidden Treasure Chest 🎩
+Windows Registry is a hierarchical database used by Windows to store configuration settings, user preferences, and system information. It can be leveraged for forensic analysis, security investigations, and malware detection.
+
+### 🏠 User Activity Traces
+Windows maintains a variety of logs within the registry that record user activity. These keys store historical information that can reveal what actions a user has performed on the system.
+
+- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths`
+  - This key stores the paths manually entered into Windows Explorer’s address bar, making it useful for tracking user navigation patterns.
+- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs`
+  - Stores a list of recently accessed documents, including file names and extensions. This data can reveal what files a user interacted with.
+- `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
+  - Maintains records of all installed software, including timestamps and version numbers. This information is useful for detecting unauthorized software installations or malware persistence.
+
+### 🔥 Persistence Mechanisms (Malware Hiding Spots)
+Threat actors frequently use the registry to establish persistence, ensuring that their malicious payloads execute upon system startup.
+
+- `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
+  - Programs listed under this key automatically launch during startup. Malware often abuses this key to maintain persistence.
+- `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+  - Executes a program once upon the next system startup. Attackers use this method for executing payloads only once to evade detection.
+- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\DisallowRun`
+  - This key can be modified to prevent certain applications from executing, potentially used by administrators for security or by malware to disable security tools.
+
+> 🚨 **Pro Tip:** Use **Regedit.exe** or **PowerShell** to analyze and export these registry keys for forensic examination.
+
+---
+
+## 🏷️ Shell Bags - Windows Explorer’s Memory Bank 🧠
+Shell Bags are forensic artifacts that store metadata about folders viewed in Windows Explorer. They help track a user’s interaction with the file system, even if the original folders were deleted.
+
+### 🛡️ Where Are Shell Bags Stored?
+Windows stores Shell Bags in the registry under the following keys:
+
+- `HKEY_USERS\{User SID}\Software\Microsoft\Windows\Shell\Bags`
+  - Contains folder customization settings such as layout preferences (list view, icon view, etc.).
+- `HKEY_USERS\{User SID}\Software\Microsoft\Windows\Shell\BagMRU`
+  - Maintains a history of folders accessed by the user, even those on external devices and network shares.
+
+### 📌 What Can You Discover?
+Shell Bags contain valuable forensic information, including:
+
+✅ Folder paths and timestamps of access – even if the folder was deleted  
+✅ The type of view a user applied to a specific folder (List, Tiles, Details, etc.)  
+✅ Evidence of interactions with USB devices, external drives, and network shares  
+✅ Metadata related to recently opened or viewed directories
+
+> 🔎 **Forensic Tip:** Extract Shell Bags data using **ShellBagsExplorer** or PowerShell scripts to recover evidence.
