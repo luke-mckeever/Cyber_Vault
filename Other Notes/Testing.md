@@ -19,3 +19,5 @@ Print (Hello World)
 
 
 [[IVRE/Hostname/sistersaras.ie|sistersaras.ie]]
+
+![this is a picture](picture.com)
