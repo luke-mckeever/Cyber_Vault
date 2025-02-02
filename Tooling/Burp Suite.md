@@ -5,17 +5,7 @@ Welcome to the ultimate **Burp Suite Cheatsheet**! 🎉 This page is your one-st
 
 ---
 
-![Burp Suite Logo](https://portswigger.net/burp/images/logo.svg)
-
-## 📝 Table of Contents
-1. [What is Burp Suite?](#what-is-burp-suite)
-2. [Core Features](#core-features)
-3. [Common Use Cases](#common-use-cases)
-4. [Quick Setup Guide](#quick-setup-guide)
-5. [Handy Tips & Tricks](#handy-tips--tricks)
-6. [Keyboard Shortcuts](#keyboard-shortcuts)
-7. [Extensions](#extensions)
-8. [Troubleshooting](#troubleshooting)
+![Burp Suite Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Logo_of_PortSwigger.svg/1920px-Logo_of_PortSwigger.svg.png)
 
 ---
 
