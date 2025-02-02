@@ -1,3 +1,5 @@
+# ✨ Magic Bytes 🎉
+
 Magic bytes are unique identifiers at the beginning of a file that indicate the file type to systems and applications. These bytes are crucial in file format recognition and are often used by software to determine how to interpret the contents of a file. Here's a comprehensive list of common magic bytes along with descriptions of the file types they represent:
 
  #### **JPEG Image**
