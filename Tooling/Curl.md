@@ -1,12 +1,16 @@
+# Curl 🌀
 #Tool #RED #BLUE #TTgen
-# Curl Cheatsheet 🌀
 
-Welcome to the ultimate Curl cheatsheet! Curl is a versatile command-line tool for transferring data with URLs. Whether you're downloading files, testing APIs, or troubleshooting network issues, this guide has you covered. 🎉
+Curl is a versatile command-line tool for transferring data with URLs. Whether you're downloading files, testing APIs, or troubleshooting network issues, this guide has you covered. 🎉
+
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/curl/)**
+
+Curl (short for **Client URL**) is a command-line tool that supports various protocols like HTTP, HTTPS, FTP, and more. It allows you to send requests and receive responses directly from the command line.
 
 ---
+![Curl Banner](https://download.logo.wine/logo/CURL/CURL-Logo.wine.png)  
 
-## 🌟 What is Curl?
-Curl (short for **Client URL**) is a command-line tool that supports various protocols like HTTP, HTTPS, FTP, and more. It allows you to send requests and receive responses directly from the command line.
+---
 
 ### 🛠 Features:
 - Supports multiple protocols: HTTP, HTTPS, FTP, SCP, SFTP, and more.
@@ -14,7 +18,18 @@ Curl (short for **Client URL**) is a command-line tool that supports various pro
 - Offers detailed debugging and verbose options.
 - Can be scripted for automation tasks.
 
-![Curl Banner](https://via.placeholder.com/800x200?text=Master+Curl+Like+a+Pro)  
+---
+### Installing cURL
+
+#### 🟢 Linux (Debian/Ubuntu)
+```sh
+sudo apt update && sudo apt install curl -y
+```
+
+#### 🏁 Windows (Winget)
+```sh
+winget install -e --id curl.curl
+```
 
 ---
 
@@ -62,10 +77,6 @@ curl -v https://example.com
 ```
 Enable verbose output for troubleshooting.
 
----
-
-## ⚙️ Advanced Usage
-
 ### 🌐 Follow Redirects
 ```bash
 curl -L https://example.com
@@ -96,6 +107,22 @@ curl -b cookies.txt -c cookies.txt https://example.com
 ```
 Send and save cookies to a file.
 
+### Save Output to a File
+```bash
+curl https://example.com -o output.html
+```
+
+### Check Your Public IP
+```bash
+curl https://ifconfig.me
+```
+
+### Test Connection Speed
+```bash
+curl -o /dev/null -s -w 'Time: %{time_total}\n' https://example.com
+```
+
+
 ---
 
 ## 📋 Handy Options
@@ -114,50 +141,3 @@ Send and save cookies to a file.
 
 ---
 
-## 🌐 API Testing
-
-### GET Request with Query Parameters
-```bash
-curl "https://api.example.com/resource?key=value"
-```
-
-### POST JSON Data
-```bash
-curl -X POST -H "Content-Type: application/json" -d '{"key":"value"}' https://api.example.com/resource
-```
-
-### Authentication (Basic)
-```bash
-curl -u username:password https://api.example.com/resource
-```
-
----
-
-## 🚀 Pro Tips
-
-### 1️⃣ Save Output to a File
-```bash
-curl https://example.com -o output.html
-```
-
-### 2️⃣ Check Your Public IP
-```bash
-curl https://ifconfig.me
-```
-
-### 3️⃣ Test Connection Speed
-```bash
-curl -o /dev/null -s -w 'Time: %{time_total}\n' https://example.com
-```
-
----
-
-## 📚 References
-- [Official Curl Documentation](https://curl.se/docs/)
-- [Curl GitHub Repository](https://github.com/curl/curl)
-
-![Happy Curling!](https://via.placeholder.com/600x150?text=Happy+Curling!)
-
----
-
-✨ **Copy, paste, and Curl away!** ✨

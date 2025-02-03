@@ -18,6 +18,7 @@
 - \#edr -> Endpoint Detection and Response related Notes 
 - \#email -> Email related notes 
 - \#compliance -> compliance/audit related content
+- \#EZ -> A part of the Eric Zimmerman suite of tools
 
 ###Tool Types (TT)
 - \#TTweb -> Web bases tooling
@@ -28,3 +29,4 @@
 - \#TTosint -> Open Source Intelligence based tooling
 - \#TTemail -> email related tooling
 - \#TTintel -> intelligence related tooling
+- \#TTDF -> Digital Forensics Related Tooling

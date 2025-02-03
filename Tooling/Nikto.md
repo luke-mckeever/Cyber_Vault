@@ -1,16 +1,20 @@
+# Nikto 🛡️🔎
 #Tool #RED #TTweb 
-# Nikto Cheatsheet 🛡️🔎
 
-Welcome to the **Nikto Cheatsheet**! Nikto is a powerful and simple web server scanner that identifies vulnerabilities, misconfigurations, and outdated software on web servers. This guide will help you master Nikto's capabilities with ease. 🚀
+Nikto is a powerful and simple web server scanner that identifies vulnerabilities, misconfigurations, and outdated software on web servers. This guide will help you master Nikto's capabilities with ease. 🚀
 
----
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/nikto/)**
 
-## 🌟 What is Nikto?
 **Nikto** is an open-source web server scanner designed for:
 - Detecting outdated server software.
 - Identifying insecure server configurations.
 - Finding default files and directories.
 - Spotting potential vulnerabilities.
+
+---
+![nikto](https://www.kali.org/tools/nikto/images/nikto-logo.svg)
+
+---
 
 ### 🛠 Features:
 - Supports multiple web server protocols (HTTP, HTTPS, etc.).
@@ -19,6 +23,37 @@ Welcome to the **Nikto Cheatsheet**! Nikto is a powerful and simple web server s
 - Comprehensive scan database.
 
 ---
+### Installing Nikto - Web Vulnerability Scanner
+#### **Installation on Linux/macOS**
+```bash
+# Update package lists
+sudo apt update  # (For Debian/Ubuntu)
+
+# Install Nikto using package manager
+sudo apt install nikto  # (For Debian/Ubuntu)
+
+# OR install via Git for latest version
+sudo apt install git perl
+
+git clone https://github.com/sullo/nikto.git
+cd nikto
+chmod +x program/nikto.pl
+```
+
+#### **Installation on Windows**
+1. Download and install **Strawberry Perl** from [strawberryperl.com](https://strawberryperl.com/).
+2. Clone the Nikto repository:
+   ```powershell
+   git clone https://github.com/sullo/nikto.git
+   cd nikto
+   ```
+3. Run Nikto using Perl:
+   ```powershell
+   perl program/nikto.pl -h
+   ```
+
+---
+
 
 ## 🧰 Common Commands
 
@@ -135,4 +170,3 @@ Integrate Nikto into larger automation frameworks or security pipelines for cont
 
 ---
 
-✨ **Copy, paste, and uncover web server vulnerabilities like a pro!** ✨

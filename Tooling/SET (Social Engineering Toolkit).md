@@ -1,12 +1,14 @@
+# SET (Social Engineering Toolkit) 
 #Tool #RED #TTemail
-# SET (Social Engineering Toolkit) Cheatsheet
 
-Welcome to the **SET (Social Engineering Toolkit)** Cheatsheet! 🚀 This guide is your one-stop reference for mastering **SET**, a powerful tool for social engineering attacks. 💻🔒
+This guide is your one-stop reference for mastering **SET**, a powerful tool for social engineering attacks. 💻🔒
+
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/set/)**
+
+The **Social Engineering Toolkit (SET)** is an open-source penetration testing framework designed for social engineering. It provides multiple attack vectors, making it a favourite among ethical hackers and security researchers.
 
 ---
-
-## 🎯 What is SET?
-The **Social Engineering Toolkit (SET)** is an open-source penetration testing framework designed for social engineering. It provides multiple attack vectors, making it a favorite among ethical hackers and security researchers.
+![SET](https://www.kali.org/tools/set/images/set-logo.svg)
 
 ---
 
@@ -101,10 +103,4 @@ Customize SET by editing the **`/opt/set/config/set.config`** file. Key options:
 
 ---
 
-## 🌟 Contributors
-Developed by **TrustedSec** and supported by a global community of security professionals.
-
----
-
-> **Disclaimer**: This guide is for educational purposes only. Always ensure ethical and legal compliance when using SET.
 

@@ -1,21 +1,33 @@
+# TCPDump 🛡️📡
 #Tool #BLUE #TTNet 
-# TCPDump Cheatsheet 🛡️📡
 
-Welcome to the **TCPDump Cheatsheet**! TCPDump is a powerful command-line packet analyzer used to capture and analyze network traffic. This guide will help you master TCPDump for effective network troubleshooting and analysis. 🚀
+TCPDump is a powerful command-line packet analyzer used to capture and analyze network traffic. This guide will help you master TCPDump for effective network troubleshooting and analysis. 🚀
 
----
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/tcpdump/)**
 
-## 🌟 What is TCPDump?
 **TCPDump** is a network packet capture tool that allows you to:
 - Monitor and analyze network traffic in real-time.
 - Save packets for offline analysis.
 - Filter packets using complex expressions.
+
+---
+![tcpdump](https://www.kali.org/tools/tcpdump/images/tcpdump-logo.svg)
+
+---
 
 ### 🛠 Features:
 - Lightweight and efficient.
 - Supports advanced packet filtering.
 - Output can be saved in pcap format for use with Wireshark.
 - Highly customizable with flags and options.
+
+---
+### Installing `tcpdump`
+
+#### On Debian/Ubuntu:
+```sh
+sudo apt update && sudo apt install -y tcpdump
+```
 
 ---
 
@@ -149,4 +161,4 @@ Save captures and analyze them later with GUI tools like **Wireshark** or CLI to
 
 ---
 
-✨ **Copy, paste, and dive into network traffic like a pro!** ✨
+

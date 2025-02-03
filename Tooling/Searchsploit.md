@@ -1,21 +1,34 @@
-#Tool #RED #TTosint
-# Searchsploit Cheatsheet 🔎💣
+# Searchsploit 🔎💣
+#Tool #RED #TTosint 
 
-Welcome to the **Searchsploit Cheatsheet**! Searchsploit is a command-line utility that lets you search and utilize the Exploit-DB repository for public exploits and Proof-of-Concept (PoC) codes. This guide will help you maximize its potential. 🚀
+Searchsploit is a command-line utility that lets you search and utilize the Exploit-DB repository for public exploits and Proof-of-Concept (PoC) codes. This guide will help you maximize its potential. 🚀
 
----
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/exploitdb/#searchsploit)**
 
-## 🌟 What is Searchsploit?
 **Searchsploit** is part of the Exploit-DB suite of tools, allowing you to:
 - Search for exploits and vulnerabilities offline.
 - Access a vast repository of public exploits.
 - Easily integrate into pentesting workflows.
+
+---
+![explotdb](https://www.kali.org/tools/exploitdb/images/exploitdb-logo.svg)
+
+---
 
 ### 🛠 Features:
 - Offline access to Exploit-DB.
 - Categorized and keyword-based searches.
 - Integration with Metasploit modules.
 - User-friendly and fast.
+
+---
+### Installing SearchSploit
+
+#### 💻 **On Debian/Ubuntu**
+```bash
+sudo git clone https://github.com/offensive-security/exploitdb.git /opt/exploitdb
+sudo ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit
+```
 
 ---
 
@@ -136,4 +149,4 @@ Incorporate Searchsploit commands into automated pentesting workflows for rapid 
 
 ---
 
-✨ **Copy, paste, and find vulnerabilities with ease!** ✨
+

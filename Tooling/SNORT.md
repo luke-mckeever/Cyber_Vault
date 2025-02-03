@@ -1,11 +1,10 @@
-#tool 
 # Snort: Your Guide to Network Defense 🚀
+#tool #BLUE 
 
 Welcome to the ultimate guide for installing and using **Snort**, the powerful open-source intrusion detection and prevention system (IDS/IPS). 🎯 Whether you're a cybersecurity pro or a beginner, this page has you covered! 🔐
 
----
-
-## 🤔 What is Snort?
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/snort/)**
+** OR [official Snort website](https://www.snort.org)
 
 Snort is an open-source IDS/IPS that:
 
@@ -13,7 +12,8 @@ Snort is an open-source IDS/IPS that:
 - 🚦 **Alerts or blocks** threats in real time.
 - 🛡️ Is **highly customizable** with rules and plugins.
 
-Learn more on the [official Snort website](https://www.snort.org).
+---
+![SNORT](https://www.talosintelligence.com/assets/logo_snort_full-e94fc630ac14193693dc9ad5d3c4a33955b52bb4b01d010662ea17dac4db411d.svg)
 
 ---
 

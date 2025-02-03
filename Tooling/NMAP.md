@@ -1,18 +1,35 @@
-#Tool #RED #TTNet
-# Nmap Cheatsheet 🛰️🔍
+# Nmap 🛰️🔍
+#Tool #RED #TTNet 
 
-Welcome to the **Nmap Cheatsheet**! Nmap (Network Mapper) is the go-to tool for network discovery, security scanning, and vulnerability assessment. This guide will help you unleash the full potential of Nmap. 🚀
+Nmap (Network Mapper) is the go-to tool for network discovery, security scanning, and vulnerability assessment. This guide will help you unleash the full potential of Nmap. 🚀
 
----
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/nmap/)**
 
-## 🌟 What is Nmap?
 **Nmap** is an open-source network scanner used to discover hosts, services, and vulnerabilities on a network. It’s widely used by system administrators, penetration testers, and ethical hackers.
 
+---
+<div style="text-align: center;">
+<img src="https://nmap.org/images/nmap-logo-256x256.png" alt="nmap">
+</div>
+
+---
 ### 🛠 Features:
 - Host discovery and port scanning.
 - Service and OS detection.
 - Scriptable with the Nmap Scripting Engine (NSE).
 - Supports various scanning techniques.
+
+---
+### Installing Nmap
+
+#### **Linux (Debian-based: Ubuntu, Kali, etc.)**
+```sh
+sudo apt update && sudo apt install nmap -y
+```
+
+#### **Windows**
+1. Download the installer from the [official website](https://nmap.org/download.html).
+2. Run the installer and follow the setup instructions.
 
 ---
 
@@ -86,18 +103,20 @@ Save results in Nmap, XML, and Grepable formats.
 
 ## 📋 Handy Options
 
-| Option          | Description                                      |
-|-----------------|--------------------------------------------------|
-| `-sn`           | Ping scan only (no port scan)                    |
-| `-sS`           | Perform a TCP SYN scan                          |
-| `-sV`           | Service version detection                       |
-| `-O`            | OS detection                                    |
-| `-A`            | Aggressive scan (OS, services, scripts)         |
-| `-p`            | Specify ports to scan                           |
-| `-oN`           | Save output in a normal format                  |
-| `-oX`           | Save output in XML format                       |
-| `--script`      | Run specific NSE scripts                        |
-| `-T<0-5>`       | Set scan timing template (0=slow, 5=fast)       |
+|Option|Description|
+|----------|---|
+|`-sS`     |Perform a TCP SYN scan|
+|`-sU`|UDP scan|
+|`-sV`|Service version detection|
+|`-O`|OS detection|
+|`-A`|Aggressive scan (OS, services, scripts)|
+|`-p`|Specify ports to scan|
+|`-oA`|Save output in all formats|
+|`--script`|Run specific NSE scripts|
+|`-T<0-5>`|Set scan timing template (0=slow, 5=fast)|
+|`-Pn`|Treat all hosts as online (skip ping scan)|
+|`-n`|Disable DNS resolution|
+|`-v`|Increase verbosity|
 
 ---
 
@@ -146,4 +165,4 @@ Leverage the **Nmap Scripting Engine (NSE)** to automate tasks and detect vulner
 
 ---
 
-✨ **Copy, paste, and start mapping networks like a pro!** ✨
+

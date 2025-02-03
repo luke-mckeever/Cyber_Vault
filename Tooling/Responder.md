@@ -1,18 +1,41 @@
+# Responder🕵️‍♂️🔗
 #Tool #RED #TTAD 
-# Responder Cheatsheet 🕵️‍♂️🔗
 
-Welcome to the **Responder Cheatsheet**! Responder is a powerful tool used for capturing network credentials and performing Man-in-the-Middle (MITM) attacks in internal networks. This guide will help you unleash Responder’s full potential! 🚀
+Responder is a powerful tool used for capturing network credentials and performing Man-in-the-Middle (MITM) attacks in internal networks. This guide will help you unleash Responder’s full potential! 🚀
+
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/responder/)**
+
+**Responder** is a tool for exploiting network services like LLMNR, NBT-NS, and MDNS to intercept network authentication requests. It is commonly used for network penetration testing.
 
 ---
+![responder](https://www.kali.org/tools/responder/images/responder-logo.svg)
 
-## 🌟 What is Responder?
-**Responder** is a tool for exploiting network services like LLMNR, NBT-NS, and MDNS to intercept network authentication requests. It is commonly used for network penetration testing.
+---
 
 ### 🛠 Features:
 - Capture NTLM hashes.
 - Perform MITM attacks.
 - Redirect SMB and HTTP authentication requests.
 - Lightweight and easy to use.
+
+---
+### Installing Responder
+
+Responder is a fast and minimalistic web framework for Python. Follow these simple steps to install it:
+
+#### Prerequisites
+Ensure you have Python installed (preferably Python 3.7+). You can check your version with:
+
+```sh
+python --version
+```
+
+#### Installation
+Install Responder using pip:
+
+```sh
+pip install responder
+```
 
 ---
 
@@ -130,4 +153,3 @@ Automate the parsing of Responder logs to streamline post-capture analysis.
 
 ---
 
-✨ **Copy, paste, and dominate network recon with Responder!** ✨

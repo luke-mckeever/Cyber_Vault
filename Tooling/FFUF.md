@@ -1,19 +1,34 @@
-#Tool #RED #TTweb
-# FFUF Cheatsheet ⚡🛠️
+# FFUF ⚡🛠️
+#Tool #RED #TTweb 
 
-Welcome to the **FFUF (Fuzz Faster U Fool) Cheatsheet**! FFUF is a fast web fuzzer designed for penetration testers and bug bounty hunters. Use this guide to supercharge your fuzzing efforts. 🚀
+FFUF is a fast web fuzzer designed for penetration testers and bug bounty hunters. Use this guide to supercharge your fuzzing efforts. 🚀
 
----
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/ffuf/)**
 
-## 🌟 What is FFUF?
 FFUF is a web fuzzing tool that helps you discover hidden files, directories, and parameters by sending crafted requests. It's incredibly fast and highly configurable, making it a must-have in your security toolkit.
 
+---
+![ffuf](https://www.kali.org/tools/ffuf/images/ffuf-logo.svg)
+
+---
 ### 🛠 Features:
 - High-speed fuzzing for web directories and parameters.
 - Supports multiple protocols like HTTP, HTTPS.
 - Flexible input options (wordlists, recursion, etc.).
 - Advanced filtering capabilities (size, word count, etc.).
 
+---
+### Installing FFuF
+
+#### 🟢 Linux/macOS (Go)
+```sh
+go install github.com/ffuf/ffuf/v2@latest
+```
+
+#### 🏁 Windows (Go)
+```sh
+go install github.com/ffuf/ffuf/v2@latest
+```
 
 ---
 

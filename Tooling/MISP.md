@@ -1,8 +1,15 @@
 # MISP - Malware Intelligence Sharing Platform 🚀💻
 #CTI #tool #TTintel
-![MISP Logo](https://www.misp-project.org/img/logo.png)
 
-Welcome to the **MISP (Malware Intelligence Sharing Platform)** repository! 🌐 MISP is an advanced open-source threat intelligence platform designed to improve the detection and prevention of cyber threats. With MISP, you can **share, store, and collaborate** on threat data effortlessly. 🔒✨
+
+MISP is an advanced open-source threat intelligence platform designed to improve the detection and prevention of cyber threats. 
+
+**LINK TO TOOL DOCUMENTATION[ HERE](https://github.com/MISP)**
+
+With MISP, you can **share, store, and collaborate** on threat data effortlessly. 🔒✨
+
+---
+![MISP Logo](https://www.misp-project.org/img/logo.png)
 
 ---
 

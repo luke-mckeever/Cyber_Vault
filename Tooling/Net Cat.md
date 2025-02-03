@@ -1,24 +1,20 @@
+# Netcat 🐾📡
 #Tool #RED #TTNet 
-# Netcat Cheatsheet 🐾📡
 
-Welcome to the **Netcat Cheatsheet**! Netcat (often called the “Swiss Army knife” of networking) is a versatile tool for network debugging, testing, and exploration. This guide will help you master Netcat like a networking wizard. 🧙‍♂️✨
+Netcat (often called the “Swiss Army knife” of networking) is a versatile tool for network debugging, testing, and exploration. This guide will help you master Netcat like a networking wizard. 🧙‍♂️✨
 
----
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/netcat/)**
 
-## 🌟 Most Commonly Used Command
-```bash
-nc -nvlp *.*.*.*
-```
-Set up a listener with numeric IPs, verbose output, and a specified port.
-
----
-
-## 🌟 What is Netcat?
 **Netcat (nc)** is a powerful networking utility for reading and writing data across networks. It's used for:
 - Debugging and testing network connections.
 - File transfers.
 - Port scanning.
 - Setting up reverse shells and backdoors.
+
+---
+![net cat](https://upload.wikimedia.org/wikipedia/ru/2/29/Netcat_logo.png)
+
+---
 
 ### 🛠 Features:
 - Connect to and listen on TCP/UDP ports.
@@ -28,7 +24,25 @@ Set up a listener with numeric IPs, verbose output, and a specified port.
 
 ---
 
+### 🚀 Installing Netcat (nc)
+
+#### 🔹 **Debian/Ubuntu** 
+```sh 
+sudo apt update && sudo apt install netcat -y
+```
+
+#### 🔹 **Windows (Nmap Version)**
+Download from: [Nmap Netcat](https://nmap.org/ncat/)
+
+---
+
 ## 🧰 Common Commands
+
+## 🌟 Most Commonly Used Command
+```bash
+nc -nvlp *.*.*.*
+```
+Set up a listener with numeric IPs, verbose output, and a specified port.
 
 ### 🔍 Basic Port Scanning
 ```bash
@@ -167,4 +181,3 @@ Netcat itself does not encrypt connections. For secure alternatives, consider to
 
 ---
 
-✨ **Copy, paste, and become a Netcat ninja!** ✨

@@ -1,4 +1,5 @@
 # 🛠 Shell Bags Explorer 🛠
+#tool #TTDF #EZ
 
 > **🔍 A powerful forensic tool by Eric Zimmerman for analysing Windows ShellBags! 🔎**
 

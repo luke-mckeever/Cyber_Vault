@@ -1,18 +1,33 @@
-#Tool #RED #TTAD
-# LDAP Domain Dump Cheatsheet 🛡️📜
+# LDAP Domain Dump 🛡️📜
+#Tool #RED #TTAD 
 
-Welcome to the **LDAP Domain Dump Cheatsheet**! This tool is essential for extracting data from LDAP directories, commonly used in Active Directory environments. Use this guide to navigate LDAP recon like a pro! 🚀
+This tool is essential for extracting data from LDAP directories, commonly used in Active Directory environments. Use this guide to navigate LDAP recon like a pro! 🚀
+
+**LDAP Domain Dump** is a utility for querying and extracting information from LDAP directories. It’s a go-to tool for penetration testers and sysadmins to enumerate users, groups, and domain information.
 
 ---
+![kali standard logo](https://www.kali.org/images/kali-tools-icon-missing.svg)
 
-## 🌟 What is LDAP Domain Dump?
-**LDAP Domain Dump** is a utility for querying and extracting information from LDAP directories. It’s a go-to tool for penetration testers and sysadmins to enumerate users, groups, and domain information.
+---
 
 ### 🛠 Features:
 - Extract users, groups, and computers from LDAP.
 - Retrieve organizational unit (OU) information.
 - Support for plaintext and Kerberos authentication.
 - Easily customizable LDAP queries.
+
+---
+### Installing `ldapdomaindump`
+
+#### **Linux (Debian/Ubuntu-based distros)**
+```bash
+sudo apt update && sudo apt install ldapdomaindump -y
+```
+
+#### **Windows (via pip)**
+```powershell
+pip install ldapdomaindump
+```
 
 ---
 
@@ -130,4 +145,4 @@ Export results in JSON format and use scripts to generate custom reports.
 
 ---
 
-✨ **Copy, paste, and start dumping domains like a boss!** ✨
+

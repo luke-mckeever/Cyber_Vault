@@ -1,14 +1,14 @@
+# Sherlock
 #Tool #RED #TTosint 
-# Sherlock Cheatsheet
 
-![Sherlock Logo](https://www.kali.org/tools/sherlock/images/sherlock-logo.svg)
+This guide is your go-to reference for mastering **Sherlock**, the open-source username hunting tool. 🚀
 
-Welcome to the **Sherlock Cheatsheet**! 🕵️‍♂️ This guide is your go-to reference for mastering **Sherlock**, the open-source username hunting tool. 🚀
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/sherlock/)**
+
+**Sherlock** is a powerful tool for finding usernames across multiple platforms. It helps ethical hackers, investigators, and OSINT researchers track down online profiles quickly and efficiently. 🌐
 
 ---
-
-## 🎯 What is Sherlock?
-**Sherlock** is a powerful tool for finding usernames across multiple platforms. It helps ethical hackers, investigators, and OSINT researchers track down online profiles quickly and efficiently. 🌐
+![Sherlock Logo](https://www.kali.org/tools/sherlock/images/sherlock-logo.svg)
 
 ---
 
@@ -34,15 +34,6 @@ cd sherlock
 
 # Install dependencies
 pip install -r requirements.txt
-```
-
-### Run with Docker
-```bash
-# Pull the Docker image
-sudo docker pull ghcr.io/sherlock-project/sherlock:latest
-
-# Run Sherlock with Docker
-sudo docker run -it sherlock:latest
 ```
 
 ---
@@ -124,10 +115,3 @@ python3 sherlock --site_list
 - [Community Forum](https://github.com/sherlock-project/sherlock/discussions)
 
 ---
-
-## 🌟 Contributors
-Created by **Siddharth Dushantha** and supported by an amazing community of developers and researchers. 👨‍💻👩‍💻
-
----
-
-> **Disclaimer**: Sherlock is a tool for ethical use only. Misuse may violate laws or platform terms of service.

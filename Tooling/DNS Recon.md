@@ -1,12 +1,16 @@
+# DNS Recon🌐🔍
 #Tool #RED #TTweb
-# DNS Recon Cheatsheet 🌐🔍
 
-Welcome to the **DNS Recon Cheatsheet**! DNS Recon is an essential tool for performing DNS enumeration and reconnaissance. It's widely used for ethical hacking, penetration testing, and domain investigations. This guide will help you master DNS Recon like a pro. 🚀
+Welcome to the **DNS Recon Cheatsheet**! DNS Recon is an essential tool for performing DNS enumeration and reconnaissance. It's widely used for ethical hacking, penetration testing, and domain investigations. This guide will help you master DNS Recon like a pro. 
+
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/dnsrecon/)**
+
+DNS Recon is a powerful DNS enumeration tool that collects DNS records, performs zone transfers, and detects misconfigurations. It provides vital information for security audits and network diagnostics.
 
 ---
+![dns recon](https://www.kali.org/tools/dnsrecon/images/dnsrecon-logo.svg)
 
-## 🌟 What is DNS Recon?
-DNS Recon is a powerful DNS enumeration tool that collects DNS records, performs zone transfers, and detects misconfigurations. It provides vital information for security audits and network diagnostics.
+---
 
 ### 🛠 Features:
 - Enumerate DNS records (A, AAAA, MX, TXT, SRV, etc.).
@@ -15,7 +19,19 @@ DNS Recon is a powerful DNS enumeration tool that collects DNS records, performs
 - Support for various DNS servers and query types.
 
 ---
+### Installing DNSRecon
 
+#### 🟢 Linux/macOS (pip)
+```sh
+pip install dnsrecon
+```
+
+#### 🏁 Windows (pip)
+```sh
+pip install dnsrecon
+```
+
+---
 ## 🧰 Common Commands
 
 ### 🔍 Basic DNS Lookup
@@ -83,7 +99,6 @@ dnsrecon -d example.com -o output.txt
 Save results to a text file for further analysis.
 
 ---
-
 ## 📋 Handy Options
 
 | Option       | Description                       |
@@ -96,49 +111,4 @@ Save results to a text file for further analysis.
 | `-o`         | Save output to a file             |
 | `-h`         | Display help menu                 |
 
----
 
-## 🌐 Example Scenarios
-
-### Scenario 1: Quick Domain Recon
-```bash
-dnsrecon -d example.com -t std
-```
-Quickly gather all standard records.
-
-### Scenario 2: Brute-Force Subdomains
-```bash
-dnsrecon -d example.com -D /path/to/subdomains.txt -t brt
-```
-Find hidden subdomains for a target domain.
-
-### Scenario 3: Check for Zone Transfer
-```bash
-dnsrecon -d example.com -t axfr
-```
-Detect misconfigurations that allow zone transfers.
-
----
-
-## 🚀 Pro Tips
-
-### 1️⃣ Use with Wordlists
-Use high-quality wordlists like those from SecLists to improve subdomain brute-forcing.
-
-### 2️⃣ Combine with Other Tools
-Pair DNS Recon with tools like **dig**, **nslookup**, or **Nmap** for comprehensive recon.
-
-### 3️⃣ Automate Tasks
-Script DNS Recon commands to automate repetitive enumeration tasks.
-
----
-
-## 📚 References
-- [DNS Recon GitHub Repository](https://github.com/darkoperator/dnsrecon)
-- [DNS Basics](https://en.wikipedia.org/wiki/Domain_Name_System)
-
-![Happy DNS Hacking!](https://via.placeholder.com/600x150?text=Happy+DNS+Hacking!)
-
----
-
-✨ **Copy, paste, and start enumerating DNS like a boss!** ✨

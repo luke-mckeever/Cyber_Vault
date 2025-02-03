@@ -1,18 +1,30 @@
-#Tool #RED #TTfile
-# Fcrackzip Cheatsheet 🔓📂
+# Fcrackzip🔓📂
+#Tool #RED #TTfile 
 
-Welcome to the **Fcrackzip Cheatsheet**! Fcrackzip is a fast and efficient tool for cracking password-protected ZIP files. This guide will help you master Fcrackzip with ease. 🚀
+Fcrackzip is a fast and efficient tool for cracking password-protected ZIP files. This guide will help you master Fcrackzip with ease. 🚀
+
+**LINK TO TOOL DOCUMENTATION[ HERE](https://www.kali.org/tools/fcrackzip/)**
+
+Fcrackzip is a command-line utility that performs brute-force or dictionary-based attacks on ZIP archives to retrieve lost or forgotten passwords.
 
 ---
+![kali standard logo](https://www.kali.org/images/kali-tools-icon-missing.svg)
 
-## 🌟 What is Fcrackzip?
-Fcrackzip is a command-line utility that performs brute-force or dictionary-based attacks on ZIP archives to retrieve lost or forgotten passwords.
+---
 
 ### 🛠 Features:
 - High-speed brute-force attacks.
 - Dictionary-based cracking.
 - Multiple compression and encryption support.
 - Easy-to-use command-line options.
+
+---
+### Installing `fcrackzip`
+
+#### **Linux (Debian/Ubuntu-based distros)**
+```bash
+sudo apt update && sudo apt install fcrackzip -y
+```
 
 ---
 
@@ -116,4 +128,4 @@ Script repetitive cracking tasks for efficient workflows.
 
 ---
 
-✨ **Copy, paste, and start cracking those ZIP files!** ✨
+
