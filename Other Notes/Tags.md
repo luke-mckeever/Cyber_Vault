@@ -23,7 +23,6 @@
 ###Tool Types (TT)
 - \#TTweb -> Web bases tooling
 - \#TTAD -> Active Directory Related tooling
-- \#TTgen -> General tooling
 - \#TTfile -> File based tooling
 - \#TTNet -> Network based tooling
 - \#TTosint -> Open Source Intelligence based tooling

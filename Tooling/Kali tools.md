@@ -1,7 +1,12 @@
-#Tool #RED #TTgen 
 # Kali Tools Cheatsheet 🐉💻
+#Tool #RED
 
 Kali Linux is packed with hundreds of tools designed for penetration testing, ethical hacking, and cybersecurity research. This guide provides an overview of the most popular tools, grouped by categories and accompanied by descriptions. Use this cheatsheet to explore and master the power of Kali! 🚀
+
+**All Kali Tool Documentation Can be Found [HERE](https://www.kali.org/tools/)**
+
+---
+![KALI](https://www.kali.org/images/kali-dragon-icon.svg)
 
 ---
 # 🗄 All Current Kali Tools

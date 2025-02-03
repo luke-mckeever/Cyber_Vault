@@ -1,6 +1,7 @@
 # 🎩 **Registry Explorer** 🕵️‍♂️🔍
 #tool #TTDF #EZ
 
+
 > **A Powerful Forensic Tool by [Eric Zimmerman](https://ericzimmerman.github.io/)**  
 > A fast and modern way to analyze Windows Registry hives with ease! 🚀
 
