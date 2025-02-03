@@ -18,4 +18,4 @@ A YARA rule might check for specific strings (e.g., "suspicious_function" or "ma
 
 YARA is widely used in incident response, malware research, and by antivirus and security platforms.
 
-To see a Syntax breakdown on YARA visit -> [[YARA Cheatsheet]]
+To see a Syntax breakdown on YARA visit -> [[YARA]]
