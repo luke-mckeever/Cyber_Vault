@@ -19,7 +19,7 @@ graph TD
 	B --> C[Temp Files & System Logs]
 	C --> D[Disk Storage Data]
 	D --> E[Remote Logging]
-	E --> F[d]
+	E --> F[Archive Media]
 ```
 
 #### 1. CPU Registers & Cache
