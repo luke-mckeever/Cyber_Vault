@@ -1,6 +1,6 @@
 # YARA Cheatsheet 🕵️‍♂️✨
-
 #CS #BLUE 
+
 Welcome to the **Ultimate YARA Cheatsheet**! 🎯 This guide is packed with everything you need to master YARA rules for malware detection, pattern matching, and more. Let’s dive into the syntax and best practices! 🚀
 
 For a full breakdown on YARA and what it is please visit this page -> [[YARA and You]]

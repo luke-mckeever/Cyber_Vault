@@ -1,5 +1,6 @@
-#cs #logs 
+
 # Splunk Query Language (SPL) Cheatsheet 🚀
+#CS  #logs 
 
 Welcome to the ultimate Splunk Query Language (SPL) Cheatsheet! 🎉 Whether you're a seasoned Splunk user or just getting started, this page is packed with all the essential commands, tips, and tricks to supercharge your SPL skills. 💡
 

@@ -1,5 +1,5 @@
-#CS #logs
 # 🛡️ Sysmon Event ID Cheat Sheet
+#CS #logs 
 
 A comprehensive guide to all Sysmon Event IDs, their descriptions, and use cases for monitoring and security analysis. 🛠️
 

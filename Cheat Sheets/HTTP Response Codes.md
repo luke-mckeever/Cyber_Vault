@@ -1,5 +1,5 @@
-#CS #networking #logs 
 # 🌐 HTTP Response Codes Cheat Sheet
+#CS #networking #logs 
 
 A complete guide to HTTP response codes categorized by their status class. 📡 Use this cheat sheet to understand the meaning and purpose of each HTTP response code! 🚀
 

@@ -1,5 +1,5 @@
+# 🖥️ Windows Security Event Codes 
 #CS #Win #logs 
-# 🖥️ Windows Event Codes Cheat Sheet
 
 A quick-reference guide to the most common Windows Event Codes encountered in cybersecurity. 🛡️ Use this cheat sheet to identify and investigate key events efficiently. 🔍
 
@@ -35,6 +35,23 @@ A quick-reference guide to the most common Windows Event Codes encountered in cy
 | 5156         | Allowed Connection                        | Indicates a successful network connection was allowed by the firewall.       |
 | 5157         | Blocked Connection                        | Indicates that the firewall blocked a network connection.                    |
 | 5379         | Credential Manager Credentials Retrieved  | Logged when credentials are retrieved from the Windows Credential Manager.   |
+
+## Windows Logon Type Codes
+
+|Logon Type|Description|
+|---|---|
+|**2**|Console|
+|**3**|Network|
+|**4**|Batch (Scheduled Tasks)|
+|**5**|Windows Services|
+|**7**|Screen Lock/Unlock|
+|**8**|Network (Cleartext Logon)|
+|**9**|Alternate Credentials Specified (RunAs)|
+|**10**|Remote Interactive (RDP)|
+|**11**|Cached Credentials (e.g., Offline DC)|
+|**12**|Cached Remote Interactive (RDP, similar to Type 10)|
+|**13**|Cached Unlock (Similar to Type 7)|
+
 
 ---
 

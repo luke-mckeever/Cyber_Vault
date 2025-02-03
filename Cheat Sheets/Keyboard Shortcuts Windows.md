@@ -1,5 +1,5 @@
-#CS #Win #shortcuts
 # ⌨️ Windows Keyboard Shortcuts Cheat Sheet
+#CS #Win #shortcuts 
 
 Unlock the power of Windows with this comprehensive guide to essential keyboard shortcuts! 🎯 These shortcuts will help you navigate, multitask, and boost productivity. 🚀
 

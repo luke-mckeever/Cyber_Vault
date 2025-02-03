@@ -1,5 +1,5 @@
-#CS #networking
 # 🌐 DNS Query Types Cheat Sheet
+#CS #networking 
 
 Explore the various types of DNS queries with this comprehensive guide! Each query type serves a unique purpose in the world of domain name resolution. 🌟
 
