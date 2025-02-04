@@ -29,3 +29,4 @@
 - \#TTemail -> email related tooling
 - \#TTintel -> intelligence related tooling
 - \#TTDF -> Digital Forensics Related Tooling
+- \#TTMA -> Malware Analysis Related Tooling
