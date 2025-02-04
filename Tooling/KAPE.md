@@ -5,8 +5,6 @@
 
 **Kroll Artifact Parser and Extractor (KAPE)** is a powerful forensics tool used to collect, process, and analyze forensic artifacts efficiently. Whether you're investigating incidents, analyzing digital evidence, or responding to cyber threats, **KAPE** makes it easier and faster! 🔥
 
-hi
-
 ---
 
 ## 🚀 Getting Started
