@@ -33,8 +33,8 @@ Below is a detailed breakdown of its components:
 
 ```plaintext
 https://www.example.com:8080/path/to/resource?query=123#section
-\__/   \__________/ \__/ \__________________//\_________/ \_______/
- Scheme   Domain     Port         Path         Query       Fragment
+\__/   \__________/\__/ \__/ \______________/\________/ \_____/
+ Scheme   Domain    TLD Port       Path         Query   Fragment
 ```
 
 ---
@@ -54,7 +54,6 @@ https://www.example.com:8080/path/to/resource?query=123#section
 3. URLs are case-sensitive in the path, query, and fragment parts but not in the domain name.
 
 ---
-
 ## Learn More 📚
 - [What is a URL? (Wikipedia)](https://en.wikipedia.org/wiki/URL)
 - [Understanding URL Structure](https://moz.com/learn/seo/url)
