@@ -1,6 +1,8 @@
 # YARA 🕵️‍♂️✨
 #CS #BLUE 
 
+YARA (**Yet Another Recursive Acronym**) is a cybersecurity tool used for malware detection and threat hunting. It allows analysts to create rules that identify malicious files, processes, or behaviors based on textual or binary patterns. Widely used in incident response and malware research, YARA helps classify and detect malware families efficiently.
+
 This guide is packed with everything you need to master YARA rules for malware detection, pattern matching, and more. Let’s dive into the syntax and best practices! 🚀
 
 For a full breakdown on YARA and what it is please visit this page -> [[YARA and You]]

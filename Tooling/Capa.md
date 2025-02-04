@@ -7,7 +7,7 @@ Capa is a powerful open-source tool developed by [FireEye](https://www.mandiant.
 > "Unleash the true potential of binary analysis!" 🕵️‍♂️🔎
 
 ---
-![Capa Logo](https://mandiant.github.io/capa/explorer/#/)
+![Capa Logo](https://mandiant.github.io/capa/explorer/assets/logo-full-sn3sDyMb.png)
 
 ---
 
@@ -86,6 +86,11 @@ capa -r rules/ --format yaml /path/to/binary
 💡 Use **Capa Explorer for IDA Pro** for interactive analysis 📜  
 💡 Combine with **Ghidra plugin** for seamless integration 🔄  
 💡 Write **custom rules** to detect organization-specific threats 🛡️  
+
+---
+
+## 📤 Upload JSON Output to Capa Explorer 🌐
+Once you've generated the JSON output, you can analyze it using [Capa Explorer Web](https://mandiant.github.io/capa/explorer/#/). Simply navigate to the site and upload your JSON file for a **visual breakdown** of detected capabilities! 🚀📊
 
 ---
 
