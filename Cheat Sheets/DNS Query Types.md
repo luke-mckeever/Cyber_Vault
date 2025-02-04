@@ -2,7 +2,6 @@
 #CS #networking 
 
 Explore the various types of DNS queries with this comprehensive guide! Each query type serves a unique purpose in the world of domain name resolution. 🌟
-testing
 ## Table of DNS Query Types
 
 | **Query Type** | **Description**                                                             | **Usage Example**                                               |
