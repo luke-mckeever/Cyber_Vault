@@ -38,11 +38,11 @@ Use tools like Mermaid for diagram creation directly within GitHub Pages:
 
 ```mermaid
 graph TB
-  A[TTPs] --> B[Tools]
-  B --> C[Network Artifacts]
-  C --> D[Domain Names]
-  D --> E[IP Addresses]
-  E --> F[Hash Values]
+  A[TTPs] --> B[__Tools__]
+  B --> C[___Network Artifacts___]
+  C --> D[_____Domain Names_____]
+  D --> E[_______IP Addresses_______]
+  E --> F[__________Hash Values__________]
 ```
 
 ---
