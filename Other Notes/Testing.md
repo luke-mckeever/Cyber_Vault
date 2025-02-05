@@ -21,3 +21,19 @@ Print (Hello World)
 [[IVRE/Hostname/sistersaras.ie|sistersaras.ie]]
 
 ![this is a picture](picture.com)
+
+
+- Information Gathering
+- Vulnerability Analysis
+- Web Application Analysis
+- Database Assessment
+- Password Attacks
+- Wireless Attacks
+- Reverse Engineering
+- Exploitation Tools
+- Sniffing & Spoofing
+- Post Exploitation
+- Forensics
+- Reporting Tools
+- Social Engineering Tools
+- System Services
