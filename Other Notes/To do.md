@@ -1,7 +1,10 @@
-# Pages To add
+#  To Do
 
 #### Below is a list of pages i intent to add (eventually)
-
 - [ ] Linux File System
 - [ ] Windows File System
 - [ ] Cyber S.E.R.E. kit 
+
+#### Below is a list of bugs noticed in the OSINT.py project
+- [ ]  urls not working 
+- [ ] output display
