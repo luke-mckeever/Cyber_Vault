@@ -159,3 +159,13 @@ The `RunMRU` key contains entries that record each command entered into the Run 
 
 Each entry in the `TypedPaths` key is typically labeled as `url1`, `url2`, `url3`, etc., and stores the actual path that was typed. By retaining these paths, Windows can offer them as suggestions or autocomplete options when the user begins to type similar paths in the future. This feature improves user efficiency by reducing the amount of typing needed to navigate to commonly used folders or drives.
 
+#### Program Execution Count
+
+*`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist`*
+
+Within this key can provide a list of all executed processes on the system for all time.
+This will also show the last time a process was executed and a count of how many times.
+
+In cybersecurity and forensic contexts, the information within the UserAssist key can be critical. Analysts can extract and decode the data to determine which applications were executed, how frequently, and the last time they were run. This is useful in understanding a user’s habits or detecting malicious activity, such as the execution of malware.
+
+The data within the UserAssist entries is encoded (typically using ROT13) to obscure the details from casual observation.
