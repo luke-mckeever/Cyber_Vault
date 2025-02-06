@@ -6,5 +6,7 @@
 - [ ] Cyber S.E.R.E. kit 
 
 #### Below is a list of bugs noticed in the OSINT.py project
-- [ ]  urls not working 
+- [ ] urls not working 
 - [ ] output display
+- [ ] for emails, remove the ABCDE@ and research
+- [ ] dns & reverse dns will not accept number domains
