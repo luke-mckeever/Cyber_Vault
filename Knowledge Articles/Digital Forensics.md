@@ -211,14 +211,30 @@ This registry key is critical for security as it holds configurations for all sc
 
 ### LNK Files / Windows Shortcut Files
 
-[Forensics Wiki](https://forensics.wiki/lnk/)
+[Forensics Wiki Page](https://forensics.wiki/lnk/)
 
 Link File Location - 
 *`C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent Items`*
 
+Recommended tool - [Exiftool](https://exiftool.org/)
+
 The Windows Shortcut file has the extension .lnk. It basically is a metadata file, specific for the Microsoft Windows platform and is interpreted by the Windows Shell. The file format indicates that these files contain a specific signature, 0x4C (4C 00 00 00) at offset 0 within the file/stream. Further, the GUID (CLSID) 00021401-0000-0000-c000-000000000046 stored at byte offset 4 makes a good identifier.
 
 Understanding this file format can be extremely useful for an analyst, as not only are shortcut files employed from (at least) Windows 95 through Windows 10, but the binary format is also used in the numbered streams within *.automaticDestinations-ms and *.customDestinations-ms [Jump Lists](https://forensics.wiki/jump_lists/) files on [Windows 7](https://forensics.wiki/windows_7/) and later.
+
+
+### Prefetch Files
+
+[Forensics Wiki Page](https://forensics.wiki/prefetch/)
+
+Prefetch File Location -
+*`C:\Windows\Prefetch`*
+
+Recommended tool - [tobeadded](tobeadded)
+
+Windows Prefetch files, introduced in [Windows XP](https://forensics.wiki/windows/), are designed to speed up the application startup process. Prefetch files contain the name of the executable, a Unicode list of DLLs used by that executable, a count of how many times the executable has been run, and a timestamp indicating the last time the program was run. Although Prefetch is present in Windows 2003, by default it is only enabled for boot prefetching. The feature is also found in [Windows Vista](https://forensics.wiki/windows/), where it has been augmented with [SuperFetch](https://forensics.wiki/superfetch/), [ReadyBoot](https://forensics.wiki/readyboot/), and [ReadyBoost](https://forensics.wiki/readyboost/).
+
+
 
 
 
