@@ -101,7 +101,8 @@ exiftool -r -ext jpg -csv my_photos/ > metadata.csv
 🐙 **GitHub Repo**: [ExifTool on GitHub](https://github.com/exiftool/exiftool)  
 
 ## Supported Files:
-|   |   |   |   |   |   |   |   |   |
+|File Type|Support|Description|[EXIF](https://exiftool.org/TagNames/EXIF.html)|[IPTC](https://exiftool.org/TagNames/IPTC.html)|[XMP](https://exiftool.org/TagNames/XMP.html)|[ICC](https://exiftool.org/TagNames/ICC_Profile.html)1|[C2PA](https://exiftool.org/TagNames/Jpeg2000.html)|Other|
+|---|---|---|---|---|---|---|---|---|
 |---|---|---|---|---|---|---|---|---|
 |3FR|R|Hasselblad RAW ([TIFF](https://exiftool.org/TagNames/EXIF.html)-based)|R|R|R|R|R|-|
 |3G2, 3GP2|R/W|3rd Gen. Partnership Project 2 a/v ([QuickTime](https://exiftool.org/TagNames/QuickTime.html)-based)|R/W3|R/W3|R/W/C|-|R/D|R/W/C [QuickTime](https://exiftool.org/TagNames/QuickTime.html)|
