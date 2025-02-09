@@ -29,7 +29,23 @@
 
 ## 🚀 Basic Usage
 
+### GUI Interface
+
 ![Exif Tool Gui](https://exiftool.org/gui/img/gui01.png)
+
+### Command Line Based
+
+#### 🔍 Viewing Metadata
+```bash
+exiftool image.jpg
+```
+🔹 This command displays all metadata for `image.jpg`.
+
+### 📂 Exporting Metadata
+```bash
+exiftool -r -ext jpg -csv my_photos/ > metadata.csv
+```
+🔹 Extracts metadata from all `.jpg` files recursively in `my_photos/` and saves it to `metadata.csv`.
 
 ### 🔍 Viewing Metadata
 6. Open `ExifToolGUI`.
