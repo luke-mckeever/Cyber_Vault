@@ -1,4 +1,4 @@
-# Digital Forensics Notes
+# Digital Forensics
 
 ---
 ## 🔍 Locard's Exchange Principle 🌟
@@ -159,7 +159,7 @@ The `RunMRU` key contains entries that record each command entered into the Run 
 
 Each entry in the `TypedPaths` key is typically labeled as `url1`, `url2`, `url3`, etc., and stores the actual path that was typed. By retaining these paths, Windows can offer them as suggestions or autocomplete options when the user begins to type similar paths in the future. This feature improves user efficiency by reducing the amount of typing needed to navigate to commonly used folders or drives.
 
-#### Program Execution Count
+#### Program Execution
 
 *`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist`*
 
@@ -169,3 +169,60 @@ This will also show the last time a process was executed and a count of how many
 In cybersecurity and forensic contexts, the information within the UserAssist key can be critical. Analysts can extract and decode the data to determine which applications were executed, how frequently, and the last time they were run. This is useful in understanding a user’s habits or detecting malicious activity, such as the execution of malware.
 
 The data within the UserAssist entries is encoded (typically using ROT13) to obscure the details from casual observation.
+
+#### Windows Autoruns 
+
+- System Autoruns 
+*`Software\Microsoft\Windows\CurrentVersion\Run`*
+
+This registry key configures programs to start automatically when the system boots up, affecting all users of the computer.
+
+- User Autoruns
+*`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Run`*
+
+This registry key configures programs to start automatically when a specific user logs in, affecting only that user's session.
+
+
+#### Windows Start-up Executions
+
+- System Start-ups
+*`Software\Microsoft\Windows\CurrentVersion\RunOnce`*
+
+This registry key is used to schedule programs to run once and only once on the next system startup, affecting all users.
+
+- User Start-ups
+*`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\RunOnce`*
+
+This registry key is used to schedule programs to run once and only once on the next login of the specific user, affecting only that user's session.
+
+#### Windows Service Configurations
+
+*`SYSTEM\CurrentControlSet\Services`*
+
+This registry key contains configurations for all system services. It includes settings such as the service's start type, path to its executable, and other specific parameters that control how the service operates on the system.
+
+#### Scheduled Tasks
+
+*`SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache`*
+
+
+This registry key is critical for security as it holds configurations for all scheduled tasks, which can be targeted by attackers to execute malicious activities automatically. Ensuring the integrity and monitoring changes to this key can help prevent unauthorized tasks from compromising system security.
+
+
+### LNK Files / Windows Shortcut Files
+
+[Forensics Wiki](https://forensics.wiki/lnk/)
+
+Link File Location - 
+*`C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Recent Items`*
+
+The Windows Shortcut file has the extension .lnk. It basically is a metadata file, specific for the Microsoft Windows platform and is interpreted by the Windows Shell. The file format indicates that these files contain a specific signature, 0x4C (4C 00 00 00) at offset 0 within the file/stream. Further, the GUID (CLSID) 00021401-0000-0000-c000-000000000046 stored at byte offset 4 makes a good identifier.
+
+Understanding this file format can be extremely useful for an analyst, as not only are shortcut files employed from (at least) Windows 95 through Windows 10, but the binary format is also used in the numbered streams within *.automaticDestinations-ms and *.customDestinations-ms [Jump Lists](https://forensics.wiki/jump_lists/) files on [Windows 7](https://forensics.wiki/windows_7/) and later.
+
+
+
+
+
+
+
