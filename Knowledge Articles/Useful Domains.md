@@ -121,6 +121,12 @@ Below is a growing list of categories and their respective resources:
 | [burpsuite.com](https://burpsuite.com)       | A powerful suite of tools for web application security testing.            |
 | [zap.owasp.org](https://zap.owasp.org)       | OWASP ZAP, a widely used web application security scanner.                 |
 
+### 🕵️‍♂️ Forensics 
+| **Domain/Site**       | **Explanation**                                      |
+|-----------------------|--------------------------------------------------|
+| [Forensics Wiki](https://forensics.wiki/)         | An online encyclopedia dedicated to topics in digital forensics, providing a comprehensive resource for techniques, tools, and best practices in the field.               |
+
+
 *(More categories and resources coming soon!)*
 
 ---
@@ -128,3 +134,4 @@ Below is a growing list of categories and their respective resources:
 ## 🚀 Stay Updated
 
 Don’t forget to **star** this repository to stay updated with the latest additions! 🌟
+
