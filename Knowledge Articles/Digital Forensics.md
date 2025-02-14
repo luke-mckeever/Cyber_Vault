@@ -221,6 +221,8 @@ The Windows Shortcut file has the extension .lnk. It basically is a metadata fil
 Understanding this file format can be extremely useful for an analyst, as not only are shortcut files employed from (at least) Windows 95 through Windows 10, but the binary format is also used in the numbered streams within *.automaticDestinations-ms and *.customDestinations-ms [Jump Lists](https://forensics.wiki/jump_lists/) files on [Windows 7](https://forensics.wiki/windows_7/) and later.
 
 
+### Prefetch Files
+
 
 
 
