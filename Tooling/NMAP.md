@@ -111,6 +111,7 @@ Save results in Nmap, XML, and Grepable formats.
 |`-O`|OS detection|
 |`-A`|Aggressive scan (OS, services, scripts)|
 |`-p`|Specify ports to scan|
+|`-p-`|scans all ports (65,535)|
 |`-oA`|Save output in all formats|
 |`--script`|Run specific NSE scripts|
 |`-T<0-5>`|Set scan timing template (0=slow, 5=fast)|
