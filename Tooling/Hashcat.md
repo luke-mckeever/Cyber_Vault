@@ -118,6 +118,33 @@ hashcat -m 10 -a 9 example.hash dict.txt
 | `--benchmark` | Run performance benchmarks                         |
 
 ---
+## Hash Types
+|Hash-Mode|Hash-Name|Example|
+|---|---|
+|0|MD5|
+|10|md5(\$pass.$salt)|
+|20|md5(\$salt.$pass)|
+|100|SHA1|
+|500|md5crypt, MD5 (Unix), Cisco-IOS \$1$ (MD5)|
+|1000|NTLM|
+|1400|SHA2-256|
+|1700|SHA2-512||
+|1800|sha512crypt $6$, SHA512 (Unix)|
+|2500|WPA-EAPOL-PBKDF2|
+|3200|bcrypt $2*$, Blowfish (Unix)|
+|5600|NetNTLMv2|
+|5800|Samsung Android Password/PIN|
+|7400|sha256crypt $5$, SHA256 (Unix)|
+|10000|Django (PBKDF2-SHA256)|
+|10900|PBKDF2-HMAC-SHA256|
+|12100|PBKDF2-HMAC-SHA512|
+|12800|MS-AzureSync PBKDF2-HMAC-SHA256|
+|13400|KeePass 2 AES / without keyfile|
+|14000|Cloudflare API Key|
+|14100|Blockchain, My Wallet|
+
+
+---
 
 ## 🌐 Example Scenarios
 
