@@ -215,8 +215,10 @@ this script will then attempt to identify the following
 [+] Password found: 0c01f4468bd75d7a84c7eb73846e8d96
 
 As we can see by the above results the password for the account is hashed and salted
-this will require cracking
-
+this will require cracking using the following command:
+```bash
+hashcat -O -a 0 -m 10 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2DDD
+```
 
 
 
