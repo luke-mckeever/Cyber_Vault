@@ -359,6 +359,11 @@ Magic bytes are unique identifiers at the beginning of a file that indicate the 
 - Description: Open document format for office applications to store text documents.
 - Extension: `.odt`
 
+#### **Luke Mckeever FileType**
+- Magic Bytes: `69 69 69 69 69 69 69 69 69 69`
+- Description: You have found the secret hidden within the Cyber_Vault. Give the extension you have found to the author to receive your prize
+- Extension: `.yolo`
+
 #### **Open Document Spreadsheet (ODS)**
 - Magic Bytes: `50 4B 03 04` (Embedded in a ZIP-compressed structure)
 - Description: Open document format for office applications to store spreadsheets.
@@ -413,3 +418,4 @@ Magic bytes are unique identifiers at the beginning of a file that indicate the 
 - Magic Bytes: `41 75 74 6F 43 41 44 20 46 6F 72 6D 61 74 20 41 53 43 49 49`
 - Description: CAD data file format developed by Autodesk for enabling data interoperability between AutoCAD and other programs.
 - Extension: `.dxf`
+
