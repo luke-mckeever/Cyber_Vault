@@ -134,9 +134,10 @@ volatility -f memory.dmp --profile=Win7SP1x64 shellbags  # Extract evidence of f
 
 ## 📋 Handy Options
 Below are commonly used options that enhance Volatility's functionality:
-| Option   | Description                                       |
+
+| Option   | Description |
 |----------|---------------------------------------------------|
-| `-f`     | Specifies the memory dump file                   |
+| `-f`     | Specifies the memory dump file                 |
 | `--profile` | Sets the OS profile for better analysis       |
 | `pslist` | Displays active processes                        |
 | `pstree` | Shows parent-child relationships of processes    |
@@ -169,4 +170,4 @@ Below are commonly used options that enhance Volatility's functionality:
 
 ---
 
-![VIDEO](https://www.youtube.com/watch?v=dFUlAQZB9Ng)
+![VIDEO](https://www.youtube.com/watch?v=Uk3DEgY5Ue8)
