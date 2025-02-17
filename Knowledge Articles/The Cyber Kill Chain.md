@@ -18,13 +18,13 @@ The Cyber Kill Chain, developed by Lockheed Martin, is a conceptual framework th
 Below is an interactive diagram illustrating the seven stages of the Cyber Kill Chain:
 
 ```mermaid
-graph TD
-    A[1. Reconnaissance 🛰️] --> B[2. Weaponization 🛠️]
-    B --> C[3. Delivery ✉️]
-    C --> D[4. Exploitation 🧨]
-    D --> E[5. Installation 💾]
-    E --> F[6. Command and Control 📡]
-    F --> G[7. Actions on Objectives 🎯]
+flowchart TD
+A["1 Reconnaissance"] --> B["2 Weaponization"]
+B --> C["3 Delivery"]
+C --> D["4 Exploitation"]
+D --> E["5 Installation"]
+E --> F["6 Command and Control"]
+F --> G["7 Actions on Objectives"]
 ```
 
 ---
