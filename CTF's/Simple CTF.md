@@ -216,11 +216,34 @@ this script will then attempt to identify the following
 
 As we can see by the above results the password for the account is hashed and salted
 this will require cracking using the following command:
+hash type identified: |20|md5(\$salt.$pass)|
+
 ```bash
-hashcat -O -a 0 -m 10 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2DDD
+hashcat -O -a 0 -m 20 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2DDD
 ```
 
+Cracking the password (also providing the bypass flag) presented the following results:
 
+Session..........: hashcat                                
+Status...........: Bypass
+Hash.Mode........: 20 (md5($salt.$pass))
+Hash.Target......: 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2DDD
+Time.Started.....: Mon Feb 17 11:12:28 2025 (2 secs)
+Time.Estimated...: Mon Feb 17 11:12:31 2025 (1 sec)
+Kernel.Feature...: Optimized Kernel
+Guess.Base.......: File (/usr/share/wordlists/rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:  5040.8 kH/s (0.72ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
+Recovered........: 0/1 (0.00%) Digests (total), 0/1 (0.00%) Digests (new)
+Progress.........: 8775408/14344385 (61.18%)
+Rejected.........: 1776/8775408 (0.02%)
+Restore.Point....: 8775408/14344385 (61.18%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#1....: dari22232822 -> danslover1
+Hardware.Mon.#1..: Temp: 45c Util: 57%
+
+Password Identified: "danslover1"
 
 ### file results
 
