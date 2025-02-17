@@ -1,5 +1,5 @@
-#KA #email 
 # 📧 Email Attachment Analysis
+#KA #email 
 
 Welcome to the **Email Attachment Analysis** page! 🕵️‍♂️🔍 Here, we focus on analyzing email attachments such as PDFs and Office documents using the powerful **Didier Stevens Suite of Tools**. Below, you'll find detailed guidance on leveraging tools like `pdfid.py`, `pdf-parser.py`, and `oledump.py` to examine suspicious files. 🚨
 

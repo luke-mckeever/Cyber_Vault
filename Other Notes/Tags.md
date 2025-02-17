@@ -18,6 +18,7 @@
 - \#edr -> Endpoint Detection and Response related Notes 
 - \#email -> Email related notes 
 - \#compliance -> compliance/audit related content
+- \#Forensics -> Forensics related content
 - \#EZ -> A part of the Eric Zimmerman suite of tools
 
 ###Tool Types (TT)

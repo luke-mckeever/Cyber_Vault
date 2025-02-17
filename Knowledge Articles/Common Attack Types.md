@@ -1,5 +1,5 @@
-#KA #RED #BLUE
 # Common Attack Types in Cybersecurity 🚨
+#KA #RED #BLUE 
 
 Understanding the diverse range of cyberattacks is critical for defending against them. Below, we outline some of the most common attack types, their descriptions, and real-world examples.
 

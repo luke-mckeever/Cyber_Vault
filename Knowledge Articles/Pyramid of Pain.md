@@ -1,5 +1,5 @@
-#KA #CTI 
 # The Pyramid of Pain
+#KA #CTI 
 
 ## 🛡️ Understanding the Pyramid of Pain Framework
 

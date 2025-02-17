@@ -1,6 +1,6 @@
 # MITRE ATT&CK Framework 🎯
-
 #KA #CTI 
+
 Welcome to the **MITRE ATT&CK Framework** documentation! This page provides a comprehensive breakdown of the framework, its features, and a deep dive into every component. 
 
 ---

@@ -1,5 +1,5 @@
-#KA #CTI 
 # The Cyber Kill Chain 🔒🖥️
+#KA #CTI 
 
 Welcome to **The Cyber Kill Chain** GitHub Page! 🚀 Dive deep into the mechanics of the **Lockheed Martin Cyber Kill Chain** framework and how it helps combat cyber threats.
 

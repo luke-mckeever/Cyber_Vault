@@ -1,5 +1,5 @@
-#KA #edr
 # 🛡️ EDR Analysis
+#KA #edr
 
 Endpoint Detection and Response (EDR) analysis is the process of monitoring and investigating activities on endpoint devices to detect, respond to, and mitigate potential security threats. It involves using various tools and commands to gather system, network, and process information to identify malicious activities and anomalies. 🖥️💻
 

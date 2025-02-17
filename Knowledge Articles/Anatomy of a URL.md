@@ -1,5 +1,5 @@
-#KA #networking 
 # Anatomy of a URL 🌐
+#KA #networking 
 
 ![URL Structure Guide](https://hw-images.hostwinds.com/cdn-cgi/image/height=250%2Cfit=contain%2Cf=auto/strapi-images/url_structure_guide_blog_banner_7e803f4aad.png)
 
