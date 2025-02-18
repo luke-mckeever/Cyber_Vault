@@ -140,13 +140,13 @@ python3 vol.py -f <FILENAME.vmem> <OS>.cmdline
 ##### Dump Running Process Executable
 - This will dump the specified process as a dump or `.dmp` file to the specified output location
 ```bash
-python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.pslist --<PID> --dump
+python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.pslist --pid <PID> --dump
 ```
 
 ##### DLL Imports
 - This will provide a list of all Dynamic Link Libraries (DLL's) imported by a specified process
 ```bash
-python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.dlllist --<PID>
+python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.dlllist --pid <PID>
 ```
 
 #### Registry Memory Analysis
@@ -173,7 +173,7 @@ python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.registry.hivelist --
 ##### Registry Key Contents 
 - This will provide the contents of the specified registry key that was obtained during the memory dump
 ```bash
-python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.registry.printkey --key "<PATH OF REGISTRY KEY"
+python3 vol.py -f <FILENAME.vmem> <OS>.registry.printkey --key "<PATH OF REGISTRY KEY>"
 ```
 
 
