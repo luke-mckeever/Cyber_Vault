@@ -108,23 +108,13 @@ Threat actors frequently use the registry to establish persistence, ensuring tha
 ## 🏷️ Shell Bags - Windows Explorer’s Memory Bank - [[Shell Bags Explorer]]🧠
 Shell Bags are forensic artifacts that store metadata about folders viewed in Windows Explorer. They help track a user’s interaction with the file system, even if the original folders were deleted.
 
-### 🛡️ Where Are Shell Bags Stored?
+### Where Are Shell Bags Stored?
 Windows stores Shell Bags in the registry under the following keys:
 
 - `HKEY_USERS\{User SID}\Software\Microsoft\Windows\Shell\Bags`
   - Contains folder customization settings such as layout preferences (list view, icon view, etc.).
 - `HKEY_USERS\{User SID}\Software\Microsoft\Windows\Shell\BagMRU`
   - Maintains a history of folders accessed by the user, even those on external devices and network shares.
-
-### 📌 What Can You Discover?
-Shell Bags contain valuable forensic information, including:
-
-✅ Folder paths and timestamps of access – even if the folder was deleted  
-✅ The type of view a user applied to a specific folder (List, Tiles, Details, etc.)  
-✅ Evidence of interactions with USB devices, external drives, and network shares  
-✅ Metadata related to recently opened or viewed directories
-
-> 🔎 **Forensic Tip:** Extract Shell Bags data using **ShellBagsExplorer** or PowerShell scripts to recover evidence.
 
 
 ### LastVistitedPidlMRU & OpenSavePidlMRU
