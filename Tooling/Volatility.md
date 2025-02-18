@@ -74,6 +74,46 @@ python3 vol.py
 
 ## 🧰 Common Commands
 Below are some essential commands that can be used with Volatility to perform various forensic analyses:
+
+
+##### Memory Info Dump
+This will provide a high level overview of the OS and architecture used within the memory dump file
+
+Replace OS with the specified operating system the memory dump originated from
+
+```bash
+python3 vol.py -f <FILENAME.vmem> <OS>.info
+```
+---
+
+#### Network Memory Analysis
+
+##### Network Statistics
+- This will dump all known network Statistics within the memory dump
+```bash
+python3 vol.py -f <FILENAME.vmem> <OS>.netstat
+```
+
+##### Network Scan
+- This will identify all known network connections within the memory dump
+```bash
+python3 vol.py -f <FILENAME.vmem> <OS>.netscan
+```
+---
+
+#### Process Memory Analysis
+
+##### List Processes 
+- This will list all running processes on the machine at the time the memory dump was taken
+```bash
+python3 vol.py -f <FILENAME.vmem> <OS>.pslist
+```
+
+
+---
+
+---
+
 ```bash
 volatility -f memory.dmp --profile=Win7SP1x64 pslist  
 ```
