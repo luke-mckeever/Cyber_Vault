@@ -71,15 +71,15 @@ python3 vol.py
 
 ---
 
-
 ## 🧰 Common Commands
+
 Below are some essential commands that can be used with Volatility to perform various forensic analyses:
 
+> The flag `-h` can be applied to all below command modules for a further guidance
+> Replace OS with the specified operating system the memory dump originated from e.g. `windows`, `mac` or `linux`
 
 ##### Memory Info Dump
 This will provide a high level overview of the OS and architecture used within the memory dump file
-
-Replace OS with the specified operating system the memory dump originated from
 
 ```bash
 python3 vol.py -f <FILENAME.vmem> <OS>.info
@@ -105,54 +105,76 @@ python3 vol.py -f <FILENAME.vmem> <OS>.netscan
 
 ##### List Processes 
 - This will list all running processes on the machine at the time the memory dump was taken
+> N.B. Use `| grep <INSERT TERM>` or `less` as the output is usually quite large 
 ```bash
 python3 vol.py -f <FILENAME.vmem> <OS>.pslist
 ```
 
-
----
-
----
-
+##### List (Specific) Processes 
+- This will return the specific process details from the memory dump with specified Process ID (PID) from the memory dump
 ```bash
-volatility -f memory.dmp --profile=Win7SP1x64 pslist  
+python3 vol.py -f <FILENAME.vmem> <OS>.pslist --pid <PID>
 ```
-- List running processes
 
+##### Process Scan
+- This will scan for all executed processes on the system at the time of the memory dump
+> N.B. Use `| grep <INSERT TERM>` or `less` as the output is usually quite large 
 ```bash
-volatility -f memory.dmp --profile=Win7SP1x64 dlllist  
+python3 vol.py -f <FILENAME.vmem> <OS>.psscan
 ```
-- List loaded DLLs
 
+##### Process Tree
+- This will list all running processes on the machine at the time the memory dump was taken in the form of a tree diagram utilising `*` as the branches
+> N.B. Use `| grep <INSERT TERM>` or `less` as the output is usually quite large 
 ```bash
-volatility -f memory.dmp --profile=Win7SP1x64 netscan  
+python3 vol.py -f <FILENAME.vmem> <OS>.pstree
 ```
-- Scan for network connections
 
+##### Command line Process Execution
+- This will list all command line arguments that executed a process
+> N.B. Use `| grep <INSERT TERM>` or `less` as the output is usually quite large 
 ```bash
-volatility -f memory.dmp --profile=Win7SP1x64 filescan  
+python3 vol.py -f <FILENAME.vmem> <OS>.cmdline
 ```
-- Scan for files in memory
 
+##### Dump Running Process Executable
+- This will dump the specified process as a dump or `.dmp` file to the specified output location
 ```bash
-volatility -f memory.dmp --profile=Win7SP1x64 connscan  
+python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.pslist --<PID> --dump
 ```
-- Find active and closed connections
 
+##### DLL Imports
+- This will provide a list of all Dynamic Link Libraries (DLL's) imported by a specified process
 ```bash
-volatility -f memory.dmp --profile=Win7SP1x64 cmdscan  
+python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.dlllist --<PID>
 ```
-- Retrieve commands executed in a session
 
-```bash
-volatility -f memory.dmp --profile=Win7SP1x64 malfind  
-```
-- Detect malware in memory
+#### Registry Memory Analysis
 
+##### Registry Memory
+- This will provide the list of registry hives that were obtained at the time of the memory dump
 ```bash
-volatility -f memory.dmp --profile=Win7SP1x64 getsids  
+python3 vol.py -f <FILENAME.vmem>  <OS>.registry.registry.hivelist
 ```
-- Retrieve security identifiers of processes
+
+##### Userassist Registry 
+- This will provide the registry for the user assist registry key, this will display all processes executed by the user within the memory dump
+- > N.B. Use `| grep <INSERT TERM>` or `less` as the output is usually quite large 
+```bash
+python3 vol.py -f <FILENAME.vmem>  <OS>.registry.userassist
+```
+
+##### Dump Registry Hive 
+- This will dump the filtered registry key as a dump or `.dmp` file to the specified output location for further analysis
+```bash
+python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.registry.hivelist --filter "<PARAMETER>" --dump
+```
+
+##### Registry Key Contents 
+- This will provide the contents of the specified registry key that was obtained during the memory dump
+```bash
+python3 vol.py -f <FILENAME.vmem> -o <OUTPUT LOCATION> <OS>.registry.printkey --key "<PATH OF REGISTRY KEY"
+```
 
 
 ---
@@ -160,6 +182,14 @@ volatility -f memory.dmp --profile=Win7SP1x64 getsids
 ## ⚙️ Advanced Usage
 For deeper forensic investigations, the following advanced commands can be used:
 ```bash
+volatility -f memory.dmp --profile=Win7SP1x64 pslist  # List running processes
+volatility -f memory.dmp --profile=Win7SP1x64 dlllist  # List loaded DLLs
+volatility -f memory.dmp --profile=Win7SP1x64 netscan   # Scan for network connections
+volatility -f memory.dmp --profile=Win7SP1x64 filescan  # Scan for files in memory
+volatility -f memory.dmp --profile=Win7SP1x64 connscan  # Find active and closed connections
+volatility -f memory.dmp --profile=Win7SP1x64 cmdscan  # Retrieve commands executed in a session
+volatility -f memory.dmp --profile=Win7SP1x64 malfind  # Detect malware in memory
+volatility -f memory.dmp --profile=Win7SP1x64 getsids  # Retrieve security identifiers of processes
 volatility -f memory.dmp --profile=Win7SP1x64 hivelist  # Locate registry hives
 volatility -f memory.dmp --profile=Win7SP1x64 hivedump -o 0xaddress  # Extract registry contents
 volatility -f memory.dmp --profile=Win7SP1x64 dumpfiles -Q 0x12345678 -D output_dir  # Extract files from memory
@@ -175,9 +205,10 @@ volatility -f memory.dmp --profile=Win7SP1x64 shellbags  # Extract evidence of f
 ## 📋 Handy Options
 Below are commonly used options that enhance Volatility's functionality:
 
-| Option   | Description |
+| Option / Module  | Description |
 |----------|---------------------------------------------------|
 | `-f`     | Specifies the memory dump file                 |
+| `--filter` | filter the contents of output with a given parameter|
 | `--profile` | Sets the OS profile for better analysis       |
 | `pslist` | Displays active processes                        |
 | `pstree` | Shows parent-child relationships of processes    |
