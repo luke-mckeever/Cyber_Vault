@@ -1,4 +1,5 @@
 # 💻 Windows Executables Reference Guide 📂
+#CS #Win #edr 
 
 ## 📝 Overview
 
@@ -6,7 +7,7 @@ This document serves as a reference guide for various essential Windows executab
 
 ---
 
-|🖥️ Executable/Application|📌 Filepath|ℹ️ Description|
+|🖥️ Executable/Application|📌 Filepath |ℹ️ Description|
 |---|---|---|
 |**svchost.exe**|`C:\Windows\System32\svchost.exe`|Hosts services that run from DLLs.|
 |**wininit.exe**|`C:\Windows\System32\wininit.exe`|Initializes parts of the operating system.|
