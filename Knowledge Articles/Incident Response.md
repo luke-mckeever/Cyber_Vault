@@ -19,7 +19,9 @@
 ---
 
 ## 1. Preparation
+
 [SANS Incident Handling Form](https://www.sans.org/media/security-training/mgt512/secinc_forms.pdf)
+
 - End Users - (Security Awareness Training, Phish Sims, Self Reports)
 - Stakeholder Involvement - (IT Teams, Legal Teams, Publix Relations, Management, Data Owners)
 - Business Impact Analysis - (Blocks, Accounts, Endpoints)
@@ -37,25 +39,53 @@
 
 ## 2. Identification
 
+- Sources - (Tooling, EDR, SIEM, Logging, Exchange, Threat Intel, Firewall)
+- Tuning - (Engineering. Alert Fatigue)
+- Prioritization - (Triage, Scope, Log Ingestion, Urgency, Criticality, Impact)
+- Documentation - (Ticketing)
+- Comms - (Notifications, Sitreps: stakeholders | Severity | impact| Actions | Next Steps)
 
 ---
 
 ## 3. Containment 
 
+[SANS Incident Containment Form](https://www.sans.org/media/score/incident-forms/IH-Containment.pdf)
+
+- Short Term - (Quarantining/Isolation, Disablement, Disconnects, Kill)
+- Business Impact - (Crown Jewel Apps, Critical Systems)
+- Evidence Collection - (Snapshots, Forensics Images, Memory)
+- Long Term - (Rebuild/Reimage, Eradication, Patching, Reset's)
 
 ---
 
 ## 4. Eradication
 
+[SANS Incident Handling Form](https://www.sans.org/media/security-training/mgt512/secinc_forms.pdf)
+
+- Remove Network Artefacts
+- Restore - (Stable Backups/Images, Recovery Time Objective(RTO), Recovery Point Objective (RPO))
+- Manual Removal - (Malware, Backdoors, Services)
+- Defence Improvement - (Benchmarks, System Hardening, Patching)
+- Vulnerability Management - (Scanning, Threat Intelligence )
 
 ---
 
 ## 5. Recovery
 
+- Restore - (Stable Backups/Images)
+- Confirm Functionality - (Testing)
+- Prevention - (Hardening, Scanning, Monitoring)
+- Decisions - (Time Window, Verification, )
 
 ---
 
 ## 6. Lessons Learned
 
+[Atlassian Post-Mortem Template](https://www.atlassian.com/incident-management/postmortem/templates)
+
+- Reflection - (Improvement, Feedback)
+- Post-mortems - (Reviews, Reports, 5 W's)
+- Meetings - (Exec Summary, 5 W's, Scope, Procedure, Impact, Questioning/Suggestions)
+- RCA - (Root Cause Analysis)
 
 ---

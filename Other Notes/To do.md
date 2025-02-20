@@ -10,3 +10,10 @@
 - [ ] output display
 - [ ] for emails, remove the ABCDE@ and research
 - [ ] dns & reverse dns will not accept number domains
+
+#### TCM SOC 101 Topics To Revise
+- [ ] Siem
+- [ ] TCPdump
+- [x] Snort 
+- [ ] Endpoint Security
+
