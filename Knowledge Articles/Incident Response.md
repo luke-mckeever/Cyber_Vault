@@ -3,6 +3,7 @@
 #### Definition of a Security incident:
 > A Security Incident is a confirmed or suspected breach or violation of security policies, procedures or controls that pose a threat to the confidentiality, integrity or availability of an organisation's informational assets.
 
+---
 
 ## 📄Frameworks:
 
@@ -15,6 +16,46 @@
 
 ![[sans.png]]
 
+---
+
+## 1. Preparation
+[SANS Incident Handling Form](https://www.sans.org/media/security-training/mgt512/secinc_forms.pdf)
+- End Users - (Security Awareness Training, Phish Sims, Self Reports)
+- Stakeholder Involvement - (IT Teams, Legal Teams, Publix Relations, Management, Data Owners)
+- Business Impact Analysis - (Blocks, Accounts, Endpoints)
+- Communication - (Hotlines, Mailboxes, Contact Info, On Call, Escalations, Third Party IR)
+- Physical Locations - (War Room, SOC, Board Room, Evidence Storage)
+- Incident Tracking - (Ticketing System, Version/History Control)
+- Hardware/Software - (Forensic/Malware Labs, Jumpkits)
+- Asset Management - (Redundancies, Crown Jewel Apps, Failovers, Recovery)
+- Simulated Exercises - (Table top's, Practice, Continuous Log Ingestion)
+- Incident Response Plan - (Playbooks/Runbooks)
+- Notification Policies - (Law Enforcement, Legal, Insurance, Impact, Management)
+- Documentation - (Evidence)
+
+---
+
+## 2. Identification
 
 
+---
 
+## 3. Containment 
+
+
+---
+
+## 4. Eradication
+
+
+---
+
+## 5. Recovery
+
+
+---
+
+## 6. Lessons Learned
+
+
+---
