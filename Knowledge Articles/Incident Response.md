@@ -1,6 +1,6 @@
 # 🏃‍♂️ Incident Response 💨
 
-#### Definition of a Security incident:
+#### What is a Security incident:
 > A Security Incident is a confirmed or suspected breach or violation of security policies, procedures or controls that pose a threat to the confidentiality, integrity or availability of an organisation's informational assets.
 
 ---
