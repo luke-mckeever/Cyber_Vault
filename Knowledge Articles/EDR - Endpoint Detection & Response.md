@@ -25,37 +25,37 @@ Windows EDR analysis focuses on leveraging built-in tools and command-line utili
      Get-Service | Where-Object {$_.Status -eq 'Running'}
      ```
 
-2. **Command Prompt (CMD)** 🖹
+2. **Command Prompt (bash)** 🖹
    - List Installed Programs:
-     ```cmd
+     ```bash
      wmic product get name, version
      ```
    - Show Active Network Connections:
-     ```cmd
+     ```bash
      netstat -ano
      ```
    - Query System Information:
-     ```cmd
+     ```bash
      systeminfo
      ```
 
 3. **Windows Defender Command-Line Interface** 🛡️
    - Quick Scan:
-     ```cmd
-     MpCmdRun.exe -Scan -ScanType 1
+     ```bash
+     MpbashRun.exe -Scan -ScanType 1
      ```
    - Full Scan:
-     ```cmd
-     MpCmdRun.exe -Scan -ScanType 2
+     ```bash
+     MpbashRun.exe -Scan -ScanType 2
      ```
 
 4. **WMIC (Windows Management Instrumentation Command-line)** 🔍
    - List Running Processes:
-     ```cmd
+     ```bash
      wmic process list brief
      ```
    - Query System Boot Time:
-     ```cmd
+     ```bash
      wmic os get lastbootuptime
      ```
 
@@ -182,7 +182,40 @@ A host-based firewall is a security application installed directly on a networke
 
 ### Monitoring:
 The below are a list of important items to consider with EDR monitoring.
-- **Process Execution**:  Running Processes, Executables, Cmdlets, Process Hierarchy.
+- **Process Execution**:  Running Processes, Executables, bashlets, Process Hierarchy.
 - **File System Changes**: Create, Modify or Delete.
 - **Network Connection**: Traffic, Initiated Connections, Executables.
 - **Registry Modifications**: Keys/Values, Backdoors, Persistence, Evasion.
+
+## Windows 
+
+### Network Analysis
+```bash
+net view \\<LOCAL HOST IP>
+```
+> This command will show shared network resources on the provided host
+
+```bash
+net share
+```
+> This command will list the names and locations of shared network resources on the provided host
+
+```bash
+net session
+```
+> This command will return all active inbound session connections to the system
+
+```bash
+net use
+```
+> This command will list all active inbound session connections to the system and provide local host information for the share 
+
+```bash
+net stat -anob 
+```
+> This command will display active connections to the system (-a=active tcp/udp connections, -n=show IP's numerically, o=include PID, b=Display process filename)
+
+
+
+
+
