@@ -37,6 +37,11 @@ python3 -m http.server 8000
 ``` 
 -- This command will host a minimised webserver on port 8000 locatable at the local IP of the endpoint 
 
+### Create a Network Share
+```bash
+net share <NAME OF SHARE>=<PATH TO DIRECTORY OF SHARE>
+```
+-- This command will create a sharable drive on the system that allows other endpoints on the network to access
 
 ## 📝File Information
 
@@ -68,3 +73,11 @@ get-filehash <FILE NAME> -alg <FILE HASH TYPE>
 ```bash
 certutil -hashfile <FILE NAME> <FILEHASHTYPE>
 ```
+
+## Other
+
+### Get Architecture Information
+```bash
+wmic os get osarchitecture
+```
+-- This command will identify what architecture the system is running (e.g. 32-bit/64-bit)
