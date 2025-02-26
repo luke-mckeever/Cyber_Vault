@@ -10,15 +10,6 @@ Volatility is an open-source memory forensics framework that allows investigator
 
 ---
 ![Volatility](https://volatilityfoundation.org/wp-content/uploads/2023/12/Volatility-newest-png-crop.png)
----
-
-### 🛠 Features:
-- 🕵️ Extracts process lists, network connections, and registry hives.
-- 🦠 Detects and analyzes malware within memory dumps.
-- 🏴‍☠️ Recovers files and hidden data from volatile memory.
-- 📊 Supports multiple memory dump formats (RAW, EWF, etc.).
-- 🔬 Compatible with Windows, Linux, and macOS.
-- 🔄 Open-source and actively maintained by the forensics community.
 
 ---
 

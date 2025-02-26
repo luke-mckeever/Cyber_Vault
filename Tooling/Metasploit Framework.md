@@ -12,17 +12,6 @@ The Metasploit Framework is one of the most widely used penetration testing tool
 
 ---
 
-### 🛠 Features:
-- **Over 1,500 exploits** 🏹
-- **Payload generation and encoding** 🎭
-- **Post-exploitation modules** 🔍
-- **Meterpreter - Advanced payload** 🕶️
-- **Automated vulnerability scanning** 🤖
-- **Integration with various security tools** 🔗
-- **Supports multiple platforms** 🏗️
-
----
-
 ### 🚀 Installing Metasploit Framework
 
 #### 🔹 **LINUX** 🐧

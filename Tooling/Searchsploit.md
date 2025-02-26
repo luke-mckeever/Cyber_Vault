@@ -14,14 +14,6 @@ Searchsploit is a command-line utility that lets you search and utilize the Expl
 ![explotdb](https://www.kali.org/tools/exploitdb/images/exploitdb-logo.svg)
 
 ---
-
-### 🛠 Features:
-- Offline access to Exploit-DB.
-- Categorized and keyword-based searches.
-- Integration with Metasploit modules.
-- User-friendly and fast.
-
----
 ### Installing SearchSploit
 
 #### 💻 **On Debian/Ubuntu**

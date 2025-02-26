@@ -1,5 +1,5 @@
 # 📸 **FTK Imager** 🌟
-#Tool ool #TTDF 
+#Tool #TTDF 
 
 ---
 

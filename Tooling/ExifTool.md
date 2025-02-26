@@ -6,16 +6,6 @@
 
 ---
 
-## 🌟 Features
-
-✅ View and edit metadata without using command-line commands 🎯  
-✅ Supports EXIF, IPTC, XMP, and many other metadata standards 📜  
-✅ Batch processing for efficiency ⚡  
-✅ Available for Windows 🖥️  
-✅ Open-source and highly customizable 🛠️  
-
----
-
 ## 📥 Installation
 
 ### 🔹 Downloading ExifToolGUI

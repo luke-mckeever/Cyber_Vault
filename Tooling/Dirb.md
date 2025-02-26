@@ -10,14 +10,6 @@ DIRB helps security professionals uncover hidden directories and sensitive files
 ---
 ![DIRB](https://www.kali.org/tools/dirb/images/dirb-logo.svg)
 
----
-
-### 🛠 Features:
-- 🌐 **Web directory brute-forcing**
-- 📝 **Custom wordlist support**
-- 🚀 **Recursive scanning**
-- 🔍 **Proxy support**
-- 🛡️ **Useful for web pentesting**
 
 ---
 

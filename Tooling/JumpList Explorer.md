@@ -10,13 +10,6 @@
 ## 🛠 What is JumpList Explorer?
 JumpList Explorer is a powerful forensic tool created by **Eric Zimmerman** for analyzing Windows JumpLists. These files store valuable evidence of recently and frequently accessed files, making them crucial in digital forensics investigations. 
 
-### 🛠 Features:
-- Parses and analyzes Windows JumpLists
-- Extracts metadata such as timestamps and file paths
-- Converts output into structured CSV or JSON format
-- Works with both AutomaticDestinations and CustomDestinations
-- Lightweight, fast, and efficient forensic tool
-
 ---
 
 ### 🚀 Installing JumpList Explorer

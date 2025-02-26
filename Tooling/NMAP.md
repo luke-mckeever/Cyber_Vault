@@ -13,13 +13,6 @@ Nmap (Network Mapper) is the go-to tool for network discovery, security scanning
 </div>
 
 ---
-### 🛠 Features:
-- Host discovery and port scanning.
-- Service and OS detection.
-- Scriptable with the Nmap Scripting Engine (NSE).
-- Supports various scanning techniques.
-
----
 ### Installing Nmap
 
 #### **Linux (Debian-based: Ubuntu, Kali, etc.)**

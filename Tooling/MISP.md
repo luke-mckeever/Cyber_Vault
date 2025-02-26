@@ -13,15 +13,6 @@ With MISP, you can **share, store, and collaborate** on threat data effortlessly
 
 ---
 
-## 🌟 Key Features
-
-- **Threat Intelligence Sharing:** Collaborate with your team and other organizations to exchange critical threat data securely. 🔄
-- **Powerful Dashboard:** A clean, intuitive interface to visualize and manage threat data efficiently. 📊
-- **Automation Ready:** API-first design to integrate with your existing tools and workflows. ⚙️
-- **Community-Driven:** Built by the community, for the community, with continuous updates and improvements. 🤝
-
----
-
 ## 🛠️ Setting Up MISP
 
 MISP offers a hassle-free setup with a preconfigured virtual machine image! 🎉 Here’s how you can get started:

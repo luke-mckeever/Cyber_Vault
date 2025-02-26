@@ -12,16 +12,6 @@ This guide is your go-to reference for mastering **Sherlock**, the open-source u
 
 ---
 
-## ✨ Key Features
-
-- **Wide Platform Support**: Search for usernames across hundreds of websites.
-- **Custom Search**: Target specific platforms for tailored searches.
-- **Batch Processing**: Search for multiple usernames at once.
-- **Docker Support**: Use Sherlock in isolated environments.
-- **Free and Open Source**: Completely free with active community support.
-
----
-
 ## 🛠️ Installation
 
 ### Install Sherlock with Git

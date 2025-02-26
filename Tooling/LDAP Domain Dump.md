@@ -9,14 +9,6 @@ This tool is essential for extracting data from LDAP directories, commonly used 
 ![kali standard logo](https://www.kali.org/images/kali-tools-icon-missing.svg)
 
 ---
-
-### 🛠 Features:
-- Extract users, groups, and computers from LDAP.
-- Retrieve organizational unit (OU) information.
-- Support for plaintext and Kerberos authentication.
-- Easily customizable LDAP queries.
-
----
 ### Installing `ldapdomaindump`
 
 #### **Linux (Debian/Ubuntu-based distros)**

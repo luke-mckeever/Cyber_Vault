@@ -11,13 +11,6 @@ FFUF is a web fuzzing tool that helps you discover hidden files, directories, an
 ![ffuf](https://www.kali.org/tools/ffuf/images/ffuf-logo.svg)
 
 ---
-### 🛠 Features:
-- High-speed fuzzing for web directories and parameters.
-- Supports multiple protocols like HTTP, HTTPS.
-- Flexible input options (wordlists, recursion, etc.).
-- Advanced filtering capabilities (size, word count, etc.).
-
----
 ### Installing FFuF
 
 #### 🟢 Linux/macOS (Go)

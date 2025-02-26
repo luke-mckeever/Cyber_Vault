@@ -10,13 +10,6 @@
 ## ✨ What is Shell Bags Explorer? 
 **Shell Bags Explorer** is a **forensic analysis tool** that helps investigators examine Windows **ShellBags**—a feature that stores details about folder views and structures even after deletion. Developed by **Eric Zimmerman**, this tool provides deep insights into user activity on Windows machines. 
 
-### 🌟 **Features:**
-- 📂 Extracts folder access history
-- 🔍 Reveals timestamps and folder views
-- 🔋 Helps in forensic investigations
-- 👽 Easy-to-use GUI for quick analysis
-- 🔧 CLI mode for automation
-
 ---
 
 ## 🔧 Installation & Usage

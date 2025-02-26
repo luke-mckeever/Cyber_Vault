@@ -10,14 +10,6 @@
 ## 🛠 What is Prefetch Parser?
 **Prefetch Parser** is a powerful tool developed by **Eric Zimmerman** to analyze Windows Prefetch files. Prefetch files help forensic analysts track program execution history, making them invaluable for incident response and malware investigations. This tool enables users to efficiently parse, analyze, and extract crucial forensic artifacts from Prefetch files.
 
-### 🌟 **Features:**
-- 🛠 Parses Windows Prefetch files quickly and efficiently.
-- 📊 Outputs detailed execution data, including timestamps and file paths.
-- 🔍 Supports batch processing for large forensic investigations.
-- 📝 Exports results in multiple formats (CSV, JSON, SQLite, etc.).
-- 🚀 Lightweight and easy to use with a simple command-line interface.
-- 🔒 Trusted by forensic professionals worldwide.
-
 ---
 
 ## 🚀 Installing Prefetch Parser

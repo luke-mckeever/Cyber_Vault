@@ -11,14 +11,6 @@ Fcrackzip is a command-line utility that performs brute-force or dictionary-base
 ![kali standard logo](https://www.kali.org/images/kali-tools-icon-missing.svg)
 
 ---
-
-### 🛠 Features:
-- High-speed brute-force attacks.
-- Dictionary-based cracking.
-- Multiple compression and encryption support.
-- Easy-to-use command-line options.
-
----
 ### Installing `fcrackzip`
 
 #### **Linux (Debian/Ubuntu-based distros)**

@@ -11,16 +11,6 @@ Capa is a powerful open-source tool developed by [FireEye](https://www.mandiant.
 
 ---
 
-### 🛠 Features:
-✅ Detects over **600+** malware capabilities 📊  
-✅ Supports **PE**, **ELF**, and **Macho** binaries 🏴‍☠️  
-✅ Flexible **rule-based analysis** 🔍  
-✅ **YARA-like** rule creation ✍️  
-✅ Supports **integration** with IDA Pro & Ghidra 🏗️  
-✅ Works on **Windows, Linux, and macOS** 🌍  
-
----
-
 ### 🚀 Installing Capa
 
 #### 🔹 **Linux** 🐧

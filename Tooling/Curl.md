@@ -11,14 +11,6 @@ Curl (short for **Client URL**) is a command-line tool that supports various pro
 ![Curl Banner](https://download.logo.wine/logo/CURL/CURL-Logo.wine.png)  
 
 ---
-
-### 🛠 Features:
-- Supports multiple protocols: HTTP, HTTPS, FTP, SCP, SFTP, and more.
-- Handles cookies, user authentication, and data uploads.
-- Offers detailed debugging and verbose options.
-- Can be scripted for automation tasks.
-
----
 ### Installing cURL
 
 #### 🟢 Linux (Debian/Ubuntu)

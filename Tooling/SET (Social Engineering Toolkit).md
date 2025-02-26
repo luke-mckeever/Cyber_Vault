@@ -12,17 +12,6 @@ The **Social Engineering Toolkit (SET)** is an open-source penetration testing f
 
 ---
 
-## ✨ Key Features
-
-- **Phishing Attacks**: Craft convincing phishing campaigns with ease.
-- **Credential Harvesting**: Intercept and collect sensitive information.
-- **Payload Delivery**: Create and deploy malicious payloads.
-- **Web Attack Vectors**: Exploit client-side vulnerabilities in web browsers.
-- **Mass Mailer**: Send customized emails for phishing campaigns.
-- **Highly Customizable**: Tweak attack parameters to suit your needs.
-
----
-
 ## 🛠️ Installation
 ```bash
 # Clone the repository

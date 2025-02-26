@@ -16,14 +16,6 @@ Netcat (often called the “Swiss Army knife” of networking) is a versatile to
 
 ---
 
-### 🛠 Features:
-- Connect to and listen on TCP/UDP ports.
-- Transfer files between systems.
-- Perform port scanning.
-- Support for scripting and automation.
-
----
-
 ### 🚀 Installing Netcat (nc)
 
 #### 🔹 **Debian/Ubuntu** 

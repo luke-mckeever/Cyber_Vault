@@ -15,14 +15,6 @@ Nikto is a powerful and simple web server scanner that identifies vulnerabilitie
 ![nikto](https://www.kali.org/tools/nikto/images/nikto-logo.svg)
 
 ---
-
-### 🛠 Features:
-- Supports multiple web server protocols (HTTP, HTTPS, etc.).
-- SSL/TLS support.
-- Proxy support.
-- Comprehensive scan database.
-
----
 ### Installing Nikto - Web Vulnerability Scanner
 #### **Installation on Linux/macOS**
 ```bash

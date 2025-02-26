@@ -12,17 +12,6 @@ Hashcat is an open-source, multi-threaded, and GPU-accelerated password recovery
 
 ---
 
-### 🛠 Features:
-- 🌍 Supports over 300+ hashing algorithms
-- 🚀 Optimized for GPU, CPU, and FPGA acceleration
-- 🛠️ Supports dictionary, brute-force, hybrid, and rule-based attacks
-- 🔗 Integrated support for hashlist and mask attack combinations
-- 📊 Supports session management and checkpointing
-- ⚡ Utilizes OpenCL and CUDA for extreme speed
-- 🏆 Actively maintained with a strong community
-
----
-
 ### 🚀 Installing Hashcat
 
 #### 🔹 **Linux** 

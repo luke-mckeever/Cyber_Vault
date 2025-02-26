@@ -11,14 +11,6 @@ DNS Recon is a powerful DNS enumeration tool that collects DNS records, performs
 ![dns recon](https://www.kali.org/tools/dnsrecon/images/dnsrecon-logo.svg)
 
 ---
-
-### 🛠 Features:
-- Enumerate DNS records (A, AAAA, MX, TXT, SRV, etc.).
-- Detect zone transfers and cache snooping.
-- Perform brute-forcing and reverse lookups.
-- Support for various DNS servers and query types.
-
----
 ### Installing DNSRecon
 
 #### 🟢 Linux/macOS (pip)

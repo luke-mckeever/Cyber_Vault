@@ -11,14 +11,6 @@ Responder is a powerful tool used for capturing network credentials and performi
 ![responder](https://www.kali.org/tools/responder/images/responder-logo.svg)
 
 ---
-
-### 🛠 Features:
-- Capture NTLM hashes.
-- Perform MITM attacks.
-- Redirect SMB and HTTP authentication requests.
-- Lightweight and easy to use.
-
----
 ### Installing Responder
 
 Responder is a fast and minimalistic web framework for Python. Follow these simple steps to install it:
