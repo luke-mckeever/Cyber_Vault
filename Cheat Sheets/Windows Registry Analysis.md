@@ -1,5 +1,5 @@
 # Windows Registry Analysis
-#CS #logs 
+#CS #logs #edr 
 
 ### System info and accounts
 
