@@ -1,5 +1,5 @@
 # DIRB 🕵️‍♂️🚀
-#WebDiscovery #Pentesting #SecurityTool
+#Tool #RED #TTweb 
 
 DIRB is a powerful web content scanner that brute-forces directories and files on web servers. It's a must-have tool for penetration testers and security analysts!
 
