@@ -8,7 +8,7 @@ Metasploit Framework is an open-source penetration testing platform that enables
 The Metasploit Framework is one of the most widely used penetration testing tools in the cybersecurity industry. It provides a robust platform for identifying, exploiting, and validating vulnerabilities in various systems.
 
 ---
-![Metasploit Framework](https://www.offsec.com/wp-content/uploads/2023/08/metasploit-logo.png)
+![Metasploit Framework](https://upload.wikimedia.org/wikipedia/commons/3/38/Metasploit_logo_and_wordmark.png)
 
 ---
 
