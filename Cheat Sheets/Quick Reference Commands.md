@@ -43,6 +43,15 @@ net share <NAME OF SHARE>=<PATH TO DIRECTORY OF SHARE>
 ```
 -- This command will create a sharable drive on the system that allows other endpoints on the network to access
 
+### Create a Quick Reverse Shell Listener
+```bash
+nc -nvlp 3333
+```
+-- This command will issue a net cat listener on port `3333`  without resolving DNS and providing a verbose output
+
+### Create a Quick Reverse Shell 
+- Utilising the resource available at [revshells.com](https://revshells.com) can provide multiple ways to generate a reverse shell.
+
 ## 📝File Information
 
 ### Retrieve basic file information
@@ -81,3 +90,9 @@ certutil -hashfile <FILE NAME> <FILEHASHTYPE>
 wmic os get osarchitecture
 ```
 -- This command will identify what architecture the system is running (e.g. 32-bit/64-bit)
+
+### Command Line Base64 Decode
+```bash
+echo "<BASE64 STRING>" | base64 -d
+```
+-- This command will decode any provided base 64 

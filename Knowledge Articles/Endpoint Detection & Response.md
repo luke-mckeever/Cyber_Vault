@@ -3,156 +3,6 @@
 
 Endpoint Detection and Response (EDR) analysis is the process of monitoring and investigating activities on endpoint devices to detect, respond to, and mitigate potential security threats. It involves using various tools and commands to gather system, network, and process information to identify malicious activities and anomalies. 🖥️💻
 
----
-
-## 🔷 Windows EDR Analysis
-
-Windows EDR analysis focuses on leveraging built-in tools and command-line utilities to investigate potential security incidents on Windows systems. It allows administrators to analyze processes, network connections, system logs, and more to detect and respond to threats effectively.
-
-### 🚀 Commands Only:
-
-1. **PowerShell** ⚡
-   - Check Running Processes:
-     ```powershell
-     Get-Process | Sort-Object CPU -Descending
-     ```
-   - List Network Connections:
-     ```powershell
-     Get-NetTCPConnection | Select-Object LocalAddress, LocalPort, RemoteAddress, RemotePort, State
-     ```
-   - Retrieve Services:
-     ```powershell
-     Get-Service | Where-Object {$_.Status -eq 'Running'}
-     ```
-
-2. **Command Prompt (bash)** 🖹
-   - List Installed Programs:
-     ```bash
-     wmic product get name, version
-     ```
-   - Show Active Network Connections:
-     ```bash
-     netstat -ano
-     ```
-   - Query System Information:
-     ```bash
-     systeminfo
-     ```
-
-3. **Windows Defender Command-Line Interface** 🛡️
-   - Quick Scan:
-     ```bash
-     MpbashRun.exe -Scan -ScanType 1
-     ```
-   - Full Scan:
-     ```bash
-     MpbashRun.exe -Scan -ScanType 2
-     ```
-
-4. **WMIC (Windows Management Instrumentation Command-line)** 🔍
-   - List Running Processes:
-     ```bash
-     wmic process list brief
-     ```
-   - Query System Boot Time:
-     ```bash
-     wmic os get lastbootuptime
-     ```
-
----
-
-## 🟢 Linux EDR Analysis
-
-Linux EDR analysis involves using command-line tools to monitor system behavior, analyze logs, and manage processes to identify potential security threats. It is particularly effective in environments where Linux is used for servers or workstations, providing insights into system activities and vulnerabilities.
-
-### 🚀 Commands Only:
-
-1. **Process Monitoring** 📊
-   - List Active Processes:
-     ```bash
-     ps aux --sort=-%cpu
-     ```
-   - Display Process Tree:
-     ```bash
-     pstree -p
-     ```
-   - Interactive Process Viewer:
-     ```bash
-     htop
-     ```
-
-2. **Log Analysis** 📄
-   - Review System Logs:
-     ```bash
-     tail -n 50 /var/log/syslog
-     ```
-   - Filter Logs for Authentication:
-     ```bash
-     grep "authentication failure" /var/log/auth.log
-     ```
-
-3. **Network Analysis** 🌐
-   - Display Active Connections:
-     ```bash
-     ss -tuln
-     ```
-   - Monitor Traffic on Interface:
-     ```bash
-     tcpdump -i eth0
-     ```
-   - Check Firewall Rules:
-     ```bash
-     sudo iptables -L -v
-     ```
-
-4. **File Integrity and Permissions** 🔒
-   - Verify File Hash:
-     ```bash
-     sha256sum /path/to/file
-     ```
-   - Check File Permissions:
-     ```bash
-     ls -l /path/to/directory
-     ```
-   - Find SUID/SGID Files:
-     ```bash
-     find / -perm /6000 -type f 2>/dev/null
-     ```
-
-5. **Malware Detection** 🛡️
-   - Scan with ClamAV:
-     ```bash
-     clamscan -r /path/to/directory
-     ```
-   - Update ClamAV Definitions:
-     ```bash
-     freshclam
-     ```
-
-6. **System Information** 📋
-   - Display Kernel and OS Details:
-     ```bash
-     uname -a
-     ```
-   - Show Disk Usage:
-     ```bash
-     df -h
-     ```
-   - Display Memory Usage:
-     ```bash
-     free -h
-     ```
-
----
-
-✨ With these tools and commands, you can gain better insights into EDR activities and protect your systems effectively! 💪
-
-
-
-
-# New Notes 
-
-
 ### ❓ What is an endpoint? 
 > An endpoint is **any device that is physically an end point on a network**. Laptops, desktops, mobile phones, tablets, servers, and virtual environments can all be considered endpoints.   
 
@@ -182,14 +32,119 @@ A host-based firewall is a security application installed directly on a networke
 
 ### Monitoring:
 The below are a list of important items to consider with EDR monitoring.
-- **Process Execution**:  Running Processes, Executables, bashlets, Process Hierarchy.
+- **Process Execution**:  Running Processes, Executables, cmdlets, Process Hierarchy.
 - **File System Changes**: Create, Modify or Delete.
 - **Network Connection**: Traffic, Initiated Connections, Executables.
 - **Registry Modifications**: Keys/Values, Backdoors, Persistence, Evasion.
 
 ## Windows 
 
+### Core Processes (others available at [[Windows Executables]])
+
+#### System
+> The **"System"** process (PID 4) in Windows is a core kernel process handling hardware interactions, drivers, and memory management. It runs under **NT Kernel & System** and is essential for OS stability. High resource usage may indicate driver issues, hardware faults, or malware.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  None or `C:\Windows\system32\ntoskrnl.exe`   |
+|  **PID**   |  4   |
+|  **Parent Process**   |  None or System Idle Process   |
+|  **No. Of Instances**   |  1   |
+|  **User Account**   |  Local System  |
+|  **Start Time**   |  At Boot   |
+
+#### smss.exe (Session Manager Subsystem)
+> **smss.exe (Session Manager Subsystem)** is a critical Windows process that initializes user sessions, starts system processes, and manages virtual memory. It runs from **C:\Windows\System32**, and only one instance should persist after startup—multiple instances may indicate malware.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  `%SystemRoot%\System32\smss.exe`   |
+|  **Parent Process**   |  System (4)   |
+|  **No. Of Instances**   |  1 master, 1 child instance per session (children self-terminate)   |
+|  **User Account**   |  Local System  |
+|  **Start Time**   |  Within seconds of boot   |
+
+#### csrss.exe (Client/Server Runtime Subsystem)
+> **csrss.exe (Client/Server Runtime Subsystem)** is a critical Windows process managing console windows, GUI shutdown, and process handling. It runs from **C:\Windows\System32**, and any instance outside this directory may indicate malware.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  `%SystemRoot%\System32\csrss.exe`   |
+|  **Parent Process**   |  smss.exe (orphan process)   |
+|  **No. Of Instances**   |  Two or more   |
+|  **User Account**   |  Local System  |
+|  **Start Time**   |  Within seconds of boot (first two instances)  |
+
+#### wininit.exe (Windows Initialisation)
+> **wininit.exe (Windows Initialization Process)** is a critical system process that starts key services like **lsass.exe** and **services.exe** during startup. It runs from **C:\Windows\System32**, and terminating it will crash the system.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  `%SystemRoot%\System32\wininit.exe`   |
+|  **Parent Process**   |  smss.exe (orphan process)   |
+|  **No. Of Instances**   |  1   |
+|  **User Account**   |  Local System  |
+|  **Start Time**   |  Within seconds of boot  |
+
+#### services.exe (Service Control Manager)
+> **services.exe (Service Control Manager)** manages Windows system services, ensuring they run correctly. It operates from **C:\Windows\System32**, and terminating it can cause system instability or a crash.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  `%SystemRoot%\System32\services.exe`   |
+|  **Parent Process**   |  wininit.exe   |
+|  **No. Of Instances**   |  1   |
+|  **User Account**   |  Local System  |
+|  **Start Time**   |  Within seconds of boot  |
+
+#### svchost.exe (Service Host)
+> **svchost.exe (Service Host Process)** is a critical Windows process that hosts and manages system services running from dynamic-link libraries (DLLs). Multiple instances run simultaneously, each handling different services. It operates from **C:\Windows\System32**, and suspicious locations may indicate malware.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  `%SystemRoot%\System32\svchost.exe`   |
+|  **Parent Process**   |  services.exe   |
+|  **No. Of Instances**   |  Many (typically 10+)   |
+|  **User Account**   |  Local System, Network Service, Local Service, or a user account  |
+|  **Start Time**   |  Within seconds of boot or whenever services start  |
+
+#### lsass.exe (Local Security Authority Subsystem Service)
+> **lsass.exe (Local Security Authority Subsystem Service)** is a critical Windows process responsible for enforcing security policies, handling user authentication, and managing access tokens. It runs from **C:\Windows\System32**, and any instance outside this location may indicate malware. Terminating it will force a system reboot.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  `%SystemRoot%\System32\lsass.exe`   |
+|  **Parent Process**   |  wininit.exe   |
+|  **No. Of Instances**   |  1   |
+|  **User Account**   |  Local System  |
+|  **Start Time**   |  Within seconds of boot  |
+
+#### winlogon.exe (Windows Logon)
+> **winlogon.exe (Windows Logon Process)** is a critical Windows process responsible for handling user logins, logouts, and the secure attention sequence (Ctrl+Alt+Del). It runs from **C:\Windows\System32**, and any instance outside this location may indicate malware. Terminating it will crash or log out the system.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  `%SystemRoot%\System32\winlogon.exe`   |
+|  **Parent Process**   |  smss.exe (orphan process)   |
+|  **No. Of Instances**   |  1 or more   |
+|  **User Account**   |  Local System  |
+|  **Start Time**   |  Within seconds of boot (Session 1)  |
+
+#### explorer.exe (Windows Explorer)
+> **explorer.exe (Windows Explorer)** is a core Windows process that manages the desktop, taskbar, and file explorer. It provides the graphical user interface (GUI) for navigating files and system resources. Located in **C:\Windows**, terminating it will close the desktop and taskbar but can be restarted via Task Manager.
+
+|  Tag   |  Details  |
+| --- | --- |
+|  **Image Path**   |  `%SystemRoot%\explorer.exe`   |
+|  **Parent Process**   |  userinit.exe (orphan process)   |
+|  **No. Of Instances**   |  1 or more   |
+|  **User Account**   |  Logged-in User Account  |
+|  **Start Time**   |  When interactive user sessions begin  |
+
+
 ### Network Analysis
+Network analysis is crucial for triaging EDR (Endpoint Detection and Response) detections because it helps identify and contextualize suspicious activities across the network, enabling quicker and more accurate responses to potential threats.
+
 ```bash
 net view \\<LOCAL HOST IP>
 ```
@@ -216,6 +171,167 @@ net stat -anob
 > This command will display active connections to the system (-a=active tcp/udp connections, -n=show IP's numerically, o=include PID, b=Display process filename)
 
 ### Process Analysis
-````bash
+Process analysis is important for triaging EDR detections because it allows security teams to understand the behavior of processes on endpoints, identify malicious activities, and respond effectively to security threats.
 
+There are three different kind of processes that can be executed on a windows host:
+1. **System Processes** (Windows) - Core functions - e.g. smss.exe, csrss.exe, etc.
+2. **User Processes** (Application) - User Initiated - e.g. chrome.exe, notepad.exe, etc.
+3. **Service Processes** (Background) - Background Functions - Windows update, Print Spooler, lsass.exe, etc.
+
+### Process Tree
+> below shows an example of a parent/child process relationship in terms of explorer.exe
+
+PID= Process ID
+
+![[better process tree.png]]
+
+#### Running Process Analysis 
+##### Tasklist Command
+- this will present a list of all running processes on the system
+```bash
+tasklist 
 ```
+- /V presents a more verbose output
+```bash
+tasklist /V
+```
+- /M provides a list of dll modules that are loaded by each process
+```bash
+tasklist /M
+```
+- /FI allows for filtering the results based of the provided term
+```bash
+tasklist /FI "<COLUMN NAME> eq <SEARCH TERM>"   #e.g. tasklist /FI "PID eq 2088"
+```
+
+##### Windows Management Instrumentation Command-line (WMIC) command
+- this will list information of all the processes currently running on the computer utilising WMIC
+```bash
+wmic process get name, parentprocessid, processid, commandline
+```
+- this will list information about the processes currently running on the computer utilising WMIC where the process id equals a given PID
+```bash
+wmic process where processid=<PROCESS ID> get name, parentprocessid, processid, commandline
+```
+- this will list information about the processes currently running on the computer utilising WMIC filtering by a given term
+```bash
+wmic processe get name, parentprocessid, processid, commandline | find "<TERM>"  #e.g. find "192"
+```
+
+##### Graphical Running Process Analysis
+- To view running process **Graphically** we can utilise the windows task manager a.k.a. taskmanager.exe 
+
+- We can also use the SysInternals tool from Microsoft known as **Process Explorer** - Available [HERE](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+A Full breakdown of the tool is located at [[Process Explorer]]
+
+## Linux
+
+### Network Analysis 
+
+```bash
+sudo netstat -tnp
+```
+> This command will display active connections to the system (-t=active tcp connections, -n=no DNS resolve, -p provides the PID & filename)
+
+```bash
+sudo ss -tnp      #socket statistics
+```
+> This command is a modern version of netstat and provides all active connections to the system
+
+```bash
+sudo ss src <SOURCE ADDRESS>
+```
+> This command shows all active connections from a given source 
+
+```bash
+sudo ss dport == <DEST PORT> -tnp
+```
+> This command shows all active connections from a given source 
+
+```bash
+sudo lsof -u <USER> -i -n -P -p <PID> +L1
+```
+> Lists information about currently opened files on the system
+`-u` - user filtering flag
+`-i` - list active network connections and listening ports
+`-n/-P` - does not preform dns lookup
+`-p` - specify a process id to look up
+`+L1` - shows deleted files that remain active as the process is still running
+
+### Process Analysis
+
+```bash
+sudo ps -u <USER> -AFH -p <PID> | less
+```
+> shows running processes on the system
+`-u` - shows running processes for a particular user 
+`-A` - shows all running processes on the system
+`-F` - provides a verbose response
+`-H` - provides a forest style output
+`-p` - specify a process id
+`| less` - allows the user to manually navigate through the output 
+
+```bash
+sudo pstree -p -s <PID>
+```
+> provides a tree diagram of running processes 
+`-p` - display the process ID of the running process
+`-s` - display the parent process ID of the running process
+
+```bash
+sudo top -u <USER> -c -o -<FILTERED COLUMN>
+```
+> provides a live view of running processes on the system
+`-u` - shows running processes for a particular user 
+`-c` - provides a more verbose output 
+`-o` - outputs based on an applied filter 
+pressing the `h` key shows other interactable shortcuts for the `top` command
+
+#### Linux `/proc` Directory
+A **virtual filesystem** that provides real-time system and process information.
+It contains pseudo-files that represent system and kernel data, such as CPU info, memory usage, running processes, and hardware configurations. Some key files and directories include:
+
+**`/proc/cpuinfo`** – CPU details
+**`/proc/meminfo`** – Memory usage
+**`/proc/{PID}/`** – Process-specific information (e.g., `/proc/1234/` for process 1234)
+**`/proc/mounts`** – Mounted filesystems
+**`/proc/sys/`** – Kernel parameters (modifiable via `sysctl`)
+
+Since `/proc` is dynamically generated, it doesn’t consume actual disk space and is essential for system monitoring and management.
+
+### Linux Cron Jobs
+
+> Below is an example of a Linux cron job entry
+
+![[cron job.png]]
+
+`05` - This column represents the **minute** the command will be executed
+`00` - This column represents the **hour** the command will be executed 
+`*` - The First of these columns represents the day of the month the command will be executed (in this case it will be every day)
+`*` - The Second of these columns represents the month the command will execute (in this case it will be every month)
+`*` - The Third of these columns represents the day of the week this command will execute (in this case every day of the week)
+`/tmp/backup.sh` - This is the command field, this represents the command that is scheduled to be executed
+
+The result of the above cron job will execute `backup.sh` from the `/tmp` directory every day at 12:05 am
+For a further breakdown on Linux cron jobs the website [crontab guru](https://crontab.guru/) provides a brilliant resource
+
+To view all currently scheduled cron jobs within a system we can execute the following command 
+```bash
+cat ~/etc/crontab
+```
+
+Use the following commands to visually see all subsets of cron jobs 
+```bash 
+ls -al /etc/cron.daily/
+ls -al /etc/cron.hourly/
+ls -al /etc/cron.monthly/
+ls -al /etc/cron.weekly/
+ls -al /etc/cron.yearly/
+```
+
+We can also use the `sha256sum` command to provide the hash of the executable scheduled to run e.g.:
+```bash
+sha256sum /etc/cron.<SUBSET>/*
+```
+
+
