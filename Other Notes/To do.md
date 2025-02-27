@@ -15,5 +15,5 @@
 - [ ] Siem
 - [ ] TCPdump
 - [x] Snort 
-- [ ] Endpoint Security
+- [X] Endpoint Security
 
