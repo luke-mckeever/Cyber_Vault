@@ -12,14 +12,6 @@ BREAKDOWN OF WHAT THE TOOL IS
 
 ---
 
-### 🛠 Features:
-- FEATURE 1
-- FEATURE 2
-- FEATURE 3
-- FEATURE 4
-
----
-
 ### 🚀 Installing TOOL NAME
 
 #### 🔹 **LINUX** 
