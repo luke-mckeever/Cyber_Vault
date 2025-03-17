@@ -13,27 +13,18 @@ Welcome to the **MemProcFS** How-To Page! 🎉 This guide will help you install 
 
 ## 📥 Installation
 
-Follow these steps to get **MemProcFS** up and running on your system:
+### To Download MemProcFS
 
-### 1️⃣ Prerequisites
-
-Ensure you have the following installed:
-- **Windows/Linux** operating system 🖥️
-- **.NET Core Runtime** (for Windows) or **Mono** (for Linux) 🛠️
-
-### 2️⃣ Download MemProcFS
-
-1. Head over to the [official GitHub repository](https://github.com/ufrisk/MemProcFS) 🌐.
+1. Head over to the [official GitHub repository](https://github.com/ufrisk/MemProcFS/releases/tag/v5.14) 🌐.
 2. Download the latest release zip file from the [Releases](https://github.com/ufrisk/MemProcFS/releases) section.
 
-### 3️⃣ Extract the Files
+3. An extra step that is required is to download **Dokany** Available [Here](https://github.com/dokan-dev/dokany/releases/download/v2.2.1.1000/Dokan_x64.msi) 
+This will allow for the adaptation of different file systems.
 
-Unzip the downloaded file to a folder of your choice:
-```bash
-unzip MemProcFS.zip -d /path/to/folder
-```
 
-### 4️⃣ Run the Tool
+### Unzip of the (if required)
+
+### Run the Tool
 
 #### On Windows:
 ```powershell
@@ -58,23 +49,6 @@ Once mounted, you can explore the memory as if it were a regular file system:
 - **Processes:** `/proc` - Lists all processes in memory.
 - **Modules:** `/modules` - Shows loaded modules.
 - **Handles:** `/handles` - Displays open handles.
-
-### 💡 Example Commands
-
-#### List Processes:
-```bash
-ls /mnt/memprocfs/proc
-```
-
-#### Analyze Specific Process:
-```bash
-cat /mnt/memprocfs/proc/<pid>/info.txt
-```
-
-#### Search Strings in Memory:
-```bash
-grep -a "keyword" /mnt/memprocfs/memory.raw
-```
 
 ---
 
