@@ -1,4 +1,5 @@
 ### 📷 ExifTool - The Ultimate Metadata Swiss Army Knife 🛠️
+#tool #TTDF  #BLUE 
 
 ![ExifTool Logo](https://exiftool.org/ET-256.png)
 

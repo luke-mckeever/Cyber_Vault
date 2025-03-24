@@ -85,8 +85,10 @@ The following tool manual's are currently within this repository:
 
 - [**PEstudio**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/PEstudio.md) - Tool used to inspect Windows executables to mitigate the risk of malicious files.
 
+- [**ExifTool**]() - A command-line tool for reading, writing, and editing metadata in files
 
-## General/Other Tools:
+
+## General & Other Tools:
 
 - [**Curl**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Curl.md) - Command-line tool for transferring data with URL syntax, supporting various protocols.
 

@@ -35,8 +35,6 @@ In Obsidian, the tagging system allows users to categorize and link their notes 
 - \#shortcuts -> keyboard shortcuts related notes
 - \#win -> Windows related notes
 - \#md -> Markdown related notes
-- \#Blue -> Blue team related tools/notes
-- \#Red -> Red tea, related tools/notes
 - \#cti -> Threat Intelligence notes
 - \#edr -> Endpoint Detection and Response related Notes 
 - \#email -> Email related notes 
@@ -45,6 +43,11 @@ In Obsidian, the tagging system allows users to categorize and link their notes 
 - \#EZ -> A part of the Eric Zimmerman suite of tools
 
 ### Tool Types (TT)
+> To note: All tools and categorised into either 1 of three categories:
+- \#Blue -> Blue team related tools/notes
+- \#Red -> Red team related tools/notes
+- \#OTHER -> Tools that do not have a distinction between blue/red
+
 - \#TTweb -> Web bases tooling
 - \#TTAD -> Active Directory Related tooling
 - \#TTfile -> File based tooling
