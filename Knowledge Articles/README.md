@@ -30,20 +30,5 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 
 & More To Come...
 
-## 🚀 Get Started
-📌 Clone the repo & start exploring:
-```sh
- git clone https://github.com/YOUR_USERNAME/Knowledge-Articles.git
-```
-
-## 🏆 Contributions
-💡 Got an idea? Found an error? Feel free to contribute & make this better! 🚀
-
-## 🔗 Stay Connected
-📢 Follow for updates & insights!
-
-🔐 *Cybersecurity is a journey, not a destination!* 🔥
-
----
 
 📢 **Disclaimer:** All content within this repository has been curated by the author to the best of their ability and fact-checked as of 2025. However, it cannot be 100% authenticated. Use the information at your own discretion. 🔍
