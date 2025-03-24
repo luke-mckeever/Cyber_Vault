@@ -17,8 +17,6 @@ Infographics and visual guides for security best practices, attack methodologies
 ### 🔹 [Tooling](https://github.com/luke-mckeever/Cyber_Vault/tree/main/Tooling)
 Documentation and notes on cybersecurity tools, including installation, usage, and configurations.
 
-### 🔹 Other Sections
-- Templates
 
 ## Tags 
 
