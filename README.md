@@ -26,6 +26,7 @@ In Obsidian, the tagging system allows users to categorize and link their notes 
 - \#CS  -> Cheatsheet's
 - \#KA -> Knowledge Article
 - \#tool -> Tooling notes
+- \#README -> Read me notes for the repo
 
 ### Content Tags 
 - \#networking -> Networking related Notes
