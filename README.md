@@ -1,9 +1,14 @@
 # Cyber_Vault 🛡️
 #README 
 
+![Cyber_Vault](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Images/cyber_vault.png)
+
+---
+
 Welcome to the **Cyber_Vault** – your ultimate repository for all things **cybersecurity**! 🔐 Whether you're a seasoned professional or a curious learner, this repository offers a rich collection of resources designed to enhance your skills and knowledge. 
 
 ---
+
 This repository is organized into the following sections:
 
 ### 🔹 [Cheatsheets](https://github.com/luke-mckeever/Cyber_Vault/tree/main/Cheat%20Sheets)
