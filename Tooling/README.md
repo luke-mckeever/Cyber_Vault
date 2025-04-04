@@ -87,6 +87,7 @@ The following tool manual's are currently within this repository:
 
 - [**ExifTool**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/ExifTool.md) - A command-line tool for reading, writing, and editing metadata in files
 
+- [**Cutter**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Cutter.md) - Cutter is a user-friendly GUI frontend for the reverse engineering framework Radare2, used to analyze, decompile, and debug binaries.
 
 ## General & Other Tools:
 
