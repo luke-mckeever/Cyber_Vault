@@ -69,7 +69,7 @@ The following tool manual's are currently within this repository:
 
 - [**Volatility**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Volatility.md) - Advanced memory forensics framework.
 
-- [**Wireshark](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Wireshark.md)**] - Network protocol analyzer used for network troubleshooting and analysis.
+- [**Wireshark**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Wireshark.md)**] - Network protocol analyzer used for network troubleshooting and analysis.
 
 - [**TCP view**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/TCP%20view.md) - Windows program that shows detailed listings of all TCP and UDP endpoints.
 
