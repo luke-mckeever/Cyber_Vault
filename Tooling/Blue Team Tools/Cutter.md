@@ -38,7 +38,7 @@ Simply download the `.exe` and follow the installer instructions. No CLI needed!
 > 🧩 Cutter supports plugins and themes for personalizing your RE experience.
 
 
-## Using Cutter to anlyse malware
+## Using Cutter to analyse malware
 
 
 ---
