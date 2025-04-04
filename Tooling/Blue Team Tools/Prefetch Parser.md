@@ -1,5 +1,5 @@
 # Prefetch Parser 🚀🔎🖥️
-#EZ #TTDF #Tool 
+#EZ #TTDF #Tool  #BLUE 
 
 >**🔍 A powerful forensic tool by Eric Zimmerman for analysing Windows Prefetch Files 🔎**
 

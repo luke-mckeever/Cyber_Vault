@@ -1,5 +1,5 @@
 # 🌐 INetSim 🚀
-
+#Tool #BLUE #TTMA 
 
 INetSim (Internet Services Simulation Suite) is a powerful tool designed for simulating common internet services in a controlled environment, making it invaluable for malware analysis, network security research, and forensic investigations. 
 

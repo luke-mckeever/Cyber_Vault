@@ -1,6 +1,5 @@
 # Capa 🔍✨🚀
-
-#️tool #TTMA #BLUE 
+#️Tool #TTMA #BLUE 
 
 Capa is a powerful open-source tool developed by [FireEye](https://www.mandiant.com/resources/capa) for identifying capabilities in executable files. It provides a structured way to analyze binaries and detect functionalities such as encryption, persistence, network activity, and more!
 

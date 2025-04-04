@@ -1,5 +1,5 @@
 # Volatility 🕵️‍♂️🔍💻
-#Tool  #TTDF 
+#Tool  #TTDF  #BLUE 
 
 Volatility is a powerful memory forensics framework used for analyzing RAM dumps to extract critical forensic artifacts. It helps cybersecurity professionals, incident responders, and digital forensic analysts investigate malware infections, uncover hidden processes, and detect anomalies within volatile memory.
 

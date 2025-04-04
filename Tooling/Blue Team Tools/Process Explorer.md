@@ -1,5 +1,5 @@
 # 🛠️ Process Explorer 🚀
-#Tool #BLUE #Win #TTgen 
+#Tool #BLUE #TTgen 
 
 ## 🔍 What is Process Explorer?
 

@@ -1,5 +1,5 @@
 # 🎩 **Registry Explorer** 🕵️‍♂️🔍
-#tool #TTDF #EZ
+#tool #TTDF #EZ #BLUE 
 
 
 > **A Powerful Forensic Tool by [Eric Zimmerman](https://ericzimmerman.github.io/)**  

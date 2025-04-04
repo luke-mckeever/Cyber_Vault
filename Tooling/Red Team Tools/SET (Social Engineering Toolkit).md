@@ -1,5 +1,5 @@
 # SET (Social Engineering Toolkit) 
-#Tool #RED #TTemail
+#Tool #RED #TTSE
 
 This guide is your one-stop reference for mastering **SET**, a powerful tool for social engineering attacks. 💻🔒
 

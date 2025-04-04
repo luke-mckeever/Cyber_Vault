@@ -1,5 +1,5 @@
 # MISP - Malware Intelligence Sharing Platform 🚀💻
-#CTI #tool #TTintel
+ #tool #TTintel #BLUE 
 
 
 MISP is an advanced open-source threat intelligence platform designed to improve the detection and prevention of cyber threats. 

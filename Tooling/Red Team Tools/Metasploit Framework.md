@@ -1,5 +1,5 @@
 # Metasploit Framework 🔥💻🕵️‍♂️
-#RED #Tool 
+#RED #Tool #TTFW
 
 Metasploit Framework is an open-source penetration testing platform that enables security professionals to test system vulnerabilities, execute exploit code, and develop their own exploit tools.
 

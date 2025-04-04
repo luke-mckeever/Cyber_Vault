@@ -1,5 +1,5 @@
 # KAPE 🚀
-#tool #TTDF #EZ
+#tool #TTDF #EZ #BLUE 
 
 ![KAPE Logo](https://upload.wikimedia.org/wikipedia/commons/0/06/Kroll_Logo_2021.png)  
 
