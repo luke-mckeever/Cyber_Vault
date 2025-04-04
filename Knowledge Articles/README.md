@@ -23,7 +23,7 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 - **YARA** 🔎 - Writing rules to detect malware families.
 - **Triaging Forensic Artefacts** 🧩 - Prioritizing and analyzing digital evidence.
 - **Incident Response** 🚨 - Steps to contain and mitigate security incidents.
-- **Malware Analysis** 🕵️ - Examining malicious software behavior.
+- **Malware Analysis** 🕵️ - Examining malicious software behaviour.
 - **Common Attack Signatures** 🚧 - Recognizing patterns in cyber attacks.
 - **Endpoint Detection & Response** 🛡️ - Monitoring and defending endpoints.
 - **Flare VM - Malware Lab Provisioning** 🔬 - Setting up a Windows-based malware analysis lab.

@@ -1,5 +1,5 @@
 # 🔍 Procmon - The Ultimate Windows Monitoring Tool 🛠️🔥
-
+#Tool #BLUE  #TTMA  
 
 Procmon (Process Monitor) is a powerful GUI-based tool from the Sysinternals suite that provides real-time monitoring of file system, registry, and process/thread activity in Windows. It's a must-have for security professionals, system administrators, and developers to troubleshoot and analyze system behavior.
 

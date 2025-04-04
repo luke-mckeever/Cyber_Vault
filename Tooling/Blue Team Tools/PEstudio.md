@@ -1,5 +1,5 @@
 # 🛠️ PEStudio - A Powerful Malware Analysis GUI Tool 🎨
-
+#Tool #BLUE  #TTMA  
 
 PEStudio is a **graphical user interface (GUI) tool** designed for **static malware analysis**. It allows security professionals to analyze suspicious executable files without executing them, helping to detect malware indicators quickly and efficiently. 🚀
 
