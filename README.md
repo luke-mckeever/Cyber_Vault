@@ -24,6 +24,14 @@ Infographics and visual guides for security best practices, attack methodologies
 Documentation and notes on cybersecurity tools, including installation, usage, and configurations.
 
 
+## Personal Recommendations
+here are just some of the knowledge articles, tools and cheatsheets I use on a daily basis and think may come on handy.
+- [**Malware analysis**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Malware%20Analysis.md) - great for getting up to speed on investigating malware
+- [**Useful (Cyber) Domains**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/Useful%20(Cyber)%20Domains.md) - if you just can remember that one OSINT site.
+- [**Flare VM - Malware Lab Provisioning**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Flare%20VM%20-%20Malware%20Lab%20Provisioning.md) - when you needa spin up a quick lab
+- [**Capa**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Capa.md) - the complete malware technique tool
+
+
 ## Tags 
 
 In Obsidian, the tagging system allows users to categorize and link their notes by adding hashtags to any part of their text. For example, tagging a note with `#project` makes it easy to find all notes related to "project" simply by clicking on the tag or searching for it in the search bar. Tags help organize and connect ideas efficiently within your personal knowledge base.
