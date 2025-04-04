@@ -58,28 +58,28 @@ Understanding the diverse range of cyberattacks is critical for defending agains
 ## Other Types of Attack Signatures 
 
 #### **Phishing**
-Phishing involves tricking victims into revealing sensitive information, such as login credentials or financial details, by masquerading as a trustworthy entity.
+- Phishing involves tricking victims into revealing sensitive information, such as login credentials or financial details, by masquerading as a trustworthy entity.
 
 #### **Malware**
-Malware is malicious software designed to harm, exploit, or otherwise compromise devices or networks.
+- Malware is malicious software designed to harm, exploit, or otherwise compromise devices or networks.
 
 #### **Man-in-the-Middle (MitM) Attack**
-MitM attacks occur when an attacker secretly intercepts and potentially alters the communication between two parties.
+- MitM attacks occur when an attacker secretly intercepts and potentially alters the communication between two parties.
 
 #### **Zero-Day Exploits**
-Zero-day exploits target vulnerabilities that are unknown to the software vendor or have no available patch at the time of the attack.
+- Zero-day exploits target vulnerabilities that are unknown to the software vendor or have no available patch at the time of the attack.
 
 #### **Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS)**
-DoS/DDoS attacks flood a network or server with excessive traffic, rendering it unavailable to users.
+- DoS/DDoS attacks flood a network or server with excessive traffic, rendering it unavailable to users.
 
 #### **Social Engineering**
-Social engineering manipulates individuals into divulging confidential information or performing specific actions.
+- Social engineering manipulates individuals into divulging confidential information or performing specific actions.
 
 #### **Password Attacks**
-These attacks aim to steal or guess passwords through brute force, dictionary attacks, or credential stuffing.
+- These attacks aim to steal or guess passwords through brute force, dictionary attacks, or credential stuffing.
 
 ####  **Insider Threats**
-These attacks originate from individuals within the organization who have malicious intent or fall victim to manipulation.
+- These attacks originate from individuals within the organization who have malicious intent or fall victim to manipulation.
 
 ####  **Advanced Persistent Threats (APTs)**
-APTs are prolonged, targeted attacks conducted by well-funded groups, often for espionage or sabotage.
+- APTs are prolonged, targeted attacks conducted by well-funded groups, often for espionage or sabotage.

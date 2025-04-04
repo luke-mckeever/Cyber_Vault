@@ -22,6 +22,8 @@ Welcome to the **Cheat Sheets** section of our Cybersecurity Repository! 🛡️
 - **Quick Reference Commands** – Essential commands at a glance ⚡  
 - **URL Encoding** – Encoding & decoding URLs made easy 🔢  
 - **Windows Registry Keys** – Important registry paths for security & troubleshooting 🛠️  
+- **Magic Bytes** - Recognizing file types based on unique identifiers.
+- **Language Database** - various languages used across **web development**, **system programming**, **game development**, and more 
 
 
 📢 **Disclaimer:** All content within this repository has been curated by the author to the best of their ability and fact-checked as of 2025. However, it cannot be 100% authenticated. Use the information at your own discretion. 🔍
