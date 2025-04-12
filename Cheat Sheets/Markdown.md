@@ -114,6 +114,21 @@ This is a block of code.
 - [x] Completed Task
 - [ ] Incomplete Task
 
+### Drop down lists
+```
+<details open>
+<summary>Want to ruin the surprise?</summary>
+<br>
+Well, you asked for it!
+</details>
+```
+<details open>
+<summary>Want to ruin the surprise?</summary>
+<br>
+Well, you asked for it!
+</details>
+
+
 ### Footnotes
 ```markdown
 Here is a footnote reference[^1].
