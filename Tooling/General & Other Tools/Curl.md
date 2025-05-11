@@ -1,5 +1,5 @@
 # Curl 🌀
-#Tool #OTHER #TTgen
+#Tool #OTHER #TTGen
 
 Curl is a versatile command-line tool for transferring data with URLs. Whether you're downloading files, testing APIs, or troubleshooting network issues, this guide has you covered. 🎉
 

@@ -55,6 +55,7 @@ In Obsidian, the tagging system allows users to categorize and link their notes 
 - \#compliance -> compliance/audit related content
 - \#Forensics -> Forensics related content
 - \#EZ -> A part of the Eric Zimmerman suite of tools
+- \#MA -> Malware Analysis related content 
 
 ### Tool Types (TT)
 To note: All tools and categorised into either 1 of three categories:
@@ -73,3 +74,4 @@ To note: All tools and categorised into either 1 of three categories:
 - \#TTDF -> Digital Forensics Related Tooling
 - \#TTMA -> Malware Analysis Related Tooling
 - \#TTPW-> Password Type Tool for Recovery or Cracking
+- \#TTGen-> General Type of Tool
