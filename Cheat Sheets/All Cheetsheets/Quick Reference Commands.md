@@ -3,7 +3,7 @@
 ## 🛡️ Offensive Security Commands
 ### Nmap default port scan
 ```bash
-nmap -p- -O -v -sV <IP ADDRESS>
+nmap -p- -O -v -sV -sC <IP ADDRESS>
 ```
 -- Default mass port scan with OS and Service identification 
 
