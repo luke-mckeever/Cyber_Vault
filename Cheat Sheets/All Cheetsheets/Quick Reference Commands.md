@@ -96,3 +96,9 @@ wmic os get osarchitecture
 echo "<BASE64 STRING>" | base64 -d
 ```
 -- This command will decode any provided base 64 
+
+### Dirb Search
+```bash
+dirb http://example.com /usr/share/wordlists/dirb/big.txt -X .php,.txt,.exe,.html,.jpg,.jpeg,.png,.doc,.htm,.pdf,.xml,.log,.com,.sh,.zip
+```
+- this will attempt to brute force all paths available on a given site 
