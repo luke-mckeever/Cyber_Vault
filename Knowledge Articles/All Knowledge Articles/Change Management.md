@@ -57,30 +57,10 @@ Here's a simplified diagram of the change management lifecycle:
 ### 7. **📚 Documentation and Auditing**
 - Every step, from request to implementation, is recorded to provide an **audit trail**.
 
----
-
-## 🧰 Tools Used in Cybersecurity Change Management
-
-- 📘 **ServiceNow** – Request and workflow management
-- 🔐 **JIRA** – Ticketing and tracking
-- 🛠️ **Ansible / Puppet / Chef** – Automating configuration and change deployment
-- 📈 **SIEM Solutions** – Monitoring for unexpected behavior after changes
-- 📂 **Version Control (Git)** – Tracking changes in code and configs
-
----
-
-## 🧠 Best Practices
-
-- 🔄 Use **standardized templates** for change requests
-- 📆 Schedule changes during **low-traffic windows**
-- 🛡️ Always have a **rollback plan**
-- ✅ Maintain **least privilege access** for change implementers
-- 🔎 Monitor **logs and alerts** after changes
-- 🔐 Integrate change management into the **Incident Response Plan**
+--- 
 
 The most important integration that must be preformed within Change Management is **Testing**, 
-Testing is done in multiple environments to prevent business impact 
-Here are some examples of testing environments:
+Testing is done in multiple environments to prevent business impact. Here are some examples of testing environments:
 
 
 | **Stage** |        **Environment**         |                                              **Description**                                                                        | **Audit Covered** | 
