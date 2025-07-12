@@ -30,6 +30,7 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 - [**Cryptography**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Cryptography.md) - Mathematical algorithm encryption security.
 - [**Security Controls**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Security%20Controls.md) - An explanation of security controls and implementations.
 - [**CIA-AAA Triads**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/CIA-AAA%20Triads.md) - A breakdown of two of the most important frameworks in Cyber.
+- [**Change Management**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Change%20Management.md) - how updating and implementing changes are done within an enterprise
 
 
 & More To Come...
