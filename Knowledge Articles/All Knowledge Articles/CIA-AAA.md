@@ -1,0 +1,3 @@
+# CIA Triad
+
+![[CIA.png]]
