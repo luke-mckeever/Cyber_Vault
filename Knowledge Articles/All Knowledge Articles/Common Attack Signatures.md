@@ -53,6 +53,39 @@ Understanding the diverse range of cyberattacks is critical for defending agains
 
 - Escape queries - `../../../` or encoded `%2E%2E%2F%2E%2E%2F%2E%2E%2F`
 
+### 💥 Buffer Overflow
+> A **Buffer Overflow** occurs when a program writes more data to a buffer (temporary memory storage) than it can hold, potentially overwriting adjacent memory and leading to crashes or arbitrary code execution.
+
+- Exploit payloads often include: `NOP sled + Shellcode + Return Address Overwrite`
+- Common targets: Stack-based and heap-based buffers in C/C++ programs
+
+### 🧬 Memory Injection
+> **Memory Injection** involves inserting malicious code directly into a program’s memory space, allowing attackers to hijack execution flow without writing anything to disk.
+
+- Techniques include: **DLL injection**, **code caves**, and **reflective PE loading**
+- Tools often used: `mimikatz`, `Meterpreter`, `Process Hacker`
+
+### 🦠 Fileless Malware
+> **Fileless malware** resides in memory and does not write malicious files to disk, making it harder to detect with traditional antivirus tools.
+
+- Common vectors: PowerShell, WMI, or registry abuse
+- Example: `powershell -nop -w hidden -encodedCommand <payload>`
+
+### 🔗 Supply Chain Attack
+> A **Supply Chain Attack** targets a trusted third-party vendor or software component to compromise a larger organization by introducing malicious code or hardware during production or distribution.
+
+- Real-world example: `SolarWinds Orion` compromise
+- Prevention: Vendor risk assessments, code signing, software bill of materials (SBOM)
+
+---
+
+### 🌐 DNS Poisoning / DNS Stuffing
+
+> **DNS Poisoning** (or Spoofing) corrupts a DNS resolver’s cache, causing it to return incorrect IP addresses and redirect users to malicious sites. **DNS Stuffing** involves overwhelming DNS servers with excessive or malformed queries.
+
+- Poisoning example: Injecting fake DNS responses faster than the legitimate server
+    
+- Mitigation: DNSSEC, query rate limiting, cache randomization
 ---
 
 ## Other Types of Attack Signatures 
