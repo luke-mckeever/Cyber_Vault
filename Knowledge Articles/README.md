@@ -27,7 +27,10 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 - [**Flare VM - Malware Lab Provisioning**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Flare%20VM%20-%20Malware%20Lab%20Provisioning.md) - Setting up a Windows-based malware analysis lab.
 - [**A Programs Perspective of Memory**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/A%20Program%E2%80%99s%20Perspective%20of%20Memory.md) - Understanding how memory works
 - [**Malware Analysis Framework**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/-DRAFT-%20Malware%20Analysis%20Framework.md) - A self designed framework for conducting any and all malware analysis.
-- [**Acronyms & Keywords**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Acronyms%20%26%20Keywords.md) - A list of highly utilized acronyms within the cyber field.
+- [**Cryptography**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/-DRAFT-%20Malware%20Analysis%20Framework.md) - A self designed framework for conducting any and all malware analysis.
+- [**Security Controls**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/-DRAFT-%20Malware%20Analysis%20Framework.md) - A self designed framework for conducting any and all malware analysis.
+- [**CIA-AAA Triads**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/-DRAFT-%20Malware%20Analysis%20Framework.md) - A self designed framework for conducting any and all malware analysis.
+
 
 & More To Come...
 
