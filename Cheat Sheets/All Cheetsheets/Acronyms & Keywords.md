@@ -105,3 +105,5 @@ Welcome to the **Acronyms & Keywords** reference page! This repo contains a grow
 |**TLD**|_Top-Level Domain_|The last part of a domain name (.com, .org).|
 
 > 💡 _Designed for clarity and speed — perfect for quick reference!_
+
+Yes
