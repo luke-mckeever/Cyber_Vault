@@ -1,7 +1,7 @@
 # Cyber_Vault 🛡️
 #README 
 
-![[cyber_vault.png]]
+![Cyber_Vault](https://raw.githubusercontent.com/luke-mckeever/Cyber_Vault/main/Images/cyber_vault.png)
 
 ---
 
