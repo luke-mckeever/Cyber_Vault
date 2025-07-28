@@ -7,7 +7,7 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 
 ## 📜 Contents:
 
-- [**Diamond Model of Intrusion Analysis**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Diamond%20Model%20of%20Intrusion%20Analysis.md) - A framework for understanding intrusions by analyzing the relationships between adversary, infrastructure, victim, and capability.
+- [**Diamond Model of Intrusion Analysis**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Diamond%20Model%20of%20Intrusion%20Analysis.md) - Understanding intrusions by analyzing the relationships between adversary, infrastructure, victim, and capability.
 - [**Email Attachment Analysis**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Email%20Attachment%20Analysis.md) - Techniques for detecting and examining potentially malicious email attachments.
 - [**Email Headers**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Email%20Headers.md) - Analyzing metadata in email headers to trace origins and identify spoofing.
 - [**Malware Types**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Malware%20Types.md) - A categorized overview of malicious software such as viruses, worms, Trojans, and ransomware.
@@ -24,15 +24,15 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 - [**Malware Analysis**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Analysis.md) - Techniques for examining malicious software to determine its behavior, capabilities, and impact.
 - [**Common Attack Signatures**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Common%20Attack%20Signatures.md) - Patterns and indicators commonly associated with known cyberattacks.
 - [**Endpoint Detection & Response**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Endpoint%20Detection%20%26%20Response.md) - Solutions that provide continuous monitoring, detection, and response for endpoint threats.
-- [**Flare VM - Malware Lab Provisioning**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Flare%20VM%20-%20Malware%20Lab%20Provisioning.md) - A specialized Windows environment for malware analysis equipped with a wide range of forensic tools.
+- [**Flare VM - Malware Lab Provisioning**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Flare%20VM%20-%20Malware%20Lab%20Provisioning.md) - A specialized Windows environment for malware analysis.
 - [**A Program’s Perspective of Memory**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/A%20Program%E2%80%99s%20Perspective%20of%20Memory.md) - Explaining how programs interact with and utilize system memory.
 - [**Malware Analysis Framework**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Analysis%20Framework.md) - A custom-designed methodology for conducting comprehensive static and dynamic malware analysis.
 - [**Cryptography**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Cryptography.md) - The science of securing information through encryption, hashing, and key management techniques.
 - [**Security Controls**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Security%20Controls.md) - Safeguards and countermeasures to protect assets and maintain confidentiality, integrity, and availability.
-- [**CIA-AAA Triads**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/CIA-AAA%20Triads.md) - Two foundational security models: CIA (Confidentiality, Integrity, Availability) and AAA (Authentication, Authorization, Accounting).
+- [**CIA-AAA Triads**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/CIA-AAA%20Triads.md) - Two foundational security models: CIA Triad and AAA Triad.
 - [**Change Management**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Change%20Management.md) - The structured process of planning, approving, and implementing IT and security changes in an enterprise.
 - [**Malware Analysis Framework**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Analysis%20Framework.md) - A structured methodology for dissecting and understanding malware through static and dynamic techniques, aiding in threat intelligence, detection, and response.
-- [**Security Controls**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Security%20Controls.md) - Safeguards and countermeasures put in place to reduce security risks, protect assets, and ensure the confidentiality, integrity, and availability of information systems.
+- [**Security Controls**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Security%20Controls.md) - Safeguards and countermeasures put in place to reduce security risks and protect assets.
 
 
 
