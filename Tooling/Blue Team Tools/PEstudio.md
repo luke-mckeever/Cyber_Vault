@@ -7,7 +7,7 @@ PEStudio is a **graphical user interface (GUI) tool** designed for **static malw
 
 ---
 
-![PEStudio Logo](https://www.winitor.com/images/pestudio_big.png)
+![PEStudio Logo](https://www.datocms-assets.com/104397/1710732722-pestudio.png?auto=format)
 
 ---
 
