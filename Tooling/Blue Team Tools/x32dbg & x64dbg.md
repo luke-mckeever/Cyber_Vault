@@ -11,7 +11,7 @@ Both share a unified interface and feature set, tailored for their target archit
 
 ---
 
-![x64dbg Logo](https://x64dbg.com/assets/images/logo.png)
+![x64dbg Logo](https://raw.githubusercontent.com/x64dbg/x64dbg/development/src/bug_black.png)
 
 ---
 

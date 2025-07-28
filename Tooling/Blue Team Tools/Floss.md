@@ -9,7 +9,7 @@
 
 ---
 
-![Floss Logo](https://github.com/mandiant/flare-floss/raw/master/docs/floss-logo.png)
+![Floss Logo](https://github.com/mandiant/flare-floss/blob/master/resources/floss-logo.png)
 
 ---
 

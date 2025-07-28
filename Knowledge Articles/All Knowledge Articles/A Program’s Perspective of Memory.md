@@ -12,7 +12,7 @@ For that program, this isolated view is all it needs to function. While the spec
 
 The memory for a program is typically divided into four main sections:
 
-![Memory](memory.png)
+![Memory](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Images/memory.png)
 
 > 📌 *Note: While these sections are usually shown in a particular order, their actual arrangement in memory may vary. For example, the code section can appear below the data section depending on the compiler and system architecture.*
 

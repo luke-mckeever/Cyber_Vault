@@ -20,11 +20,11 @@ The following tool manual's are currently within this repository:
 - [**KAPE**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/KAPE.md) - Forensic data acquisition tool that quickly collects data and artifacts.
 - [**Registry Explorer**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Registry%20Explorer.md) - Tool to view the contents of Windows registry hives.
 - [**Shell Bags Explorer**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Shell%20Bags%20Explorer.md) - Helps reconstruct the contents of Windows folder views.
-- [**Capa**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Capa.md) - Automatically identifies capabilities in executable files.
+- [**Capa**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/CAPA.md) - Automatically identifies capabilities in executable files.
 - [**Prefetch Parser**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Prefetch%20Parser.md) - Analyzes Windows prefetch files to provide execution timelines.
 - [**JumpList Explorer**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/JumpList%20Explorer.md) - Analyzes Windows JumpList files to reveal user activities.
 - [**Volatility**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Volatility.md) - Advanced memory forensics framework.
-- [**Wireshark**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Wireshark.md)**] - Network protocol analyzer used for network troubleshooting and analysis.
+- [**Wireshark**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Wireshark.md) - Network protocol analyzer used for network troubleshooting and analysis.
 - [**TCP view**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/TCP%20view.md) - Windows program that shows detailed listings of all TCP and UDP endpoints.
 - [**MemProcFS**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/MemProcFS.md) - The memory process file system for accessing live memory as files.
 - [**INetSim**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/INetSim.md) - Network service emulation tool to create a controlled honeypot environment.
@@ -34,9 +34,9 @@ The following tool manual's are currently within this repository:
 - [**PEstudio**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/PEstudio.md) - Tool used to inspect Windows executables to mitigate the risk of malicious files.
 - [**ExifTool**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/ExifTool.md) - A command-line tool for reading, writing, and editing metadata in files
 - [**Cutter**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Cutter.md) - Cutter is a user-friendly GUI frontend for reverse engineering, analysing, decompiling, and debugging binaries.
-- [**x32dbg & x64dbg**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/x32dbg%20%26%20x64dbg.md) - Powerful open-source debuggers for Windows executables, used in reverse engineering and malware analysis to step through code, set breakpoints, and inspect program behavior.
-- [**Detect It Easy (DIE)**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Detect%20It%20Easy%20(DIE).md) - A versatile executable analysis tool that identifies file types, compilers, and packers, providing detailed insights into binaries for static analysis.
-- [**Virus Total**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Virus%20Total.md) - A popular online malware scanning service that checks files, URLs, and domains against dozens of antivirus engines and threat intelligence sources.
+- [**x32dbg & x64dbg**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/x32dbg%20%26%20x64dbg.md) - Debuggers for Windows executables, used step through code, set breakpoints, and inspect program behavior.
+- [**Detect It Easy (DIE)**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Detect%20It%20Easy%20(DIE).md) - A versatile executable analysis tool providing detailed insights into binaries for static analysis.
+- [**Virus Total**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Virus%20Total.md) - Online malware scanning service that checks files, URLs, and domains.
 
 ---
 

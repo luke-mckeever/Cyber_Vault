@@ -7,7 +7,7 @@ Procmon (Process Monitor) is a powerful GUI-based tool from the Sysinternals sui
 
 ---
 
-![Procmon](https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Sysinternals_Logo.png/300px-Sysinternals_Logo.png)
+![Procmon](https://framerusercontent.com/images/2oWroI30M9WRTNggpWM6DlhHFwM.jpeg)
 
 ---
 
