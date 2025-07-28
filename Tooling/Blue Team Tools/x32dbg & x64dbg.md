@@ -92,13 +92,15 @@ Click File > Open, select the target .exe.
 x64dbg will pause execution at the entry point (EP).
 
 3. Set Initial Breakpoints  
-Common breakpoints:  
+Common breakpoints:
+Use F2 to set a Breakpoint 
 - VirtualAlloc, WriteProcessMemory, CreateProcess*, ShellExecute, LoadLibrary
 - Right-click on instruction → Toggle Breakpoint or press F2
 
 4. Begin Execution Safely  
-Press F9 to run until a breakpoint is hit.  
-Use F7/F8 to step through instructions.  
+Use  F9 to run until a breakpoint is hit.  
+Use F7 to step in to a call
+Use F8 to step through instructions.  
 Observe register/memory/log behavior to identify unpacking or payload routines.
 
 5. Inspect Behavior  
