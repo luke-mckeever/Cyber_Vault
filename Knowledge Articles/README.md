@@ -7,7 +7,7 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 
 ## 📜 Contents:
 
-- [**Diamond Model of Intrusion Analysis**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Diamond%20Model%20of%20Intrusion%20Analysis.md) - Understanding intrusions by analyzing the relationships between adversary, infrastructure, victim, and capability.
+- [**Diamond Model of Intrusion Analysis**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Diamond%20Model%20of%20Intrusion%20Analysis.md) - Analyzing the relationships between adversary, infrastructure, victim, and capability.
 - [**Email Attachment Analysis**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Email%20Attachment%20Analysis.md) - Techniques for detecting and examining potentially malicious email attachments.
 - [**Email Headers**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Email%20Headers.md) - Analyzing metadata in email headers to trace origins and identify spoofing.
 - [**Malware Types**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Malware%20Types.md) - A categorized overview of malicious software such as viruses, worms, Trojans, and ransomware.
@@ -31,7 +31,7 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 - [**Security Controls**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Security%20Controls.md) - Safeguards and countermeasures to protect assets and maintain confidentiality, integrity, and availability.
 - [**CIA-AAA Triads**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/CIA-AAA%20Triads.md) - Two foundational security models: CIA Triad and AAA Triad.
 - [**Change Management**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Change%20Management.md) - The structured process of planning, approving, and implementing IT and security changes in an enterprise.
-- [**Malware Analysis Framework**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Analysis%20Framework.md) - A structured methodology for dissecting and understanding malware through static and dynamic techniques, aiding in threat intelligence, detection, and response.
+- [**Malware Analysis Framework**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Analysis%20Framework.md) - A structured methodology for and understanding malware through static and dynamic techniques.
 - [**Security Controls**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Security%20Controls.md) - Safeguards and countermeasures put in place to reduce security risks and protect assets.
 
 
