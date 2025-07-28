@@ -89,6 +89,13 @@ The following tool manual's are currently within this repository:
 
 - [**Cutter**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Cutter.md) - Cutter is a user-friendly GUI frontend for reverse engineering, analysing, decompiling, and debugging binaries.
 
+- [**x32dbg & x64dbg**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/x32dbg%20%26%20x64dbg.md) - Powerful open-source debuggers for Windows executables, used in reverse engineering and malware analysis to step through code, set breakpoints, and inspect program behavior.
+
+- [**Detect It Easy (DIE)**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Detect%20It%20Easy%20(DIE).md) - A versatile executable analysis tool that identifies file types, compilers, and packers, providing detailed insights into binaries for static analysis.
+
+- [**Virus Total**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Virus%20Total.md) - A popular online malware scanning service that checks files, URLs, and domains against dozens of antivirus engines and threat intelligence sources.
+
+
 ## General & Other Tools:
 
 - [**Curl**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/General%20%26%20Other%20Tools/Curl.md) - Command-line tool for transferring data with URL syntax, supporting various protocols.

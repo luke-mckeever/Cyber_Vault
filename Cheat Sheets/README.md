@@ -24,7 +24,7 @@ Welcome to the **Cheat Sheets** section of our Cybersecurity Repository! 🛡️
 - [**Windows Registry Keys**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Windows%20Registry%20Keys.md) – Important registry paths for security & troubleshooting 🛠️  
 - [**Magic Bytes**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Magic%20Bytes.md) - Recognizing file types based on unique identifiers.
 - [**Language Database**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Language%20Database.md) - various languages used across **web development**, **system programming**, **game development**, and more 
-- [**Acronyms & Keywords**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Acronyms%20%26%20Keywords.md) - A list of highly utilized acronyms within the cyber field.
+- [**Acronyms & Keywords**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Acronyms%20%26%20Keywords.md) - A list of highly utilized acronyms within the cyber field.
 
 
 📢 **Disclaimer:** All content within this repository has been curated by the author to the best of their ability and fact-checked as of 2025. However, it cannot be 100% authenticated. Use the information at your own discretion. 🔍
