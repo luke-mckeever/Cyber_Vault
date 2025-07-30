@@ -15,7 +15,7 @@
         }
         .sidebar {
             width: 300px;
-            background: rgba(0,0,0,0.85);
+            background: rgba(0,0,0,0.9);
             padding: 20px;
             height: 100vh;
             position: fixed;
@@ -28,16 +28,36 @@
             color: #00ffcc;
             margin-bottom: 15px;
         }
-        .sidebar a {
+        .dropdown {
+            margin-bottom: 10px;
+        }
+        .dropdown button {
+            background: none;
+            border: none;
+            color: #00ffcc;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+            padding: 8px 0;
+        }
+        .dropdown button:hover {
+            color: #ffffff;
+            text-shadow: 0 0 5px #00ffcc;
+        }
+        .dropdown-content {
+            display: none;
+            padding-left: 15px;
+        }
+        .dropdown-content a {
             display: block;
             color: #f0f0f0;
             text-decoration: none;
-            margin: 6px 0;
-            padding-left: 10px;
-            font-size: 0.95rem;
-            transition: 0.3s;
+            margin: 5px 0;
+            font-size: 0.9rem;
         }
-        .sidebar a:hover {
+        .dropdown-content a:hover {
             color: #00ffcc;
             text-shadow: 0 0 5px #00ffcc;
         }
@@ -116,33 +136,64 @@
             text-decoration: none;
         }
     </style>
+    <script>
+        function toggleDropdown(id) {
+            var content = document.getElementById(id);
+            content.style.display = (content.style.display === "block") ? "none" : "block";
+        }
+    </script>
 </head>
 <body>
     <div class="sidebar">
         <h2>📂 Navigation</h2>
-        <strong>Cheatsheets</strong>
-        <a href="#">Blue Team Cheatsheet</a>
-        <a href="#">Red Team Cheatsheet</a>
-        <a href="#">Forensics Cheatsheet</a>
-        <strong>Knowledge Articles</strong>
-        <a href="#">Diamond Model</a>
-        <a href="#">Email Attachment Analysis</a>
-        <a href="#">Email Headers</a>
-        <a href="#">Malware Types</a>
-        <a href="#">SOC Fundamentals</a>
-        <strong>Posters</strong>
-        <a href="#">MITRE ATT&CK Poster</a>
-        <a href="#">OSINT Poster</a>
-        <strong>Tooling</strong>
-        <a href="#">Sysinternals Tools</a>
-        <a href="#">VirusTotal Guide</a>
-        <a href="#">Detect It Easy (DIE)</a>
-        <a href="#">x64dbg Guide</a>
-        <strong>Books & Resources</strong>
-        <a href="#">Blue Team Field Manual</a>
-        <a href="#">Red Team Field Manual</a>
-        <a href="#">Defensive Security Handbook</a>
-        <a href="#">Hacking: The Art of Exploitation</a>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('cheatsheets')">Cheatsheets ▾</button>
+            <div id="cheatsheets" class="dropdown-content">
+                <a href="#">Blue Team Cheatsheet</a>
+                <a href="#">Red Team Cheatsheet</a>
+                <a href="#">Forensics Cheatsheet</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('knowledge')">Knowledge Articles ▾</button>
+            <div id="knowledge" class="dropdown-content">
+                <a href="#">Diamond Model</a>
+                <a href="#">Email Attachment Analysis</a>
+                <a href="#">Email Headers</a>
+                <a href="#">Malware Types</a>
+                <a href="#">SOC Fundamentals</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('posters')">Posters ▾</button>
+            <div id="posters" class="dropdown-content">
+                <a href="#">MITRE ATT&CK Poster</a>
+                <a href="#">OSINT Poster</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('tooling')">Tooling ▾</button>
+            <div id="tooling" class="dropdown-content">
+                <a href="#">Sysinternals Tools</a>
+                <a href="#">VirusTotal Guide</a>
+                <a href="#">Detect It Easy (DIE)</a>
+                <a href="#">x64dbg Guide</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('books')">Books & Resources ▾</button>
+            <div id="books" class="dropdown-content">
+                <a href="#">Blue Team Field Manual</a>
+                <a href="#">Red Team Field Manual</a>
+                <a href="#">Defensive Security Handbook</a>
+                <a href="#">Hacking: The Art of Exploitation</a>
+            </div>
+        </div>
     </div>
 
     <div class="main-wrapper">
