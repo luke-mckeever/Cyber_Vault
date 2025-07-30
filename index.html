@@ -9,6 +9,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
             background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
             color: #f0f0f0;
         }
@@ -16,6 +17,7 @@
             text-align: center;
             padding: 60px 20px;
             background: rgba(0,0,0,0.6);
+            width: 100%;
         }
         header h1 {
             font-size: 3.5rem;
@@ -45,10 +47,38 @@
             color: #ffffff;
             text-shadow: 0 0 10px #00ffcc;
         }
-        .container {
-            max-width: 1200px;
-            margin: 40px auto;
+        .sidebar {
+            width: 300px;
+            background: rgba(0,0,0,0.85);
             padding: 20px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+            border-right: 2px solid #00ffcc;
+        }
+        .sidebar h2 {
+            color: #00ffcc;
+            margin-bottom: 15px;
+        }
+        .sidebar a {
+            display: block;
+            color: #f0f0f0;
+            text-decoration: none;
+            margin: 6px 0;
+            padding-left: 10px;
+            font-size: 0.95rem;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #00ffcc;
+            text-shadow: 0 0 5px #00ffcc;
+        }
+        .main-content {
+            margin-left: 320px;
+            padding: 20px;
+            max-width: 1000px;
         }
         .card {
             background: rgba(20,20,20,0.9);
@@ -79,42 +109,79 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>💾 Cyber_Vault</h1>
-        <p>Your one-stop hub for Cybersecurity Knowledge, Tools & Resources 🚀</p>
-    </header>
+    <div class="sidebar">
+        <h2>📂 Navigation</h2>
+        <strong>Cheatsheets</strong>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheatsheets/BlueTeam.md">Blue Team Cheatsheet</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheatsheets/RedTeam.md">Red Team Cheatsheet</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheatsheets/Forensics.md">Forensics Cheatsheet</a>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#resources">Resources</a>
-        <a href="#tools">Tools</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <strong>Knowledge Articles</strong>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Diamond%20Model%20of%20Intrusion%20Analysis.md">Diamond Model</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Email%20Attachment%20Analysis.md">Email Attachment Analysis</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Email%20Headers.md">Email Headers</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Malware%20Types.md">Malware Types</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/SOC%20Fundamentals.md">SOC Fundamentals</a>
 
-    <div class="container">
-        <div class="card" id="about">
-            <h2>📖 About Cyber_Vault</h2>
-            <p>Cyber_Vault is a curated repository of cybersecurity knowledge, research materials, and essential tools designed for security professionals, students, and enthusiasts. Whether you're defending against threats or exploring penetration testing techniques, Cyber_Vault provides you with the resources you need.</p>
-        </div>
+        <strong>Posters</strong>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Posters/MITRE_ATTCK_Poster.pdf">MITRE ATT&CK Poster</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Posters/OSINT_Poster.pdf">OSINT Poster</a>
 
-        <div class="card" id="resources">
-            <h2>📚 Resources</h2>
-            <p>Find detailed write-ups, guides, and structured learning paths covering topics such as malware analysis, OSINT, penetration testing, and incident response frameworks.</p>
-        </div>
+        <strong>Tooling</strong>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Sysinternals.md">Sysinternals Tools</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/VirusTotal.md">VirusTotal Guide</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/DetectItEasy.md">Detect It Easy (DIE)</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/x64dbg.md">x64dbg Guide</a>
 
-        <div class="card" id="tools">
-            <h2>🛠️ Tools</h2>
-            <p>Access a collection of scripts, cheat sheets, and practical utilities for blue teaming, red teaming, and forensic analysis.</p>
-        </div>
-
-        <div class="card" id="contact">
-            <h2>📬 Contact</h2>
-            <p>Connect with the project on <a href="https://github.com/luke-mckeever/Cyber_Vault">GitHub</a>. Contributions, suggestions, and collaborations are always welcome!</p>
-        </div>
+        <strong>Books & Resources</strong>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/BTFM.pdf">Blue Team Field Manual</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/RTFM.pdf">Red Team Field Manual</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/DefensiveSecurityHandbook.pdf">Defensive Security Handbook</a>
+        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/HackingTheArtOfExploitation.pdf">Hacking: The Art of Exploitation</a>
     </div>
 
-    <footer>
-        <p>⚡ Created by <a href="https://github.com/luke-mckeever">Luke McKeever</a> | Cyber_Vault Project ⚡</p>
-    </footer>
+    <div class="main-content">
+        <header>
+            <h1>💾 Cyber_Vault</h1>
+            <p>Your one-stop hub for Cybersecurity Knowledge, Tools & Resources 🚀</p>
+        </header>
+
+        <nav>
+            <a href="#cheatsheets">Cheatsheets</a>
+            <a href="#knowledge">Knowledge Articles</a>
+            <a href="#posters">Posters</a>
+            <a href="#tooling">Tooling</a>
+            <a href="#books">Books & Resources</a>
+        </nav>
+
+        <div class="card" id="cheatsheets">
+            <h2>📑 Cheatsheets</h2>
+            <p>Quick reference sheets to accelerate your workflow and support on-the-fly cybersecurity operations.</p>
+        </div>
+
+        <div class="card" id="knowledge">
+            <h2>📚 Knowledge Articles</h2>
+            <p>Detailed write-ups and insights across malware analysis, forensics, threat hunting, and more.</p>
+        </div>
+
+        <div class="card" id="posters">
+            <h2>🖼️ Posters</h2>
+            <p>Visual aids and reference posters for SOC analysts, pentesters, and students.</p>
+        </div>
+
+        <div class="card" id="tooling">
+            <h2>🛠️ Tooling</h2>
+            <p>A curated set of scripts, utilities, and tools to enhance both defensive and offensive security tasks.</p>
+        </div>
+
+        <div class="card" id="books">
+            <h2>📖 Books & Resources</h2>
+            <p>Cybersecurity books, research papers, and PDFs to expand your knowledge and skills.</p>
+        </div>
+
+        <footer>
+            <p>⚡ Created by <a href="https://github.com/luke-mckeever">Luke McKeever</a> | Cyber_Vault Project ⚡</p>
+        </footer>
+    </div>
 </body>
 </html>
