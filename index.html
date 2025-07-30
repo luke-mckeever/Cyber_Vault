@@ -145,30 +145,86 @@
 </head>
 <body>
     <div class="sidebar">
-        <h2>📂 Navigation</h2>
+        <h2>📂 Quick Navigation</h2>
+		
+		<div class="dropdown">
+            <button onclick="toggleDropdown('books')"> 📖 Books & Resources ▾</button>
+            <div id="books" class="dropdown-content">
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Advanced%20Persistent%20Threat%20Hacking.pdf">- Advanced Persistent Threat Hacking</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/BTFM%20-%20Blue%20Team%20Field%20Manual.pdf">- BTFM - Blue Team Field Manual</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Bug%20Bounty%20Playbook.pdf">- Bug Bounty Playbook</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Defensive-Security-Handbook.pdf">- Defensive Security Handbook</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Giant%20Black%20Book%20Of%20Computer%20Viruses.pdf">- Giant Black Book Of Computer Viruse</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Gray%20Hat%20Hacking.pdf">- Gray Hat Hacking</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Hacking%20The%20Art%20of%20Exploitation.pdf">- Hacking: The Art of Exploitation</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Kali%20Revealed%201st%20Edition.pdf">- Kali Revealed 1st Edition</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/RTFM%20-%20Red%20Team%20Field%20Manual.pdf">- RTFM - Red Team Field Manual</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Social%20Engineering%20-%20The%20Art%20of%20Human%20Hacking.pdf">- Social Engineering - The Art of Human Hacking</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/cybersecurity-for-dummies.pdf">- cybersecurity for dummies</a>
+            </div>
+        </div>
 
         <div class="dropdown">
-            <button onclick="toggleDropdown('cheatsheets')">Cheatsheets ▾</button>
+            <button onclick="toggleDropdown('cheatsheets')"> 📝 Cheatsheets ▾</button>
             <div id="cheatsheets" class="dropdown-content">
-                <a href="#">Blue Team Cheatsheet</a>
-                <a href="#">Red Team Cheatsheet</a>
-                <a href="#">Forensics Cheatsheet</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/A%20to%20Z%20of%20Cyber.md">- A to Z of Cyber</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Acronyms%20%26%20Keywords.md">- Acronyms & Keywords</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/DNS%20Query%20Types.md">- DNS Query Types</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/HTTP%20Response%20Codes.md">- HTTP Response Codes</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Keyboard%20Shortcuts%20Linux.md">- Keyboard Shortcuts Linux</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Keyboard%20Shortcuts%20Windows.md">- Keyboard Shortcuts Windows</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Language%20Database.md">- Language Database</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Linux%20Commands.md">- Linux Commands</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Magic%20Bytes.md">- Magic Bytes</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Markdown.md">- Markdown</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Ports%20%26%20Protocols.md">- Ports & Protocols</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Quick%20Reference%20Commands.md">- Quick Reference Commands</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Regex.md">- Regex</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Splunk%20Query%20Language.md">- Splunk Query Language</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Subnetting.md">- Subnetting</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Sysmon%20Event%20ID's.md">- Sysmon Event ID's</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/URL%20Encoding.md">- URL Encoding</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Useful%20(Cyber)%20Domains.md">- Useful (Cyber) Domains</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Windows%20API%20Calls.md">- Windows API Calls</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Windows%20Commands.md">- Windows Commands</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Windows%20Executables.md">- Windows Executables</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Windows%20Registry%20Keys.md">- Windows Registry Keys</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheat%20Sheets/All%20Cheetsheets/Windows%20Security%20Event%20Codes.md">- Windows Security Event Codes</a>
             </div>
         </div>
 
         <div class="dropdown">
-            <button onclick="toggleDropdown('knowledge')">Knowledge Articles ▾</button>
+            <button onclick="toggleDropdown('knowledge')"> 🧠 Knowledge Articles ▾</button>
             <div id="knowledge" class="dropdown-content">
-                <a href="#">Diamond Model</a>
-                <a href="#">Email Attachment Analysis</a>
-                <a href="#">Email Headers</a>
-                <a href="#">Malware Types</a>
-                <a href="#">SOC Fundamentals</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/A%20Program%E2%80%99s%20Perspective%20of%20Memory.md">- A Program’s Perspective of Memory</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Anatomy%20of%20a%20URL.md">- Anatomy of a URL</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/CIA-AAA%20Triads.md">- CIA-AAA Triads</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Change%20Management.md">- Change Management</a>
+                <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Common%20Attack%20Signatures.md">- Common Attack Signatures</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Cryptography.md">- Cryptography</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Diamond%20Model%20of%20Intrusion%20Analysis.md">- Diamond Model of Intrusion Analysis</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Digital%20Forensics.md">- Digital Forensics</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Email%20Attachment%20Analysis.md">- Email Attachment Analysis</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Email%20Headers.md">- Email Headers</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Endpoint%20Detection%20%26%20Response.md">- Endpoint Detection & Response</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Flare%20VM%20-%20Malware%20Lab%20Provisioning.md">- Flare VM - Malware Lab Provisioning</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Incident%20Response.md">- Incident Response</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/MITRE%20ATT%26CK%20Framework.md">- MITRE ATT&CK Framework</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Analysis%20Framework.md">- Malware Analysis Framework</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Analysis.md">- Malware Analysis</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Types.md">- Malware Types</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Pyramid%20of%20Pain.md">- Pyramid of Pain</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/SOC%20Fundamentals.md">- SOC Fundamentals</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Security%20Controls.md">- Security Controls</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/The%20Cyber%20Kill%20Chain.md">- The Cyber Kill Chain</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Traffic%20Light%20Protocol.md">- Traffic Light Protocol</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Triaging%20Forensic%20Artefacts.md">- Triaging Forensic Artefacts</a>
+				<a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/YARA.md">- YARA</a>
             </div>
         </div>
 
         <div class="dropdown">
-            <button onclick="toggleDropdown('posters')">Posters ▾</button>
+            <button onclick="toggleDropdown('posters')"> 📌 Posters ▾</button>
             <div id="posters" class="dropdown-content">
                 <a href="#">MITRE ATT&CK Poster</a>
                 <a href="#">OSINT Poster</a>
@@ -176,7 +232,7 @@
         </div>
 
         <div class="dropdown">
-            <button onclick="toggleDropdown('tooling')">Tooling ▾</button>
+            <button onclick="toggleDropdown('tooling')"> 🧰 Tooling ▾</button>
             <div id="tooling" class="dropdown-content">
                 <a href="#">Sysinternals Tools</a>
                 <a href="#">VirusTotal Guide</a>
@@ -185,15 +241,7 @@
             </div>
         </div>
 
-        <div class="dropdown">
-            <button onclick="toggleDropdown('books')">Books & Resources ▾</button>
-            <div id="books" class="dropdown-content">
-                <a href="#">Blue Team Field Manual</a>
-                <a href="#">Red Team Field Manual</a>
-                <a href="#">Defensive Security Handbook</a>
-                <a href="#">Hacking: The Art of Exploitation</a>
-            </div>
-        </div>
+        
     </div>
 
     <div class="main-wrapper">
@@ -204,7 +252,7 @@
             </header>
 
             <nav>
-                <a href="#cheatsheets">Cheatsheets</a>
+                <a href="https://luke-mckeever.github.io/Cyber_Vault/Pages/Cheatsheets">Cheatsheets</a>
                 <a href="#knowledge">Knowledge Articles</a>
                 <a href="#posters">Posters</a>
                 <a href="#tooling">Tooling</a>
