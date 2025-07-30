@@ -13,40 +13,6 @@
             background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
             color: #f0f0f0;
         }
-        header {
-            text-align: center;
-            padding: 60px 20px;
-            background: rgba(0,0,0,0.6);
-            width: 100%;
-        }
-        header h1 {
-            font-size: 3.5rem;
-            margin: 0;
-            color: #00ffcc;
-            text-shadow: 0 0 15px #00ffcc;
-        }
-        header p {
-            font-size: 1.3rem;
-            margin-top: 15px;
-            color: #cfcfcf;
-        }
-        nav {
-            background: #111;
-            padding: 15px;
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-        }
-        nav a {
-            color: #00ffcc;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-        nav a:hover {
-            color: #ffffff;
-            text-shadow: 0 0 10px #00ffcc;
-        }
         .sidebar {
             width: 300px;
             background: rgba(0,0,0,0.85);
@@ -75,10 +41,52 @@
             color: #00ffcc;
             text-shadow: 0 0 5px #00ffcc;
         }
-        .main-content {
+        .main-wrapper {
             margin-left: 320px;
-            padding: 20px;
+            display: flex;
+            justify-content: center;
+            width: calc(100% - 320px);
+        }
+        .main-content {
             max-width: 1000px;
+            width: 100%;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0,0,0,0.6);
+            border-radius: 12px;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            color: #00ffcc;
+            text-shadow: 0 0 15px #00ffcc;
+        }
+        header p {
+            font-size: 1.3rem;
+            margin-top: 15px;
+            color: #cfcfcf;
+        }
+        nav {
+            background: #111;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+        }
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 10px #00ffcc;
         }
         .card {
             background: rgba(20,20,20,0.9);
@@ -101,6 +109,7 @@
             padding: 20px;
             background: #111;
             color: #aaa;
+            border-radius: 12px;
         }
         footer a {
             color: #00ffcc;
@@ -112,76 +121,74 @@
     <div class="sidebar">
         <h2>📂 Navigation</h2>
         <strong>Cheatsheets</strong>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheatsheets/BlueTeam.md">Blue Team Cheatsheet</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheatsheets/RedTeam.md">Red Team Cheatsheet</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Cheatsheets/Forensics.md">Forensics Cheatsheet</a>
-
+        <a href="#">Blue Team Cheatsheet</a>
+        <a href="#">Red Team Cheatsheet</a>
+        <a href="#">Forensics Cheatsheet</a>
         <strong>Knowledge Articles</strong>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Diamond%20Model%20of%20Intrusion%20Analysis.md">Diamond Model</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Email%20Attachment%20Analysis.md">Email Attachment Analysis</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Email%20Headers.md">Email Headers</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/Malware%20Types.md">Malware Types</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/SOC%20Fundamentals.md">SOC Fundamentals</a>
-
+        <a href="#">Diamond Model</a>
+        <a href="#">Email Attachment Analysis</a>
+        <a href="#">Email Headers</a>
+        <a href="#">Malware Types</a>
+        <a href="#">SOC Fundamentals</a>
         <strong>Posters</strong>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Posters/MITRE_ATTCK_Poster.pdf">MITRE ATT&CK Poster</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Posters/OSINT_Poster.pdf">OSINT Poster</a>
-
+        <a href="#">MITRE ATT&CK Poster</a>
+        <a href="#">OSINT Poster</a>
         <strong>Tooling</strong>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Sysinternals.md">Sysinternals Tools</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/VirusTotal.md">VirusTotal Guide</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/DetectItEasy.md">Detect It Easy (DIE)</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/x64dbg.md">x64dbg Guide</a>
-
+        <a href="#">Sysinternals Tools</a>
+        <a href="#">VirusTotal Guide</a>
+        <a href="#">Detect It Easy (DIE)</a>
+        <a href="#">x64dbg Guide</a>
         <strong>Books & Resources</strong>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/BTFM.pdf">Blue Team Field Manual</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/RTFM.pdf">Red Team Field Manual</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/DefensiveSecurityHandbook.pdf">Defensive Security Handbook</a>
-        <a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/HackingTheArtOfExploitation.pdf">Hacking: The Art of Exploitation</a>
+        <a href="#">Blue Team Field Manual</a>
+        <a href="#">Red Team Field Manual</a>
+        <a href="#">Defensive Security Handbook</a>
+        <a href="#">Hacking: The Art of Exploitation</a>
     </div>
 
-    <div class="main-content">
-        <header>
-            <h1>💾 Cyber_Vault</h1>
-            <p>Your one-stop hub for Cybersecurity Knowledge, Tools & Resources 🚀</p>
-        </header>
+    <div class="main-wrapper">
+        <div class="main-content">
+            <header>
+                <h1>💾 Cyber_Vault</h1>
+                <p>Your one-stop hub for Cybersecurity Knowledge, Tools & Resources 🚀</p>
+            </header>
 
-        <nav>
-            <a href="#cheatsheets">Cheatsheets</a>
-            <a href="#knowledge">Knowledge Articles</a>
-            <a href="#posters">Posters</a>
-            <a href="#tooling">Tooling</a>
-            <a href="#books">Books & Resources</a>
-        </nav>
+            <nav>
+                <a href="#cheatsheets">Cheatsheets</a>
+                <a href="#knowledge">Knowledge Articles</a>
+                <a href="#posters">Posters</a>
+                <a href="#tooling">Tooling</a>
+                <a href="#books">Books & Resources</a>
+            </nav>
 
-        <div class="card" id="cheatsheets">
-            <h2>📑 Cheatsheets</h2>
-            <p>Quick reference sheets to accelerate your workflow and support on-the-fly cybersecurity operations.</p>
+            <div class="card" id="cheatsheets">
+                <h2>📑 Cheatsheets</h2>
+                <p>Quick reference sheets to accelerate your workflow and support on-the-fly cybersecurity operations.</p>
+            </div>
+
+            <div class="card" id="knowledge">
+                <h2>📚 Knowledge Articles</h2>
+                <p>Detailed write-ups and insights across malware analysis, forensics, threat hunting, and more.</p>
+            </div>
+
+            <div class="card" id="posters">
+                <h2>🖼️ Posters</h2>
+                <p>Visual aids and reference posters for SOC analysts, pentesters, and students.</p>
+            </div>
+
+            <div class="card" id="tooling">
+                <h2>🛠️ Tooling</h2>
+                <p>A curated set of scripts, utilities, and tools to enhance both defensive and offensive security tasks.</p>
+            </div>
+
+            <div class="card" id="books">
+                <h2>📖 Books & Resources</h2>
+                <p>Cybersecurity books, research papers, and PDFs to expand your knowledge and skills.</p>
+            </div>
+
+            <footer>
+                <p>⚡ Created by <a href="https://github.com/luke-mckeever">Luke McKeever</a> | Cyber_Vault Project ⚡</p>
+            </footer>
         </div>
-
-        <div class="card" id="knowledge">
-            <h2>📚 Knowledge Articles</h2>
-            <p>Detailed write-ups and insights across malware analysis, forensics, threat hunting, and more.</p>
-        </div>
-
-        <div class="card" id="posters">
-            <h2>🖼️ Posters</h2>
-            <p>Visual aids and reference posters for SOC analysts, pentesters, and students.</p>
-        </div>
-
-        <div class="card" id="tooling">
-            <h2>🛠️ Tooling</h2>
-            <p>A curated set of scripts, utilities, and tools to enhance both defensive and offensive security tasks.</p>
-        </div>
-
-        <div class="card" id="books">
-            <h2>📖 Books & Resources</h2>
-            <p>Cybersecurity books, research papers, and PDFs to expand your knowledge and skills.</p>
-        </div>
-
-        <footer>
-            <p>⚡ Created by <a href="https://github.com/luke-mckeever">Luke McKeever</a> | Cyber_Vault Project ⚡</p>
-        </footer>
     </div>
 </body>
 </html>
