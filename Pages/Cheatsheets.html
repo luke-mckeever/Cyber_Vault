@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber_Vault</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #f0f0f0;
+        }
+        .sidebar {
+            width: 300px;
+            background: rgba(0,0,0,0.9);
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+            border-right: 2px solid #00ffcc;
+        }
+        .sidebar h2 {
+            color: #00ffcc;
+            margin-bottom: 15px;
+        }
+        .dropdown {
+            margin-bottom: 10px;
+        }
+        .dropdown button {
+            background: none;
+            border: none;
+            color: #00ffcc;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+            padding: 8px 0;
+        }
+        .dropdown button:hover {
+            color: #ffffff;
+            text-shadow: 0 0 5px #00ffcc;
+        }
+        .dropdown-content {
+            display: none;
+            padding-left: 15px;
+        }
+        .dropdown-content a {
+            display: block;
+            color: #f0f0f0;
+            text-decoration: none;
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+        .dropdown-content a:hover {
+            color: #00ffcc;
+            text-shadow: 0 0 5px #00ffcc;
+        }
+        .main-wrapper {
+            margin-left: 320px;
+            display: flex;
+            justify-content: center;
+            width: calc(100% - 320px);
+        }
+        .main-content {
+            max-width: 1000px;
+            width: 100%;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0,0,0,0.6);
+            border-radius: 12px;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            color: #00ffcc;
+            text-shadow: 0 0 15px #00ffcc;
+        }
+        header p {
+            font-size: 1.3rem;
+            margin-top: 15px;
+            color: #cfcfcf;
+        }
+        nav {
+            background: #111;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+        }
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+        .card {
+            background: rgba(20,20,20,0.9);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(0,255,204,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0 30px rgba(0,255,204,0.6);
+        }
+        .card h2 {
+            color: #00ffcc;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            color: #aaa;
+            border-radius: 12px;
+        }
+        footer a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        function toggleDropdown(id) {
+            var content = document.getElementById(id);
+            content.style.display = (content.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>📂 Navigation</h2>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('cheatsheets')">Cheatsheets ▾</button>
+            <div id="cheatsheets" class="dropdown-content">
+                <a href="#">Blue Team Cheatsheet</a>
+                <a href="#">Red Team Cheatsheet</a>
+                <a href="#">Forensics Cheatsheet</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('knowledge')">Knowledge Articles ▾</button>
+            <div id="knowledge" class="dropdown-content">
+                <a href="#">Diamond Model</a>
+                <a href="#">Email Attachment Analysis</a>
+                <a href="#">Email Headers</a>
+                <a href="#">Malware Types</a>
+                <a href="#">SOC Fundamentals</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('posters')">Posters ▾</button>
+            <div id="posters" class="dropdown-content">
+                <a href="#">MITRE ATT&CK Poster</a>
+                <a href="#">OSINT Poster</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('tooling')">Tooling ▾</button>
+            <div id="tooling" class="dropdown-content">
+                <a href="#">Sysinternals Tools</a>
+                <a href="#">VirusTotal Guide</a>
+                <a href="#">Detect It Easy (DIE)</a>
+                <a href="#">x64dbg Guide</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="toggleDropdown('books')">Books & Resources ▾</button>
+            <div id="books" class="dropdown-content">
+                <a href="#">Blue Team Field Manual</a>
+                <a href="#">Red Team Field Manual</a>
+                <a href="#">Defensive Security Handbook</a>
+                <a href="#">Hacking: The Art of Exploitation</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="main-content">
+            <header>
+                <h1>📝Cheat sheets</h1>
+                <p>Your one-stop hub for Cybersecurity Knowledge, Tools & Resources 🚀</p>
+            </header>
+
+            <nav>
+                <a href="#cheatsheets">Cheatsheets</a>
+                <a href="#knowledge">Knowledge Articles</a>
+                <a href="#posters">Posters</a>
+                <a href="#tooling">Tooling</a>
+                <a href="#books">Books & Resources</a>
+            </nav>
+
+            <div class="card" id="cheatsheets">
+                <h2>📑 Cheatsheets</h2>
+                <p>Quick reference sheets to accelerate your workflow and support on-the-fly cybersecurity operations.</p>
+            </div>
+
+            <div class="card" id="knowledge">
+                <h2>📚 Knowledge Articles</h2>
+                <p>Detailed write-ups and insights across malware analysis, forensics, threat hunting, and more.</p>
+            </div>
+
+            <div class="card" id="posters">
+                <h2>🖼️ Posters</h2>
+                <p>Visual aids and reference posters for SOC analysts, pentesters, and students.</p>
+            </div>
+
+            <div class="card" id="tooling">
+                <h2>🛠️ Tooling</h2>
+                <p>A curated set of scripts, utilities, and tools to enhance both defensive and offensive security tasks.</p>
+            </div>
+
+            <div class="card" id="books">
+                <h2>📖 Books & Resources</h2>
+                <p>Cybersecurity books, research papers, and PDFs to expand your knowledge and skills.</p>
+            </div>
+
+            <footer>
+                <p>⚡ Created by <a href="https://github.com/luke-mckeever">Luke McKeever</a> | Cyber_Vault Project ⚡</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
