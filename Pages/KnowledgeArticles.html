@@ -141,6 +141,40 @@
             color: #00ffcc;
             text-decoration: none;
         }
+		
+				@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* hide sidebar */
+  }
+
+  .main-wrapper {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-content {
+    max-width: 95%;
+  }
+
+  nav a {
+    font-size: 0.85rem; /* smaller font */
+    padding: 8px;       /* reduce padding */
+  }
+
+  nav {
+    gap: 10px; /* reduce spacing between links */
+    flex-wrap: wrap; /* allow links to wrap onto multiple lines if needed */
+  }
+}
+
+@media (max-width: 480px) {
+  nav a {
+    font-size: 0.75rem;
+  }
+}
+}
     </style>
     <script>
         function toggleDropdown(id) {
