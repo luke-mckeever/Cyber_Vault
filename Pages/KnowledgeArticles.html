@@ -12,6 +12,12 @@
             display: flex;
             background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
             color: #f0f0f0;
+			#matrix {
+				position: fixed;
+				top:0; left:0;
+				width:100%; height:100%;
+				z-index:-1;
+				background:black;
         }
         .sidebar {
             width: 300px;
@@ -144,6 +150,40 @@
     </script>
 </head>
 <body>
+
+<canvas id="matrix"></canvas>
+
+<script>
+const canvas = document.getElementById("matrix");
+const ctx = canvas.getContext("2d");
+
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+
+const letters = "01".split("");
+const fontSize = 14;
+const columns = canvas.width / fontSize;
+const drops = Array.from({ length: columns }).fill(1);
+
+function draw() {
+  ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  ctx.fillStyle = "#3f51b5";
+  ctx.font = fontSize + "px monospace";
+
+  drops.forEach((y, i) => {
+    const text = letters[Math.floor(Math.random() * letters.length)];
+    ctx.fillText(text, i * fontSize, y * fontSize);
+
+    if (y * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
+    drops[i]++;
+  });
+}
+
+setInterval(draw, 33);
+</script>
+
     <div class="sidebar">
         <h2>📂 Quick Navigation</h2>
 		
