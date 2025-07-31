@@ -19,6 +19,22 @@
 				z-index:-1;
 				background:black;
         }
+		
+		.burger {
+  display: none; 
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 1.8rem;
+  color: #00ffcc;
+  background: rgba(0,0,0,0.8);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  z-index: 1001;
+}
+		
         .sidebar {
             width: 300px;
             background: rgba(0,0,0,0.9);
@@ -156,9 +172,25 @@
 		}
 		
 				@media (max-width: 768px) {
-  .sidebar {
-    display: none; /* hide sidebar */
+  .burger {
+    display: block;
   }
+
+  .sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100%;
+    background: rgba(0,0,0,0.95);
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 3px 0 15px rgba(0,0,0,0.5);
+  }
+
 
   .main-wrapper {
     margin-left: 0;
@@ -231,6 +263,18 @@ function draw() {
 
 setInterval(draw, 33);
 </script>
+
+<script>
+  function toggleDropdown(id) {
+    var content = document.getElementById(id);
+    content.style.display = (content.style.display === "block") ? "none" : "block";
+  }
+
+  function toggleSidebar() {
+    document.querySelector('.sidebar').classList.toggle('active');
+  }
+</script>
+
 
     <div class="sidebar">
         <h2>📂 Quick Navigation</h2>
@@ -420,6 +464,8 @@ setInterval(draw, 33);
 
         
     </div>
+
+	<button class="burger" onclick="toggleSidebar()">☰</button>
 
     <div class="main-wrapper">
         <div class="main-content">
