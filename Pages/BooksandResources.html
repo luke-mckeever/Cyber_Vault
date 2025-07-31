@@ -135,6 +135,19 @@
             color: #00ffcc;
             text-decoration: none;
         }
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 20px;
+			box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+			border: 3px solid white; /* ✅ White border */
+		}
+		th, td {
+			padding: 15px;
+			text-align: left;
+			border: 1px solid white; /* ✅ White cell borders */
+			vertical-align: top;
+		}
     </style>
     <script>
         function toggleDropdown(id) {
@@ -336,44 +349,95 @@
     <div class="main-wrapper">
         <div class="main-content">
             <header>
-                <img src="https://raw.githubusercontent.com/luke-mckeever/Cyber_Vault/main/Images/cyber_vault.png" 
-				alt="Cyber Vault Logo"
-				style="max-width: 100%; height: auto;"><br>
+                <h1>💾 Books & Resources</h1>
                 <p>Your one-stop hub for Cybersecurity Knowledge, Tools & Resources 🚀</p>
             </header>
 
             <nav>
-                <a href="https://luke-mckeever.github.io/Cyber_Vault/Pages/Cheatsheets.html">Cheatsheets</a>
+                <a href="https://luke-mckeever.github.io/Cyber_Vault">Home</a>
+				<a href="https://luke-mckeever.github.io/Cyber_Vault/Pages/Cheatsheets.html">Cheatsheets</a>
                 <a href="https://luke-mckeever.github.io/Cyber_Vault/Pages/KnowledgeArticles.html">Knowledge Articles</a>
                 <a href="https://luke-mckeever.github.io/Cyber_Vault/Pages/Posters.html">Posters</a>
-                <a href="#tooling">Tooling</a>
-                <a href="#books">Books & Resources</a>
+                <a href="https://luke-mckeever.github.io/Cyber_Vault/Pages/Tooling.html">Tooling</a>
             </nav>
 
-            <div class="card" id="cheatsheets">
-                <h2><a href="https://luke-mckeever.github.io/Cyber_Vault/Pages/Cheatsheets.html">📝 Cheatsheets</a></h2>
-                <p>Quick reference sheets to accelerate your workflow and support on-the-fly cybersecurity operations.</p>
+            <div class="card" id="body">
+                <h1>📚 Cybersecurity Library</h1>
+  <p>
+    Welcome to <strong>My Cybersecurity Library</strong> — your one-stop hub for a wide range of carefully curated books 
+    and resources covering all aspects of cybersecurity. Whether you're an aspiring analyst, a red team operator, 
+    or a seasoned security professional, this collection provides valuable insights, hands-on guidance, and essential 
+    reading material to help you strengthen your skills and knowledge in the world of cyber defense and offense. 
+    Dive into these resources to sharpen your expertise and stay ahead in the ever-evolving cybersecurity landscape.
+  </p>
+
+  <hr>
+
+  <h2>📖 Library Collection</h2>
+
+  <table>
+    <tr>
+      <td><strong>BTFM - Blue Team Field Manual</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/BTFM%20-%20Blue%20Team%20Field%20Manual.pdf">HERE</a></td>
+      <td><em>Blue Team Field Manual (BTFM) is a practical quick-reference guide for SOC analysts and defenders, covering key commands, tools, and techniques for incident response, threat hunting, and system forensics.</em></td>
+    </tr>
+    <tr>
+      <td><strong>RTFM - Red Team Field Manual</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/RTFM%20-%20Red%20Team%20Field%20Manual.pdf">HERE</a></td>
+      <td><em>Red Team Field Manual (RTFM) is a compact reference guide for penetration testers and red teamers, offering quick access to essential commands, scripts, and techniques for exploiting, pivoting, and maintaining access during engagements.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Giant Black Book Of Computer Viruses</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Giant%20Black%20Book%20Of%20Computer%20Viruses.pdf">HERE</a></td>
+      <td><em>Giant Black Book of Computer Viruses explores the history, structure, and mechanics of computer viruses, offering deep technical insight into how they are created, spread, and detected.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Defensive-Security-Handbook</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Defensive-Security-Handbook.pdf">HERE</a></td>
+      <td><em>A practical guide for building and improving organizational security. Covers defensive strategies, risk management, and incident response best practices.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Hacking The Art of Exploitation</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Hacking%20The%20Art%20of%20Exploitation.pdf">HERE</a></td>
+      <td><em>By Jon Erickson — a hands-on look at hacking, covering programming, network communication, shellcode, exploitation, and countermeasures.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Cybersecurity for Dummies</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/cybersecurity-for-dummies.pdf">HERE</a></td>
+      <td><em>An accessible guide to cybersecurity basics, threats, protective measures, and best practices for keeping personal and organizational data safe.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Advanced Persistent Threat Hacking</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Advanced%20Persistent%20Threat%20Hacking.pdf">HERE</a></td>
+      <td><em>A deep dive into how APT actors operate, with real-world breach techniques and defense strategies.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Bug Bounty Playbook</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Bug%20Bounty%20Playbook.pdf">HERE</a></td>
+      <td><em>A guide for bug hunters, offering methodologies, recon tips, exploitation techniques, and reporting advice.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Gray Hat Hacking</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Gray%20Hat%20Hacking.pdf">HERE</a></td>
+      <td><em>A comprehensive manual on ethical hacking, teaching penetration testing, exploitation, and security research.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Kali Linux Revealed</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Kali%20Revealed%201st%20Edition.pdf">HERE</a></td>
+      <td><em>An in-depth guide to Kali Linux, covering installation, configuration, and practical use for penetration testing.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Social Engineering</strong></td>
+      <td><a href="https://github.com/luke-mckeever/Cyber_Vault/blob/main/Books%20%26%20Resources/Social%20Engineering%20-%20The%20Art%20of%20Human%20Hacking.pdf">HERE</a></td>
+      <td><em>Explores the psychology behind social engineering attacks and how to defend against them.</em></td>
+    </tr>
+  </table><br>
+
+  <div class="note">
+    ✨ More books will be added regularly — check back often to expand your cybersecurity library!
+  </div>
             </div>
 
-            <div class="card" id="knowledge">
-                <h2>📚 Knowledge Articles</h2>
-                <p>Detailed write-ups and insights across malware analysis, forensics, threat hunting, and more.</p>
-            </div>
-
-            <div class="card" id="posters">
-                <h2>🖼️ Posters</h2>
-                <p>Visual aids and reference posters for SOC analysts, pentesters, and students.</p>
-            </div>
-
-            <div class="card" id="tooling">
-                <h2>🛠️ Tooling</h2>
-                <p>A curated set of scripts, utilities, and tools to enhance both defensive and offensive security tasks.</p>
-            </div>
-
-            <div class="card" id="books">
-                <h2>📖 Books & Resources</h2>
-                <p>Cybersecurity books, research papers, and PDFs to expand your knowledge and skills.</p>
-            </div>
 
             <footer>
                 <p>⚡ Created by <a href="https://github.com/luke-mckeever">Luke McKeever</a> | Cyber_Vault Project ⚡</p>
