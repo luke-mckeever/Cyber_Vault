@@ -33,6 +33,13 @@ Welcome to the **Knowledge Articles** repository! 🎯 Here, you'll find concise
 - [**Change Management**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Change%20Management.md) - The structured process of planning, approving, and implementing IT and security changes in an enterprise.
 - [**Malware Analysis Framework**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Malware%20Analysis%20Framework.md) - A structured methodology for and understanding malware through static and dynamic techniques.
 - [**Security Controls**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Security%20Controls.md) - Safeguards and countermeasures put in place to reduce security risks and protect assets.
+- [**Penetration Testing**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Penetration%20Testing.md) - The authorized simulation of real-world cyberattacks to identify vulnerabilities, assess risks, and strengthen security defenses. 
+- [**Threat Hunting**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Threat%20Hunting.md) - The proactive search for hidden threats within an environment to detect, isolate, and neutralize adversaries before they cause damage.  
+- [**Command & Control (C2)**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Command%20%26%20Control%20(C2).md) - Techniques and infrastructure used by attackers to remotely control compromised systems, maintain persistence, and exfiltrate data.  
+- [**Containerization**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Containerization.md) - A lightweight virtualization method that packages applications and their dependencies into portable containers for consistent and secure deployment.  
+- [**Active Directory**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Active%20Directory.md) - Microsoft’s directory service for managing users, devices, and resources, often targeted by attackers due to its central role in authentication and authorization.  
+- [**Cloud Platforms**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Knowledge%20Articles/All%20Knowledge%20Articles/Cloud%20Platforms.md) - Enterprise-scale services like Azure, AWS, GCP, and Oracle Cloud that deliver infrastructure, platforms, and security capabilities through the cloud.  
+
 
 
 
