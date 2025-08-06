@@ -1,4 +1,5 @@
 # 📘 Acronyms & Keywords Glossary
+#CS 
 
 Welcome to the **Acronyms & Keywords** reference page! This repo contains a growing list of essential terms used across **Cybersecurity** 🛡️ and **General Computing** 💻 domains. Whether you're a SOC Analyst, Penetration Tester, or simply curious, this guide will help you stay sharp and in-the-know. 🚀
 

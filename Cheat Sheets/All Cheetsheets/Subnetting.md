@@ -1,4 +1,5 @@
 # 🌐 Subnetting Cheat Sheet 🚀
+#CS #networking 
 
 > **A Fancy, Feature-Rich Guide to Mastering Subnetting!**
 ## 🔢 CIDR & Subnet Mask

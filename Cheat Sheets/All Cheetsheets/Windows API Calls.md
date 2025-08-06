@@ -1,4 +1,5 @@
 # 🛠️ Comprehensive List of Windows API Calls four use in Malware Analysis
+#CS #MA #Win 
 
 Malware frequently abuses Windows APIs for process injection, persistence, anti-analysis, and communication.  
 This guide expands on critical APIs to watch during malware debugging.

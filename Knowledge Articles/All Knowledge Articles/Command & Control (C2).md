@@ -1,4 +1,5 @@
 # 🕵️‍♂️ Command and Control (C2) Knowledge Article
+#KA 
 
 Welcome to the **Command and Control (C2) Knowledge Article**! This page explores what C2 is, why it’s a critical concept in cybersecurity, and how security teams can identify and disrupt it. If you want to sharpen your red team detection or blue team defense skills — this is your guide! ⚔️
 

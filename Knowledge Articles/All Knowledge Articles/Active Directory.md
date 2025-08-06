@@ -1,4 +1,5 @@
-# 🛡️🔐 Knowledge Article: Active Directory Security 🎯🧠
+# 🛡️🔐 Active Directory Security 🎯🧠
+#KA 
 
 > **Active Directory (AD)** is the **core identity and access management** solution in most enterprise networks.  
 > Because of its central role, **securing AD** is mission-critical for defending against both insider and external threats.

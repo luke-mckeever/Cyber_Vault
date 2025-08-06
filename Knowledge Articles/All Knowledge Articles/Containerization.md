@@ -1,4 +1,5 @@
 # 🐳🔒 Knowledge Article: Containerization & Docker 🚢💻
+#KA 
 
 > Welcome to your ultimate guide on **Containerization**, the modern foundation of **DevOps**, **cloud-native computing**, and **secure software deployment**!  
 > This article dives deep into **what containers are**, how they work, and the essential role **Docker** plays in this ecosystem.

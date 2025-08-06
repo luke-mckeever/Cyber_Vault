@@ -1,5 +1,7 @@
 # ☁️🚀 Cloud Platforms 🌍🔒
 
+#KA #Cloud
+
 > Welcome to your **comprehensive guide** on the **four major cloud platforms**:  
 > **Microsoft Azure**, **Amazon Web Services (AWS)**, **Google Cloud Platform (GCP)**, and **Oracle Cloud Infrastructure (OCI)**.  
 >

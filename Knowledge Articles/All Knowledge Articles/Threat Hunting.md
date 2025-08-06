@@ -1,5 +1,7 @@
 # 🕵️‍♂️ Threat Hunting Knowledge Article
 
+#KA #BLUE 
+
 Welcome to the **Threat Hunting Knowledge Article**! This page is dedicated to providing a **deep-dive explanation** of what threat hunting is, why it matters, and how it’s carried out in modern cybersecurity operations. If you’re looking to elevate your SOC, DFIR, or Red/Blue Team capabilities — you’re in the right place! 🚀
 
 ---

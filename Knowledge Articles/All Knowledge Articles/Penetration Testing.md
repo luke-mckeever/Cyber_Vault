@@ -1,4 +1,5 @@
 # 🖋️ Penetration testing
+#KA #RED
   
 > Penetration testing, often called pen testing, is a controlled cybersecurity assessment in which authorized security professionals simulate real-world cyberattacks against an organization’s systems, applications, and networks to identify vulnerabilities before malicious actors can exploit them. 
 
