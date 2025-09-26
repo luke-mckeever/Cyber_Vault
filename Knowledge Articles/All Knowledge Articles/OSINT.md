@@ -223,6 +223,21 @@ Website OSINT is the process of collecting intelligence on websites, domains, an
 
 > ⚠️ **Note:** Website OSINT tools provide intelligence but may include outdated or incomplete data. Always cross-check with multiple sources, document findings carefully, and operate within scope and legal limits.
 
+## Business OSINT
+
+Business OSINT is the practice of collecting intelligence on companies, their structure, and operations. This includes identifying ownership, key employees, subsidiaries, financial records, partnerships, and other publicly available data. It is often used in penetration testing, due diligence, or competitive intelligence.
+
+##### Key Resources
+- [**LinkedIn**](https://linkedin.com) → Useful for identifying employees, job roles, organizational structures, and potential social engineering targets. Company pages can reveal growth trends, office locations, and technology usage through employee skills.
+- [**Google**](https://google.com) → Search operators can uncover press releases, company documents, cached pages, and mentions across the web. Using `site:company.com` or `filetype:pdf` can help locate public records, whitepapers, and potentially sensitive documents.
+- [**OpenCorporates**](https://opencorporates.com/) → The largest open database of companies worldwide. Provides official corporate registration data, ownership structures, subsidiaries, and directors, which is useful for mapping business hierarchies.
+- [**AI Hit**](https://www.aihitdata.com/) → Aggregates company data, including technology profiles, recent news, competitor insights, and organizational summaries. Useful for understanding company positioning and changes over time.
+
+> ⚠️ **Note:** Business OSINT sources may contain outdated or incomplete information. Always validate findings through multiple tools and ensure compliance with legal, ethical, and scope boundaries when conducting investigations.
+
+
+
+
 
 ---
 
