@@ -235,7 +235,20 @@ Business OSINT is the practice of collecting intelligence on companies, their st
 
 > ⚠️ **Note:** Business OSINT sources may contain outdated or incomplete information. Always validate findings through multiple tools and ensure compliance with legal, ethical, and scope boundaries when conducting investigations.
 
+  
 
+## Wireless OSINT
+
+Wireless OSINT is the process of collecting information on wireless networks to understand coverage, infrastructure, and potential security risks. It is often used in penetration testing and threat assessments to identify target access points, SSIDs, and geolocation data.
+
+##### Key Resources
+- [Wigle](https://wigle.net/) → A global database of wireless networks (WiFi, cell towers) that can be searched by SSID, BSSID, or GPS coordinates. Analysts can use Wigle to:
+- Map SSIDs: Identify where specific WiFi networks are located globally.
+- Track movement: If a unique SSID is used across multiple locations, it can reveal travel or branch office data.
+- Discover hidden infrastructure: Search for routers, hotspots, or rogue access points associated with a target organization.
+- Geolocate devices: Cross-reference captured BSSIDs with Wigle’s data to pinpoint physical locations of wireless access points.
+
+⚠️ Note: Data in Wigle is community-sourced and may be incomplete or outdated. Wireless OSINT should only be performed within legal scope, with care taken not to connect or interfere with target networks.
 
 
 
