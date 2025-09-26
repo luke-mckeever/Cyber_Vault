@@ -203,7 +203,7 @@ Social Media OSINT is the process of collecting publicly available information f
 
 Website OSINT is the process of collecting intelligence on websites, domains, and infrastructure to uncover technologies, ownership, historical data, vulnerabilities, and attack surfaces. It is a key part of reconnaissance in penetration testing and threat intelligence.
 
-##### Key Resources
+##### Key Resources 
 
 - [**Google**](https://google.com) → Use Google dorking (advanced operators such as `site:`, `inurl:`, `filetype:`) to discover exposed content, hidden directories, or sensitive files.
 - [**BuiltWith**](https://builtwith.com) → Identifies the technologies, frameworks, and hosting providers used by a website. Useful for mapping tech stacks and potential vulnerabilities.
