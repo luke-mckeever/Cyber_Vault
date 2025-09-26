@@ -199,6 +199,30 @@ Social Media OSINT is the process of collecting publicly available information f
 
 > ⚠️ **Note:** Social media OSINT results can be manipulated, incomplete, or anonymized. Always cross-verify with other sources and comply with scope, privacy regulations, and platform terms of service.
 
+## Website OSINT
+
+Website OSINT is the process of collecting intelligence on websites, domains, and infrastructure to uncover technologies, ownership, historical data, vulnerabilities, and attack surfaces. It is a key part of reconnaissance in penetration testing and threat intelligence.
+
+##### Key Resources
+
+- [**Google**](https://google.com) → Use Google dorking (advanced operators such as `site:`, `inurl:`, `filetype:`) to discover exposed content, hidden directories, or sensitive files.
+- [**BuiltWith**](https://builtwith.com) → Identifies the technologies, frameworks, and hosting providers used by a website. Useful for mapping tech stacks and potential vulnerabilities.
+- [**CentralOps**](https://centralops.net) → Provides WHOIS lookups, traceroutes, and domain records for background checks on websites.
+- [**DNSlytics**](https://dnslytics.com) → Offers reverse IP lookups, DNS analysis, and analytics on domains sharing the same infrastructure.
+- [**SpyOnWeb**](https://spyonweb.com) → Discovers other domains linked by the same Google Analytics ID, IP address, or tracking codes.
+- [**VirusTotal**](https://www.virustotal.com) → Analyzes URLs for malware, phishing, or malicious content, and provides detection results across multiple AV engines.
+- [**VisualPing**](https://visualping.io) → Monitors websites for changes and notifies when content, structure, or availability changes.
+- [**BacklinkWatch**](http://backlinkwatch.com) → Displays inbound links pointing to a domain, useful for SEO intelligence and potential attack paths.
+- [**ViewDNS**](https://viewdns.info) → Multi-purpose domain tool offering WHOIS, reverse IP, traceroute, and DNS record searches.
+- [**URLScan**](https://urlscan.io) → Provides detailed scans of URLs, showing requests, responses, and related domains. Great for malware analysis and infrastructure mapping.
+- [**DNSDumpster**](https://dnsdumpster.com) → Free DNS recon and domain mapping tool that generates visual domain infrastructure maps. 
+- [**Web-Check**](https://web-check.as93.net) → Aggregates information such as DNS records, SSL certificates, headers, and open ports.
+- [**crt.sh**](https://crt.sh) → Searches Certificate Transparency logs to identify SSL/TLS certificates issued for domains and subdomains.
+- [**Shodan**](https://www.shodan.io) → A search engine for internet-connected devices and services. It can reveal open ports, banners, and vulnerabilities tied to a website’s infrastructure.
+- [**Wayback Machine / Internet Archive**](https://archive.org/web) → Provides snapshots of websites over time, useful for discovering historical content, past infrastructure, and removed data.
+
+> ⚠️ **Note:** Website OSINT tools provide intelligence but may include outdated or incomplete data. Always cross-check with multiple sources, document findings carefully, and operate within scope and legal limits.
+
 
 ---
 
@@ -219,7 +243,6 @@ Social Media OSINT is the process of collecting publicly available information f
 ### Additional Resources:
 - [**OSINT Framework**]()
 - [**Intelx.io**](https://intelx.io/) - a global repository search engine for OSINT
-- [**Virus Total**]()
 
 ### OSINT Scripts I have designed:
 > [!note]- Account Checker Script:
