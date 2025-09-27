@@ -235,7 +235,6 @@ Business OSINT is the practice of collecting intelligence on companies, their st
 
 > ⚠️ **Note:** Business OSINT sources may contain outdated or incomplete information. Always validate findings through multiple tools and ensure compliance with legal, ethical, and scope boundaries when conducting investigations.
 
-  
 
 ## Wireless OSINT
 
@@ -250,7 +249,135 @@ Wireless OSINT is the process of collecting information on wireless networks to 
 
 ⚠️ Note: Data in Wigle is community-sourced and may be incomplete or outdated. Wireless OSINT should only be performed within legal scope, with care taken not to connect or interfere with target networks.
 
+## Linux Based OSINT Tools:
 
+On-device or command-line OSINT tools allow analysts to gather intelligence directly from their workstation without relying solely on third-party websites. These tools provide flexibility, automation, and reproducibility in investigations across multiple OSINT categories.
+
+##### Key Resources
+
+###### **Image Tools**
+- **[[ExifTool]]** → A powerful command-line utility for reading, writing, and analyzing metadata in image and document files. ExifTool can extract EXIF, IPTC, and XMP metadata, including camera details, geolocation (GPS coordinates), timestamps, and editing software used. Analysts use ExifTool to validate authenticity, detect tampering, and geolocate photos if GPS data is embedded.
+
+###### **Email Tools**
+- **DeHashed CLI/API** → While DeHashed is primarily an online breach database, its API can be accessed via command line to query emails, usernames, or domains against known breach datasets. Analysts can automate bulk searches to identify compromised email addresses, leaked passwords, or associated accounts. Useful in penetration testing to assess password reuse risks.
+
+###### **Username Tools**
+- **[[Sherlock]]** → A Python-based command-line tool that checks for the existence of a given username across hundreds of websites and social media platforms. It can quickly identify where a username is registered, mapping an individual’s online footprint. Results are output to the terminal and can be saved to files for reporting.
+
+###### **Phone Number Tools**
+- **[[PhoneInfoga]]** → An advanced command-line tool for phone number reconnaissance. It can validate phone number formats, identify carriers, determine number types (mobile, landline, VoIP), and query multiple APIs and OSINT sources to find linked information. Analysts often use it for mapping connections between numbers and individuals or organizations.
+
+###### **Social Media Tools**
+- [**InstagramOSINT**](https://github.com/sc1341/InstagramOSINT) → A command-line tool designed for gathering intelligence from Instagram profiles. It can extract profile information, posts, follower/following lists, and sometimes metadata tied to uploaded content. Useful for investigations where manual browsing is limited, or when collecting data at scale for analysis.
+
+### [[Recon-ng]]
+
+Recon-ng is an **open-source OSINT framework** built in Python that feels a lot like Metasploit, but instead of exploitation, it’s focused on **gathering intelligence**. It gives you a structured environment to run reconnaissance modules, manage data in a database, and automate workflows — all in a professional command-line interface.
+
+- **Domain & Subdomain Enumeration** → find hosts, IPs, and infrastructure.
+- **WHOIS & DNS Recon** → map out ownership and tech details.
+- **Social Media / Employee OSINT** → pull data from platforms when modules allow.
+- **API-powered Recon** → plug in keys (like Shodan, Censys) for richer results.
+- **Automation & Reporting** → keep everything stored in a database and export clean reports.
+
+➡️ In short: Recon-ng makes **reconnaissance faster, organized, and repeatable**, which is why OSINT investigators and pentesters love it.
+
+#### recommended Modules:
+- **Image OSINT:** google_images, bing_images, image-exif (image search + EXIF extraction).
+- **Email OSINT:** haveibeenpwned, fullcontact, whois_pocs (breach checks & contact enrichment).
+- **Password OSINT:** haveibeenpwned, breach-parsing modules (discover leaked credentials).
+- **Username OSINT:** **profiler** (core); plus site-specific profile modules (GitHub, Twitter, Instagram).
+- **People OSINT:** profiler, fullcontact (profile enrichment & aggregation).
+- **Phone Number OSINT:** phone/number lookup modules (numverify / phone_enrich where available).
+- **Social Media OSINT:** platform modules (twitter_user, instagram, github_user) and profiler for automation.
+- **Website OSINT:** google_site_web, bing_domain_web, **hackertarget** (subdomain/host discovery).
+- **Business OSINT:** companies/registries modules (opencorporates/companies_house) and FullContact/LinkedIn modules.
+- **Wireless OSINT:** shodan/censys modules (search for exposed devices and IoT/wireless infrastructure).
+  
+### [[Maltego]]
+ 
+ Maltego is an open-source intelligence (OSINT) and link analysis tool that helps security professionals, investigators, and researchers discover and visualize relationships between people, companies, domains, IPs, emails, and other data points. By using built-in and custom “transforms” that pull information from sources like DNS, WHOIS, social media, and threat intelligence feeds, Maltego creates interactive graphs that reveal hidden connections, making it especially valuable for cyber investigations, threat actor profiling, infrastructure mapping, and digital forensics.
+ 
+#### recommended Plugins:
+ - **Image OSINT** → TinEye, ExifTool, Google Image Search for reverse searches and metadata.
+- **Email OSINT** → HaveIBeenPwned, Hunter.io, Pipl, Clearbit for breach checks and enrichment.
+- **Password OSINT** → HIBP Passwords, Dehashed, Scylla.sh for leaked credentials.
+- **Username OSINT** → SocialLinks, Namechk, Maigret for cross-platform account discovery.
+- **People OSINT** → Pipl, Spokeo, SocialLinks, Profiler for identity and relationship mapping.
+- **Phone Number OSINT** → NumVerify, Twilio Lookup, SocialLinks, Profiler for validation and linked accounts.
+- **Social Media OSINT** → Twitter, Facebook, Instagram, LinkedIn transforms (SocialLinks, ShadowDragon) for account and content mapping.
+- **Website OSINT** → BuiltWith, DNSDB, Urlscan.io, VirusTotal, WhoisXML for domain and infrastructure analysis.
+- **Business OSINT** → OpenCorporates, Crunchbase, LinkedIn, Profiler, HackerTarget for corporate intelligence.
+- **Wireless OSINT** → Wigle, Shodan, WLAN mapping for wireless network discovery and geolocation.
+
+### [Hunchly](https://hunch.ly) 
+
+Hunchly is a web capture and investigation tool designed for online investigations, enabling investigators, journalists, and OSINT professionals to automatically collect, organize, and preserve web browsing sessions as legally defensible evidence. Running in the background of your browser, it continuously captures pages, metadata, and timestamps while allowing you to tag, annotate, and search through collected material. This makes Hunchly especially useful for building structured, court-ready case files during online research, tracking changes in web content, and ensuring the integrity of digital evidence throughout an investigation.
+
+- **Start Hunchly before investigating** – it will automatically capture every web page you visit, preserving evidence for your case file.
+- **Conduct OSINT browsing** – whether looking at social media profiles, forums, or leaked data sources, Hunchly saves the content, screenshots, and metadata.
+- **Tag and annotate** – mark pages related to domains, usernames, or threat actors so you can quickly pivot and keep investigations structured.
+- **Use search & filters** – revisit collected evidence by keywords, timestamps, or entity type to connect dots across multiple sources.
+- **Export an investigation report** – generate a legally defensible record of your OSINT research to share with your team or for case documentation.
+
+
+## Command Line based tools 
+
+command-line recon tools are used for discovering domains, subdomains, and mapping web infrastructure during reconnaissance. They provide valuable insights into ownership, live assets, and visual triage of websites.
+
+##### Key Resources
+- **whois** → Retrieves domain registration and ownership metadata, including registrar, creation/expiry dates, and name servers. Useful for identifying ownership and historical records.
+- **subfinder** → Fast passive subdomain enumeration from multiple public sources. Helps expand the attack surface quickly.
+- **assetfinder** → Finds related subdomains and associated domains for a target, useful for identifying connected assets.
+- **amass** → Comprehensive subdomain and DNS enumeration tool (active and passive). Maps attack surfaces and relationships across domains.
+- **httprobe** → Probes lists of hostnames to determine which are serving HTTP/HTTPS. Filters live web assets from enumeration results.
+- **GoWitness** → Takes screenshots of web pages for visual inspection. Useful for identifying admin panels, login pages, or exposed content.
+
+> ⚠️ **Note:** These tools should only be used within authorized scope. Active scanning and enumeration can generate significant traffic; ensure compliance with engagement rules and legal boundaries.
+
+## OSINT Report Writing
+
+#### 📑 OSINT Engagement Report
+
+##### 📌 Cover Page
+**Engagement Title:** OSINT Investigation Report  
+**Client / Requestor:** Law Enforcement (LE)  
+**Prepared By:** TCM Security (TCMS)  
+**Date:** [Insert Date Here]  
+
+##### 📚 Table of Contents
+1. Summary  
+2. Key Findings  
+3. Technical Evidence  
+4. Evidence (Screenshots / Attachments)  
+
+##### 📝 Summary
+**Scope of Engagement:**  
+The purpose of this engagement was to conduct OSINT research on the username **“mikejones87”**.  
+
+**Example:**  
+> TCM Security (TCMS) was tasked by Law Enforcement (LE) to conduct research on the username *“mikejones87”*.  
+> The username was found to be posting stolen goods on Craigslist ([https://craigslist.org/fakelinktopost](https://craigslist.org/fakelinktopost)).  
+> Upon reviewing the username, the TCMS team identified several additional accounts that led to the discovery of a **real name, date of birth, and home address**.  
+
+##### 🔑 Key Findings
+- Multiple accounts linked to username **“mikejones87”**  
+- Personal details identified (real name, date of birth, home address)  
+- Activity related to stolen goods posted on Craigslist  
+- Cross-platform presence detected across several services  
+
+##### 🛠️ Technical Evidence
+The following table outlines OSINT methods and tools used during the investigation:
+
+| **OSINT** | **Details** |
+|-----------|-------------|
+| Username Search | Conducted search for *“mikejones87”* using **NameChk** |
+| Link | [https://namechk.com/](https://namechk.com/) → Entered username *“mikejones87”*. Items not highlighted (in gray) indicate accounts in use. |
+| Notes | Results identified several active accounts associated with the username. |
+
+##### 🖼️ Evidence
+- **Screenshot:** Example image of all accounts identified using NameChk (to be inserted here).  
+- **Supporting Files:** Additional OSINT screenshots or exports (if applicable). 
 
 ---
 
@@ -269,7 +396,7 @@ Wireless OSINT is the process of collecting information on wireless networks to 
 - [**Baidu**](http://www.baidu.com/) -> the most popular Chinese search engine
   
 ### Additional Resources:
-- [**OSINT Framework**]()
+- [**OSINT Framework**](https://osintframework.com/)
 - [**Intelx.io**](https://intelx.io/) - a global repository search engine for OSINT
 
 ### OSINT Scripts I have designed:
