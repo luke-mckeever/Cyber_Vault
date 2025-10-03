@@ -10,6 +10,7 @@ The following tool manual's are currently within this repository:
 
 ---
 
+
 ## 🟦Blue Team Tools:
 
 - [**TCP Dump**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/TCP%20Dump.md) - Command-line packet analyzer to intercept and display network packets.
@@ -37,6 +38,10 @@ The following tool manual's are currently within this repository:
 - [**x32dbg & x64dbg**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/x32dbg%20%26%20x64dbg.md) - Debuggers for Windows executables, used step through code, set breakpoints, and inspect program behavior.
 - [**Detect It Easy (DIE)**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Detect%20It%20Easy%20(DIE).md) - A versatile executable analysis tool providing detailed insights into binaries for static analysis.
 - [**Virus Total**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Virus%20Total.md) - Online malware scanning service that checks files, URLs, and domains.
+- [**Sysinternals Suite**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Sysinternals%20Suite.md) - Comprehensive collection of advanced Windows utilities for system monitoring, diagnostics, and forensic analysis
+- [**CAPA**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/CAPA.md) - Static analysis tool that detects capabilities within executable files
+- [**PDFid**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/PDFid.md) - Lightweight utility for scanning PDF documents to identify suspicious elements
+- [**Dedier Stevens Suite**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Virus%20Total.md) - Powerful collection of specialized security analysis tools created by Didier Stevens
 
 ---
 
@@ -58,9 +63,18 @@ The following tool manual's are currently within this repository:
 - [**Hashcat**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Hashcat.md) - Advanced password recovery tool supporting a large number of hashing algorithms.
 - [**Dirb**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Dirb.md) - Web content scanner to discover existing and hidden files or directories.
 - [**Metasploit Framework**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Metasploit%20Framework.md) - Framework for developing and executing exploit code against a remote target.
+  - [**Recon-ng**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Recon-ng.md) - Framework for performing osint on a given variable or IOC
+  - [**Maltego**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Maltego.md) - Interactive data mining and link analysis tool designed for OSINT investigations, enabling graphical mapping of relationships
+
 
 ---
 
+## Suites and Packages
+- [**🟦 Sysinternals Suite**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Sysinternals%20Suite.md) - Comprehensive collection of advanced Windows utilities for system monitoring, diagnostics, and forensic analysis
+- [**🟥 Kali**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Kali.md) - Collection of tools available on Kali Linux, geared towards various information security tasks.
+- [**🟦 Dedier Stevens Suite**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Virus%20Total.md) - Powerful collection of specialized security analysis tools created by Didier Stevens
+
+---
 
 ## 🟪 General & Other Tools:
 
