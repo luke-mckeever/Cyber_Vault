@@ -63,8 +63,8 @@ The following tool manual's are currently within this repository:
 - [**Hashcat**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Hashcat.md) - Advanced password recovery tool supporting a large number of hashing algorithms.
 - [**Dirb**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Dirb.md) - Web content scanner to discover existing and hidden files or directories.
 - [**Metasploit Framework**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Metasploit%20Framework.md) - Framework for developing and executing exploit code against a remote target.
-  - [**Recon-ng**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Recon-ng.md) - Framework for performing osint on a given variable or IOC
-  - [**Maltego**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Maltego.md) - Interactive data mining and link analysis tool designed for OSINT investigations, enabling graphical mapping of relationships
+- [**Recon-ng**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Recon-ng.md) - Framework for performing osint on a given variable or IOC
+- [**Maltego**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Red%20Team%20Tools/Maltego.md) - Interactive data mining and link analysis tool designed for OSINT investigations, enabling graphical mapping of relationships
 
 
 ---
