@@ -41,7 +41,7 @@ The following tool manual's are currently within this repository:
 - [**Sysinternals Suite**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Sysinternals%20Suite.md) - Comprehensive collection of advanced Windows utilities for system monitoring, diagnostics, and forensic analysis
 - [**CAPA**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/CAPA.md) - Static analysis tool that detects capabilities within executable files
 - [**PDFid**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/PDFid.md) - Lightweight utility for scanning PDF documents to identify suspicious elements
-- [**Dedier Stevens Suite**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Virus%20Total.md) - Powerful collection of specialized security analysis tools created by Didier Stevens
+- [**Dedier Stevens Suite**](https://github.com/luke-mckeever/Cyber_Vault/blob/main/Tooling/Blue%20Team%20Tools/Dedier%20Stevens%20Suite.md) - Powerful collection of specialized security analysis tools created by Didier Stevens
 
 ---
 
