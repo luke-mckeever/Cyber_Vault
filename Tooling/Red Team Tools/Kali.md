@@ -35,7 +35,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **cutycapt**                  | Captures web pages as images from the command line.                                           | Web Tools                |     |
 | **davtest**                   | A tool for testing WebDAV servers for vulnerabilities.                                        | Web Security             |     |
 | **dbd**                       | A backdoor tool for maintaining remote access to compromised systems.                         | Remote Access            |     |
-| **dirb**                      | A web content scanner used to find hidden directories and files on web servers.               | Web Security             |     |
+| **[[Dirb]]**                      | A web content scanner used to find hidden directories and files on web servers.               | Web Security             |     |
 | **dirbuster**                 | A multi-threaded directory and file brute-forcer.                                             | Web Security             |     |
 | **dmitry**                    | A command-line network information gathering tool.                                            | Reconnaissance           |     |
 | **dns-rebind**                | A tool for testing and exploiting DNS rebinding vulnerabilities.                              | DNS Attacks              |     |
@@ -65,7 +65,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **(spike)generic_send_udp**   | A SPIKE framework module for sending custom UDP packets.                                      | Fuzzing Tools            |     |
 | **Hardware Locality lstopo**  | Visualizes the hardware topology of a system for optimization purposes.                       | System Analysis          |     |
 | **hash identifier**           | Identifies the type of hash used in a string.                                                 | Hash Analysis            |     |
-| **hashcat**                   | A high-performance password recovery tool using GPU acceleration.                             | Password Cracking        |     |
+| **[[Hashcat]]**                   | A high-performance password recovery tool using GPU acceleration.                             | Password Cracking        |     |
 | **hashdeep**                  | A tool for generating and comparing cryptographic file hashes.                                | Hash Analysis            |     |
 | **hashid**                    | A tool to identify the type of hash for a given input.                                        | Hash Analysis            |     |
 | **hfind**                     | Searches for hash matches in a forensic image.                                                | Digital Forensics        |     |
@@ -92,7 +92,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **magic rescue**              | Recovers files based on their magic numbers from a corrupted filesystem.                      | Digital Forensics        |     |
 | **masscan**                   | An ultra-fast port scanner that can scan the entire Internet in seconds.                      | Network Tools            |     |
 | **medusa**                    | A parallel brute-forcing tool for testing password security.                                  | Password Cracking        |     |
-| **metasploit-framework**      | A comprehensive platform for developing and executing exploit code.                           | Exploitation Tools       |     |
+| **[[Metasploit Framework]]**      | A comprehensive platform for developing and executing exploit code.                           | Exploitation Tools       |     |
 | **mimikatz**                  | A post-exploitation tool for extracting credentials from Windows systems.                     | Post-Exploitation        |     |
 | **minicom**                   | A text-based terminal emulator for serial communication.                                      | Communication Tools      |     |
 | **above**                     | A placeholder tool for development tasks (please specify details).                            | Development Tools        |     |
@@ -117,7 +117,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **ophcrack-cli**              | Command-line interface for Ophcrack.                                                          | Password Cracking        |     |
 | **patator**                   | A multi-purpose brute-forcer for testing different protocols.                                 | Password Cracking        |     |
 | **pdfparser**                 | A tool for parsing and analyzing PDF files.                                                   | Document Analysis        |     |
-| **pdfid**                     | Identifies features and potential exploits in PDF files.                                      | Document Analysis        |     |
+| **[[PDFid]]**                     | Identifies features and potential exploits in PDF files.                                      | Document Analysis        |     |
 | **pipal**                     | Analyzes password dumps to determine patterns and weaknesses.                                 | Password Analysis        |     |
 | **pixiewps**                  | A tool for exploiting WPS vulnerabilities to retrieve PINs.                                   | Wireless Security        |     |
 | **PowerShell**                | A scripting and task automation framework for Windows.                                        | System Management        |     |
@@ -129,7 +129,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **pwnat**                     | A NAT traversal tool for establishing connections across firewalls.                           | Network Tools            |     |
 | **radare2**                   | An advanced binary analysis framework.                                                        | Binary Analysis          |     |
 | **reaver**                    | A WPS brute-forcing tool for retrieving WiFi passwords.                                       | Wireless Security        |     |
-| **recon-ng**                  | A reconnaissance framework for gathering information.                                         | Reconnaissance           |     |
+| **[[Recon-ng]]**                  | A reconnaissance framework for gathering information.                                         | Reconnaissance           |     |
 | **[[responder]]**                 | A tool for poisoning LLMNR, NBT-NS, and MDNS to capture credentials.                          | Network Security         |     |
 | **rsmangler**                 | Generates wordlists for password cracking.                                                    | Password Cracking        |     |
 | **samdump2**                  | Dumps password hashes from Windows SAM files.                                                 | Password Recovery        |     |
@@ -160,7 +160,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **starkiller**                | A GUI for managing the Empire post-exploitation framework.                                    | Post-Exploitation        |     |
 | **stunnel4**                  | Creates secure encrypted tunnels for non-SSL/TLS services.                                    | Networking Tools         |     |
 | **swaks**                     | A testing tool for SMTP servers with support for authentication and encryption.               | Email Security           |     |
-| **tcpdump**                   | Captures and analyzes network packets in real-time.                                           | Network Tools            |     |
+| **[[TCP Dump]]**                   | Captures and analyzes network packets in real-time.                                           | Network Tools            |     |
 | **tcprelay**                  | Redirects TCP traffic to a different destination.                                             | Network Tools            |     |
 | **TeXdoctk**                  | A GUI-based tool for browsing TeX and LaTeX documentation.                                    | Documentation Tools      |     |
 | **the-pptp-bruter**           | Brute-forces PPTP VPN authentication credentials.                                             | VPN Security             |     |
@@ -186,7 +186,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **wpscan**                    | A WordPress vulnerability scanner.                                                            | Web Security             |     |
 | **xfreerdp**                  | A free implementation of the Remote Desktop Protocol.                                         | Remote Access            |     |
 | **xhydra**                    | A graphical frontend for the Hydra password cracking tool.                                    | Password Cracking        |     |
-| **wireshark**                 | A network protocol analyzer for real-time traffic capture and analysis.                       | Network Tools            |     |
+| **[[Wireshark]]**                 | A network protocol analyzer for real-time traffic capture and analysis.                       | Network Tools            |     |
 | **[[Burp Suite]]**                 | A comprehensive platform for web application security testing.                                | Web Security             |     |
 | **affcat**                    | Extracts data from AFF disk images.                                                           | Digital Forensics        |     |
 | **aflfuzz**                   | A security-oriented fuzzer for identifying vulnerabilities in applications.                   | Fuzzing Tools            |     |
@@ -223,7 +223,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **cowpatty**                  | Cracks WPA-PSK passwords using a precomputed hash.                                            | Wireless Security        |     |
 | **crackle**                   | A Bluetooth sniffer and decryptor for analyzing secure connections.                           | Bluetooth Security       |     |
 | **CuteCom**                   | A GUI-based serial terminal for communication with hardware devices.                          | Communication Tools      |     |
-| **cutter**                    | A reverse engineering platform for analyzing binaries.                                        | Binary Analysis          |     |
+| **[[Cutter]]**                    | A reverse engineering platform for analyzing binaries.                                        | Binary Analysis          |     |
 | **cymothoa**                  | A stealth backdoor tool that injects payloads into running processes.                         | Post-Exploitation        |     |
 | **d2j-dex2jar**               | Converts Android DEX files to JAR files for analysis.                                         | Mobile Security          |     |
 | **darkstat**                  | A real-time network traffic analyzer and web interface.                                       | Network Monitoring       |     |
@@ -302,7 +302,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **Kali Autopilot**        | Automates common penetration testing tasks in Kali Linux.                                                 | Automation Tools      |
 | **lynis**                 | A security auditing and compliance tool for Unix-based systems.                                           | System Security       |
 | **mac-robber**            | Collects metadata from files on a filesystem for forensic analysis.                                       | Forensic Tools        |
-| **maltego**               | A data visualization and link analysis tool for reconnaissance.                                           | Reconnaissance        |
+| **[[Maltego]]**               | A data visualization and link analysis tool for reconnaissance.                                           | Reconnaissance        |
 | **maryam**                | A modular OSINT framework for gathering and analyzing information.                                        | Reconnaissance        |
 | **maskgen**               | Creates image masks for steganography and digital watermarking.                                           | Steganography         |
 | **mdb-sql**               | A tool for interacting with Microsoft Access databases via SQL.                                           | Database Tools        |
@@ -317,7 +317,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **mifare-classic-format** | Formats MIFARE Classic cards to their default state.                                                     | Wireless Security     |
 | **missidentify**          | Identifies incorrect file types based on their magic numbers.                                             | Forensic Tools        |
 | **myrescue**              | Recovers data from damaged hard drives by copying sectors.                                                | Data Recovery         |
-| **ncat**                  | A networking utility for reading and writing data across networks.                                        | Network Tools         |
+| **[[Net Cat]]**                  | A networking utility for reading and writing data across networks.                                        | Network Tools         |
 | **nfc-list**              | Lists detected NFC devices and their capabilities.                                                       | Wireless Security     |
 | **nfc-mfclassic**         | Reads and writes MIFARE Classic tags.                                                                    | Wireless Security     |
 | **nipper**                | Analyzes network device configurations for security issues.                                               | Network Security      |
@@ -408,7 +408,7 @@ Kali Linux is packed with hundreds of tools designed for penetration testing, et
 | **xgpsspeed**             | Displays real-time GPS speed data.                                                                     | Communication Tools   |
 | **xplico-webbui**         | A web-based interface for the Xplico network forensic analysis tool.                                   | Forensic Tools        |
 | **xsser**                 | A tool for detecting and exploiting cross-site scripting (XSS) vulnerabilities.                        | Web Security          |
-| **yara**                  | A malware identification and classification tool.                                                      | Malware Analysis      |
+| **[[YARA]]**                  | A malware identification and classification tool.                                                      | Malware Analysis      |
 | **yersinia**              | A network attack tool for testing and exploiting Layer 2 protocols.                                     | Network Security      |
 | **zaproxy**               | An open-source web application security scanner.                                                       | Web Security          |
 | **Zenmap**                | The official GUI for the Nmap Security Scanner.                                                        | Network Tools         |

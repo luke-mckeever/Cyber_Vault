@@ -53,7 +53,7 @@ Didier Stevens’ Suite is a portable collection for **malware triage**, **docum
 
 |Tool|Use|Example|
 |---|---|---|
-|`pdfid.py` + `pdfid.ini`|Fast PDF triage (flags `/JavaScript`, `/OpenAction`, `/AA`, etc.).|`python pdfid.py file.pdf`|
+|[[PDFid]] + `pdfid.ini`|Fast PDF triage (flags `/JavaScript`, `/OpenAction`, `/AA`, etc.).|`python pdfid.py file.pdf`|
 |`pdf-parser.py`|Parse objects/streams; extract, decompress, filter JS.|`python pdf-parser.py -o 5 -f file.pdf`|
 |`pdftool.py`|PDF helper operations (extract/inspect bits).|`python pdftool.py --help`|
 |`mPDF.py`|PDF manipulation for red/blue‑team testing.|`python mPDF.py`|
