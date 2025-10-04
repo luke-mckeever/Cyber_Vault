@@ -34,7 +34,7 @@ Download from: [scdbg](http://sandsprite.com/iDEFENSE/scdbg.html)
 Run **scdbg** from the command line with a binary shellcode file:
 
 ```bash
-scdbg.exe -f shellcode.bin
+scdbg.exe /f shellcode.bin -s -1
 ```
 
 This will emulate execution and output API calls, memory changes, and execution flow.
