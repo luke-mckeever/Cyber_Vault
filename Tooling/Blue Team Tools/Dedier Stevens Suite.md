@@ -1,6 +1,6 @@
 # 🧰 **DIDIER STEVENS SUITE** 🕵️‍♂️✨
 
-#BLUE #Tool #TTMA #SUITE
+#BLUE #Tool #TTMA #SUITE #DSS
 
 > ⚡ _Massively expanded to include the tools you flagged as missing._ Everything below is based on your attached suite list and grouped for fast DFIR, malware, and OSINT workflows. Collapsible sections, usage hints, and emoji-rich signposts included.
 

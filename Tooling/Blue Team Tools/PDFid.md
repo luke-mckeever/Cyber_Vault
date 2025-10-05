@@ -1,6 +1,6 @@
 # 🧾 PDFiD.py 🕵️‍♂️🔍✨
 
-#BLUE #dss #TTMA #Tool 
+#BLUE #DSS #TTMA #Tool 
 
 PDFiD.py is a lightweight yet powerful forensic utility developed by **Didier Stevens**. It's designed to analyze PDF files for suspicious elements often leveraged in **malicious documents (MalDocs)** — such as embedded JavaScript, automatic actions, or embedded files — without fully opening the file. Ideal for static triage during malware analysis!
 
