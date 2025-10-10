@@ -20,14 +20,6 @@
 pip install flare-floss
 ```
 
-### 🔹 **Windows**
-Download the latest release from: [Floss Releases](https://github.com/mandiant/flare-floss/releases)
-
-Or install via pip:
-```powershell
-pip install flare-floss
-```
-
 ---
 
 ## 🧰 Common Commands
