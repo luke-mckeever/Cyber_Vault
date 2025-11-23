@@ -19,16 +19,12 @@ Below is a growing list of categories and their respective resources:
 
 | **Domain/Site**       | **Explanation**                                      |
 |-----------------------|--------------------------------------------------|
-| [binaryedge.io](https://binaryedge.io)      | A cybersecurity platform for internet data and threat intelligence.         |
 | [censys.io](https://censys.io)              | A search engine for internet-wide security research and analysis.           |
 | [cybertrace.com](https://cybertrace.com)    | A platform for threat intelligence and risk management.                    |
 | [fofa.info](https://fofa.info)              | A search engine for internet assets and vulnerabilities.                    |
 | [greynoise.io](https://greynoise.io)       | A service to distinguish between benign and malicious internet scans.      |
 | [intelx.io](https://intelx.io)              | A search engine for deep and dark web data.                                 |
-| [ivre.rocks](https://ivre.rocks)            | A network reconnaissance tool for gathering and analyzing data.            |
 | [leakix.net](https://leakix.net)            | A platform for discovering data leaks and security misconfigurations.       |
-| [onyphe.io](https://onyphe.io)              | A search engine for cybersecurity data and analysis.                        |
-| [securitytrails.com](https://securitytrails.com) | A platform for domain and IP intelligence and history tracking.             |
 | [shodan.io](https://shodan.io)              | A search engine for discovering devices and services exposed on the internet. |
 | [socradar.io](https://socradar.io)          | A platform for extended threat intelligence and attack surface management. |
 | [threatminer.org](https://threatminer.org) | A threat intelligence platform for passive data collection.                |
@@ -37,14 +33,11 @@ Below is a growing list of categories and their respective resources:
 | [zoomeye.org](https://zoomeye.org)          | A search engine for cybersecurity and network asset discovery.              |
 | [alienvault.com](https://www.alienvault.com) | A unified security management platform with threat intelligence feeds.     |
 | [virustotal.com](https://www.virustotal.com) | A popular platform for analyzing files, URLs, and domains for malware.     |
-| [cybersixgill.com](https://www.cybersixgill.com) | A platform for threat intelligence with insights from the deep and dark web. |
-| [opencti.io](https://www.opencti.io)         | An open-source threat intelligence platform for sharing and collaboration.  |
 
 ### 🔍 Open Source Intelligence (OSINT)
 
 | **Domain/Site**       | **Explanation**                                      |
 |-----------------------|--------------------------------------------------|
-| [app.netlus.io](https://app.netlus.io)      | A tool for managing and analyzing OSINT data.                              |
 | [crt.sh](https://crt.sh)                    | A database for exploring public certificate transparency logs.              |
 | [domaintools.com](https://domaintools.com)  | A platform for investigating domains and tracking DNS changes.             |
 | [intelligencex.com](https://intelligencex.com) | A search engine for public, darknet, and commercial data.                   |
@@ -64,7 +57,6 @@ Below is a growing list of categories and their respective resources:
 | **Domain/Site**       | **Explanation**                                      |
 |-----------------------|--------------------------------------------------|
 | [exploit-db.com](https://www.exploit-db.com)   | A comprehensive archive of public exploits and software vulnerabilities.    |
-| [fallhunt.io](https://fallhunt.io)          | A platform for analyzing and managing software vulnerabilities.            |
 | [nvd.nist.gov](https://nvd.nist.gov)         | The National Vulnerability Database for CVE details and analysis.          |
 | [rapid7.com/db](https://www.rapid7.com/db)   | A database of vulnerabilities and exploits maintained by Rapid7.           |
 | [vulners.com](https://vulners.com)           | A search engine and database for vulnerabilities, exploits, and reports.   |
@@ -80,7 +72,7 @@ Below is a growing list of categories and their respective resources:
 | [threatconnect.com](https://www.threatconnect.com) | A threat intelligence platform for managing and analyzing security threats. |
 | [cuckoosandbox.org](https://cuckoosandbox.org) | An open-source automated malware analysis system.                          |
 | [reverse.it](https://reverse.it)             | Formerly known as VirusTotal Graph, useful for malware investigation.       |
-| [malpedia.caad.fkie.fraunhofer.de](https://malpedia.caad.fkie.fraunhofer.de) | A platform for identifying and classifying malware families.               |
+| [malpedia](https://malpedia.caad.fkie.fraunhofer.de) | A platform for identifying and classifying malware families.               |
 
 ### 🌐 Web Tools
 
