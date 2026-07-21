@@ -51,6 +51,8 @@ A comprehensive guide to common port numbers and their corresponding protocols! 
 | 8087             | InfluxDB UI       | Web UI for InfluxDB.                             |
 | 8443             | HTTPS-Alt         | Alternative HTTPS port.                          |
 
+miguel's port 69
+
 ---
 
 ## 🔍 Key Usage Scenarios
