@@ -1,0 +1,14 @@
+# Only needed if you deploy with Wrangler. Dashboard users can ignore this file.
+name = "cyber-vault"
+main = "worker.js"
+compatibility_date = "2025-10-01"
+
+[vars]
+GITHUB_OWNER = "luke-mckeever"
+GITHUB_REPO = "Cyber_Vault"
+GITHUB_BRANCH = "main"
+
+# Optional persistent cache (recommended on *.workers.dev):
+# [[kv_namespaces]]
+# binding = "VAULT_KV"
+# id = "<your KV namespace id>"
