@@ -4,10 +4,9 @@
 ![Cyber_Vault](https://raw.githubusercontent.com/luke-mckeever/Cyber_Vault/main/Images/cyber_vault.png)
 
 ---
+[Web version Available here](https://cyber-vault.lukemckeever12.workers.dev/)
 
 Welcome to the **Cyber_Vault** – your ultimate repository for all things **cybersecurity**! 🔐 Whether you're a seasoned professional or a curious learner, this repository offers a rich collection of resources designed to enhance your skills and knowledge. 
-
-Also Avialable at: [Cyber_Vault.io](https://luke-mckeever.github.io/Cyber_Vault/)
 
 ---
 
